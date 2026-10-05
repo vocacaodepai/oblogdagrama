@@ -173,17 +173,18 @@ automatizado.
 
 ## Rotinas automáticas
 
-Rotinas agendadas (Claude Code) rodam em outro checkout do repositório e:
+Rotinas agendadas (Claude Code) rodam num clone isolado do repositório, validam e publicam na
+`main` (deploy automático na Vercel). O passo a passo de cada uma está em `docs/rotinas/`:
 
-- criam artigos diários em `content/articles/<slug>.ts` e notícias em
-  `content/news/<slug>.ts` com `npm run content:new`;
-- rodam `npm run check:content` antes de qualquer commit (data futura, tags
-  proibidas, padrão mínimo de artigo novo);
-- abrem PR ou fazem push na branch de produção, o que dispara o deploy.
+| Rotina | Horário (Brasília) | O que faz |
+| --- | --- | --- |
+| Artigos | 05:23, diária | 5 artigos de guia (`tipos`, `plantio`, `cuidados`, `problemas`, `sintetica`, `paisagismo`) |
+| Produtos | 06:23, diária | 5 artigos da categoria `produtos` (3 comparativos + 2 reviews, afiliado Amazon) |
+| Notícias | 07:40, 13:40 e 19:40 | até 1 notícia por rodada, só com fonte verificada; sem notícia nova, não publica |
 
-Toda rotina segue o padrão publicado em `/politica-editorial`: rascunho com
-apoio de IA, verificação automática, revisão e assinatura do editor. Datas
-sempre em `America/Sao_Paulo`.
+Todas rodam `npm run check:content`, `npm run lint` e `npm run build` antes do commit, abrem PR e
+mesclam por squash. Seguem o padrão publicado em `/politica-editorial`. Datas sempre em
+`America/Sao_Paulo`. As regras comuns estão em `docs/rotinas/comum.md`.
 
 ## Validação antes de commitar
 

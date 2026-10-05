@@ -53,6 +53,12 @@ Tag de afiliado da Amazon Brasil: `oblogdagrama-20` (também em `site.amazonTag`
 Use sempre `rel="sponsored noopener noreferrer"` e o aviso de afiliado visível no artigo.
 Link só com `/dp/<ASIN>` + `?tag=oblogdagrama-20`, sem parâmetros extras de rastreio.
 
+## Rotina editorial diária
+
+Três rotinas agendadas publicam conteúdo sozinhas (artigos, produtos e notícias). As instruções
+vivem em `docs/rotinas/` e valem como parte deste arquivo. Rotinas nunca alteram `docs/`,
+`CLAUDE.md`, `lib/`, `app/`, `components/` nem `scripts/`: só `content/` e `public/images/products/`.
+
 ## Deploy
 
 Vercel (a configurar). Domínio previsto: `www.oblogdagrama.com.br`. O workflow do GitHub
