@@ -13,6 +13,14 @@ export const article: Article = {
   readTime: 8,
   imageQuery: "lawn grass seeding backyard",
   seed: 3,
+  coverImage: {
+    url: "/images/covers/como-plantar-grama-de-semente-passo-a-passo.jpg",
+    width: 1080,
+    height: 723,
+    credit: "Bradley Brister / Unsplash",
+    fit: "cover",
+    creditUrl: "https://unsplash.com/photos/WdsLOJ5BViU",
+  },
   kind: "guia",
   author: "Equipe do Blog da Grama",
   keyPoints: [

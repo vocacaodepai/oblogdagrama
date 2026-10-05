@@ -103,7 +103,15 @@ export type Article = {
    * Foto real do produto (self-hosted em /public/images/products), usada no lugar do
    * banco de imagens só para reviews de produto físico (categoria produtos).
    */
-  coverImage?: { url: string; width: number; height: number; credit: string; creditUrl: string };
+  coverImage?: {
+    url: string;
+    width: number;
+    height: number;
+    credit: string;
+    creditUrl: string;
+    /** "contain" (padrão) para foto de produto; "cover" para foto de paisagem. */
+    fit?: "cover" | "contain";
+  };
   content: string; // HTML
   /** Tipo do artigo. Padrão: "guia". */
   kind?: "guia" | "review";

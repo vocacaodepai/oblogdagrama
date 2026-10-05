@@ -13,6 +13,14 @@ export const article: Article = {
   readTime: 9,
   imageQuery: "laying sod turf rolls garden",
   seed: 2,
+  coverImage: {
+    url: "/images/covers/como-plantar-grama-em-placas-passo-a-passo.jpg",
+    width: 1080,
+    height: 720,
+    credit: "FRAEM GmbH / Unsplash",
+    fit: "cover",
+    creditUrl: "https://unsplash.com/photos/5xML_2EClnA",
+  },
   kind: "guia",
   author: "Equipe do Blog da Grama",
   keyPoints: [

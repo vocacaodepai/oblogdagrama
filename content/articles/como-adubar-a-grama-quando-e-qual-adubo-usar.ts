@@ -13,6 +13,14 @@ export const article: Article = {
   readTime: 8,
   imageQuery: "fertilizing lawn spreader grass",
   seed: 5,
+  coverImage: {
+    url: "/images/covers/como-adubar-a-grama-quando-e-qual-adubo-usar.jpg",
+    width: 1080,
+    height: 608,
+    credit: "Jason Dent / Unsplash",
+    fit: "cover",
+    creditUrl: "https://unsplash.com/photos/QSIq9ncQkzY",
+  },
   kind: "guia",
   author: "Equipe do Blog da Grama",
   keyPoints: [

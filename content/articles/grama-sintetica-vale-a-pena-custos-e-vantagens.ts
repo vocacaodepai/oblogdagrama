@@ -13,6 +13,14 @@ export const article: Article = {
   readTime: 9,
   imageQuery: "artificial turf backyard",
   seed: 7,
+  coverImage: {
+    url: "/images/covers/grama-sintetica-vale-a-pena-custos-e-vantagens.jpg",
+    width: 1080,
+    height: 718,
+    credit: "Charlie Deets / Unsplash",
+    fit: "cover",
+    creditUrl: "https://unsplash.com/photos/rbqalW0V7lA",
+  },
   kind: "guia",
   author: "Equipe do Blog da Grama",
   keyPoints: [

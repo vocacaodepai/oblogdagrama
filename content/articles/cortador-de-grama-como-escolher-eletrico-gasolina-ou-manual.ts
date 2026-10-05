@@ -13,6 +13,14 @@ export const article: Article = {
   readTime: 9,
   imageQuery: "lawn mower cutting grass",
   seed: 8,
+  coverImage: {
+    url: "/images/covers/cortador-de-grama-como-escolher-eletrico-gasolina-ou-manual.jpg",
+    width: 1080,
+    height: 715,
+    credit: "Daniel Watson / Unsplash",
+    fit: "cover",
+    creditUrl: "https://unsplash.com/photos/8vBpYpTGo90",
+  },
   kind: "guia",
   author: "Equipe do Blog da Grama",
   keyPoints: [

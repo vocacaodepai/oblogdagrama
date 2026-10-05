@@ -13,6 +13,14 @@ export const article: Article = {
   readTime: 9,
   imageQuery: "lawn mowing green grass garden",
   seed: 4,
+  coverImage: {
+    url: "/images/covers/como-cuidar-da-grama-guia-completo-para-o-ano-todo.jpg",
+    width: 1080,
+    height: 810,
+    credit: "Boldizsar Bednarik / Unsplash",
+    fit: "cover",
+    creditUrl: "https://unsplash.com/photos/AwwdfImDUeQ",
+  },
   kind: "guia",
   author: "Equipe do Blog da Grama",
   keyPoints: [

@@ -13,6 +13,14 @@ export const article: Article = {
   readTime: 9,
   imageQuery: "yellow lawn grass dry",
   seed: 6,
+  coverImage: {
+    url: "/images/covers/grama-amarelada-causas-e-como-recuperar.jpg",
+    width: 1080,
+    height: 720,
+    credit: "Joe Zlomek / Unsplash",
+    fit: "cover",
+    creditUrl: "https://unsplash.com/photos/yJBfeinBgTo",
+  },
   kind: "guia",
   author: "Equipe do Blog da Grama",
   keyPoints: [

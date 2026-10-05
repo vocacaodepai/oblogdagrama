@@ -13,6 +13,14 @@ export const article: Article = {
   readTime: 9,
   imageQuery: "lawn grass backyard",
   seed: 0,
+  coverImage: {
+    url: "/images/covers/tipos-de-grama-qual-escolher-para-o-seu-jardim.jpg",
+    width: 1080,
+    height: 810,
+    credit: "Sebastian Schuster / Unsplash",
+    fit: "cover",
+    creditUrl: "https://unsplash.com/photos/pq7Djjn-AtY",
+  },
   kind: "guia",
   author: "Equipe do Blog da Grama",
   keyPoints: [

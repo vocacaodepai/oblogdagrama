@@ -13,6 +13,14 @@ export const article: Article = {
   readTime: 9,
   imageQuery: "zoysia lawn green grass",
   seed: 1,
+  coverImage: {
+    url: "/images/covers/grama-esmeralda-vale-a-pena-vantagens-e-cuidados.jpg",
+    width: 1080,
+    height: 720,
+    credit: "Ochir-Erdene Oyunmedeg / Unsplash",
+    fit: "cover",
+    creditUrl: "https://unsplash.com/photos/LmyPLbbUWhA",
+  },
   kind: "guia",
   author: "Equipe do Blog da Grama",
   keyPoints: [
