@@ -21,6 +21,8 @@ export const site = {
   locale: "pt_BR",
   /** Ano de fundação, usado no rodapé e no schema Organization. */
   foundingYear: 2026,
+  /** Tag de afiliado da Amazon Brasil (Associados). */
+  amazonTag: "oblogdagrama-20",
 } as const;
 
 /** Todos os artigos, mais recentes primeiro (ordem definida pelo índice gerado). */

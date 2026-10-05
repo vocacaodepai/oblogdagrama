@@ -45,12 +45,13 @@ e `node scripts/build-product-cover.mjs <entrada> <saida>` para fotos verticais.
 
 ```html
 <div class="buy-btn">
-  <a href="https://www.amazon.com.br/dp/<ASIN>?tag=<TAG-DE-AFILIADO>" rel="sponsored noopener noreferrer" target="_blank">Comprar <Produto> agora ↗</a>
+  <a href="https://www.amazon.com.br/dp/<ASIN>?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar <Produto> agora ↗</a>
 </div>
 ```
 
-A tag de afiliado ainda precisa ser criada no programa de associados da Amazon Brasil; até
-lá, não publicar artigos de produto com link de compra.
+Tag de afiliado da Amazon Brasil: `oblogdagrama-20` (também em `site.amazonTag`, `lib/articles.ts`).
+Use sempre `rel="sponsored noopener noreferrer"` e o aviso de afiliado visível no artigo.
+Link só com `/dp/<ASIN>` + `?tag=oblogdagrama-20`, sem parâmetros extras de rastreio.
 
 ## Deploy
 
