@@ -16,10 +16,10 @@ export const article: Article = {
   coverImage: {
     url: "/images/covers/como-cuidar-da-grama-guia-completo-para-o-ano-todo.jpg",
     width: 1080,
-    height: 810,
-    credit: "Boldizsar Bednarik / Unsplash",
+    height: 719,
     fit: "cover",
-    creditUrl: "https://unsplash.com/photos/AwwdfImDUeQ",
+    credit: "Shixart1985 / Wikimedia Commons (CC BY 2.0)",
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Mowing_a_lush_green_lawn_on_a_sunny_day_in_a_residential_garden.jpg",
   },
   kind: "guia",
   author: "Equipe do Blog da Grama",

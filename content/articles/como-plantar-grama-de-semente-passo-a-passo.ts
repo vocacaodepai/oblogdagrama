@@ -16,10 +16,10 @@ export const article: Article = {
   coverImage: {
     url: "/images/covers/como-plantar-grama-de-semente-passo-a-passo.jpg",
     width: 1080,
-    height: 723,
-    credit: "Bradley Brister / Unsplash",
+    height: 720,
     fit: "cover",
-    creditUrl: "https://unsplash.com/photos/WdsLOJ5BViU",
+    credit: "Tim Sackton from Somerville, MA / Wikimedia Commons (CC BY-SA 2.0)",
+    creditUrl: "https://commons.wikimedia.org/wiki/File:New_Shoots_(127-366)_-_Flickr_-_timsackton.jpg",
   },
   kind: "guia",
   author: "Equipe do Blog da Grama",

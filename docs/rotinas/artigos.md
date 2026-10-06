@@ -32,6 +32,9 @@ Siga `docs/rotinas/comum.md` além do que está aqui.
 - Links: 8 a 12 links internos distintos para slugs que existem (âncora natural, espalhados) e 2 a 4
   externos para fontes primárias (Embrapa, institutos agronômicos, universidades, MAPA, Inmetro,
   fabricantes), cada URL aberta e conferida.
+- Capa: busque PRIMEIRO no Wikimedia Commons com `node scripts/wikimedia-cover.mjs search "<consulta>"`,
+  baixe com `get`, cole o `coverImage` no artigo e abra a imagem para conferir que mostra o assunto
+  (ordem completa no `CLAUDE.md`). Sem foto boa no Commons, deixe só o `imageQuery`.
 - Não use `kind: "review"` nem link de afiliado nesta rotina.
 
 ## Informe final

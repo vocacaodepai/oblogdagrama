@@ -25,6 +25,8 @@ foi coberto. Notícias nunca são apagadas.
   de ontem, ajuste `date` para a data do fato.
 - Campos: title (55 a 75 caracteres, factual), summary (140 a 158, é a meta description),
   sourceName, sourceUrl (https), author "Equipe do Blog da Grama", content, faq opcional (2 ou 3).
+- Capa (opcional): se a notícia tiver uma foto livre relevante, busque PRIMEIRO no Wikimedia Commons
+  (`node scripts/wikimedia-cover.mjs search` e `get`, ver `CLAUDE.md`). Sem foto boa, não coloque capa.
 - content: no mínimo 900 palavras em HTML (p, h2, h3, ul, ol, li, a, strong, em, table, blockquote,
   div.callout-box), com pelo menos 3 `<h2>`. O fato em 2 parágrafos de abertura com a fonte citada e
   linkada (`rel="noopener noreferrer nofollow"`), um h2 de contexto, um h2 "Por que isso importa para

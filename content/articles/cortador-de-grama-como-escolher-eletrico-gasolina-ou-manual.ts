@@ -16,10 +16,10 @@ export const article: Article = {
   coverImage: {
     url: "/images/covers/cortador-de-grama-como-escolher-eletrico-gasolina-ou-manual.jpg",
     width: 1080,
-    height: 715,
-    credit: "Daniel Watson / Unsplash",
+    height: 721,
     fit: "cover",
-    creditUrl: "https://unsplash.com/photos/8vBpYpTGo90",
+    credit: "Shixart1985 / Wikimedia Commons (CC BY 2.0)",
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Lawn_mower_on_the_grass_closeup.jpg",
   },
   kind: "guia",
   author: "Equipe do Blog da Grama",

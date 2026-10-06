@@ -16,10 +16,10 @@ export const article: Article = {
   coverImage: {
     url: "/images/covers/grama-sintetica-vale-a-pena-custos-e-vantagens.jpg",
     width: 1080,
-    height: 718,
-    credit: "Charlie Deets / Unsplash",
+    height: 810,
     fit: "cover",
-    creditUrl: "https://unsplash.com/photos/rbqalW0V7lA",
+    credit: "Missvain / Wikimedia Commons (CC BY 4.0)",
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Artificial_turf_yard_in_Sonoma,_California_-_Sarah_Stierch.jpg",
   },
   kind: "guia",
   author: "Equipe do Blog da Grama",

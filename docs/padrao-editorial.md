@@ -60,6 +60,7 @@ export const article: Article = {
   date: "AAAA-MM-DD", // hoje em America/Sao_Paulo, nunca futura
   readTime: 7,
   imageQuery: "green lawn garden grass", // 3 a 4 palavras concretas em inglês (Pexels/Pixabay)
+  // coverImage: capa do Wikimedia Commons (primeira fonte); ver "Imagens de capa" no CLAUDE.md
   seed: 1, // inteiro sequencial, maior que todos os existentes
   kind: "guia", // ou "review" (aí o campo review é obrigatório; só categoria produtos)
   author: "Equipe do Blog da Grama",

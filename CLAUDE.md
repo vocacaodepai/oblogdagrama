@@ -35,6 +35,27 @@ O padrão editorial completo está em `docs/padrao-editorial.md`. Leia antes de 
   secundária `#4D7C0F`, CTA âmbar `#B45309`. Tema escuro: fundo `#0C1A11`, destaque `#4ADE80`.
 - Tipografia: Nunito (títulos) e Inter (texto).
 
+## Imagens de capa (ordem de busca)
+
+Sempre nesta ordem, parando na primeira que servir:
+
+1. **Wikimedia Commons primeiro.** Busque com `node scripts/wikimedia-cover.mjs search "<consulta>"`
+   (nome científico ou inglês rende mais: "Zoysia japonica lawn", "Stenotaphrum secundatum lawn",
+   "artificial turf", "lawn mower"). O script só lista foto com licença livre (CC0, domínio público,
+   CC BY, CC BY-SA), em paisagem e com 1.200 px ou mais. Escolha uma, baixe com
+   `node scripts/wikimedia-cover.mjs get "File:Nome.jpg" <slug-do-artigo>` e cole no artigo o bloco
+   `coverImage` que ele imprime (já traz autor, licença e link da página do arquivo, que é a
+   atribuição exigida). **Abra a imagem baixada e confira**: tem que mostrar de verdade o assunto do
+   artigo (a grama certa, o equipamento certo). Se não servir, tente outra foto ou outra busca.
+   O Wikimedia limita requisições por IP: o script espera e tenta de novo sozinho; não repita em laço.
+2. Se o Commons não tiver foto boa, use Pexels/Pixabay pelo `imageQuery` (o site busca no build,
+   quando as chaves existem) ou uma foto do Unsplash baixada para `public/images/covers/`, sempre com
+   crédito no `coverImage`.
+3. Sem nenhuma foto adequada, o site usa a capa ilustrada de fallback. É melhor do que uma foto errada.
+
+Produtos (categoria Produtos) seguem a regra própria abaixo: foto oficial do fabricante.
+Nunca use imagem gerada por IA. Fotos de capa ficam em `public/images/covers/<slug>.jpg`.
+
 ## Imagens de produto (categoria Produtos)
 
 Nunca usar gerador de imagem por IA para capa ou foto de produto: a IA erra marca e logo.
@@ -57,7 +78,7 @@ Link só com `/dp/<ASIN>` + `?tag=oblogdagrama-20`, sem parâmetros extras de ra
 
 Três rotinas agendadas publicam conteúdo sozinhas (artigos, produtos e notícias). As instruções
 vivem em `docs/rotinas/` e valem como parte deste arquivo. Rotinas nunca alteram `docs/`,
-`CLAUDE.md`, `lib/`, `app/`, `components/` nem `scripts/`: só `content/` e `public/images/products/`.
+`CLAUDE.md`, `lib/`, `app/`, `components/` nem `scripts/`: só `content/`, `public/images/covers/` e `public/images/products/`.
 
 ## Deploy
 

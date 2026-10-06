@@ -16,10 +16,10 @@ export const article: Article = {
   coverImage: {
     url: "/images/covers/grama-esmeralda-vale-a-pena-vantagens-e-cuidados.jpg",
     width: 1080,
-    height: 720,
-    credit: "Ochir-Erdene Oyunmedeg / Unsplash",
+    height: 810,
     fit: "cover",
-    creditUrl: "https://unsplash.com/photos/LmyPLbbUWhA",
+    credit: "Michael Rivera / Wikimedia Commons (CC BY-SA 4.0)",
+    creditUrl: "https://commons.wikimedia.org/wiki/File:University_of_Georgia,_Research_and_Education_Garden_grass_3.JPG",
   },
   kind: "guia",
   author: "Equipe do Blog da Grama",
