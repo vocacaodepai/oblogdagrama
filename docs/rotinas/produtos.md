@@ -19,7 +19,7 @@ Leia no `CLAUDE.md` as seções "Imagens de produto" e "Botão de compra".
 ## Imagens (regra crítica)
 
 - NUNCA use gerador de imagem por IA para capa ou foto de produto. Só foto real.
-- Produto específico: foto oficial do fabricante (abaixo). O Wikimedia Commons só entra para fotos de
+- Produto específico: foto oficial do fabricante (abaixo). O Wikimedia Commons (e as outras fontes livres) só entram para fotos de
   ambiente ou de categoria genérica (por exemplo, a capa de um comparativo de aspersores), nunca
   para foto de um modelo comercial.
 - Baixe a foto oficial do site do FABRICANTE (nunca capture da página da Amazon). Salve em

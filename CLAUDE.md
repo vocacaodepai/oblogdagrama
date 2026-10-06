@@ -37,21 +37,25 @@ O padrão editorial completo está em `docs/padrao-editorial.md`. Leia antes de 
 
 ## Imagens de capa (ordem de busca)
 
-Sempre nesta ordem, parando na primeira que servir:
+Regra: **a melhor foto que encaixar no assunto, de qualquer fonte.** A busca começa SEMPRE pelo
+Wikimedia Commons (licenças livres e muita foto de espécie, equipamento e gramado), mas ele não
+ganha por ser o Wikimedia: se outra fonte tiver uma foto que mostra melhor o tema do artigo, use a outra.
 
-1. **Wikimedia Commons primeiro.** Busque com `node scripts/wikimedia-cover.mjs search "<consulta>"`
+1. **Comece pelo Wikimedia Commons.** `node scripts/wikimedia-cover.mjs search "<consulta>"`
    (nome científico ou inglês rende mais: "Zoysia japonica lawn", "Stenotaphrum secundatum lawn",
    "artificial turf", "lawn mower"). O script só lista foto com licença livre (CC0, domínio público,
-   CC BY, CC BY-SA), em paisagem e com 1.200 px ou mais. Escolha uma, baixe com
-   `node scripts/wikimedia-cover.mjs get "File:Nome.jpg" <slug-do-artigo>` e cole no artigo o bloco
-   `coverImage` que ele imprime (já traz autor, licença e link da página do arquivo, que é a
-   atribuição exigida). **Abra a imagem baixada e confira**: tem que mostrar de verdade o assunto do
-   artigo (a grama certa, o equipamento certo). Se não servir, tente outra foto ou outra busca.
+   CC BY, CC BY-SA), em paisagem e com 1.200 px ou mais. Para usar uma:
+   `node scripts/wikimedia-cover.mjs get "File:Nome.jpg" <slug-do-artigo>` e cole o bloco `coverImage`
+   que ele imprime (autor, licença e link da página do arquivo, que é a atribuição exigida).
    O Wikimedia limita requisições por IP: o script espera e tenta de novo sozinho; não repita em laço.
-2. Se o Commons não tiver foto boa, use Pexels/Pixabay pelo `imageQuery` (o site busca no build,
-   quando as chaves existem) ou uma foto do Unsplash baixada para `public/images/covers/`, sempre com
-   crédito no `coverImage`.
-3. Sem nenhuma foto adequada, o site usa a capa ilustrada de fallback. É melhor do que uma foto errada.
+2. **Compare com as outras fontes** quando o Commons não tiver foto boa ou quando houver dúvida:
+   Unsplash e Pixabay (se a sessão tiver conector ou chave), ou Pexels/Pixabay pelo `imageQuery`
+   (o site busca no build, quando as chaves existem). Baixe a foto para
+   `public/images/covers/<slug>.jpg` (1080 px de largura) e preencha `coverImage` com `fit: "cover"`,
+   autor, fonte e link da página.
+3. **Abra a imagem e confira**: tem que mostrar de verdade o assunto (a grama certa, o equipamento
+   certo, o problema certo). Foto bonita que não é do tema perde para uma foto simples do tema.
+4. Sem nenhuma foto adequada, o site usa a capa ilustrada de fallback. É melhor do que uma foto errada.
 
 Produtos (categoria Produtos) seguem a regra própria abaixo: foto oficial do fabricante.
 Nunca use imagem gerada por IA. Fotos de capa ficam em `public/images/covers/<slug>.jpg`.

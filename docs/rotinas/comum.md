@@ -52,8 +52,9 @@ mescle e registre no informe.
 - Hemisfério sul: estações e épocas de plantio invertidas em relação ao norte.
 - Preço só com "verificado em dd/mm/aaaa" e a ressalva de que varia por região.
 - Nunca mencione IA, Claude ou Anthropic no conteúdo do site.
-- Capas: siga "Imagens de capa (ordem de busca)" no `CLAUDE.md`. Wikimedia Commons PRIMEIRO
-  (`node scripts/wikimedia-cover.mjs search` e `get`), conferindo a foto baixada; depois Pexels/Pixabay
-  ou Unsplash; por último a capa ilustrada. Todo `coverImage` leva autor, licença e link.
+- Capas: siga "Imagens de capa (ordem de busca)" no `CLAUDE.md`. A regra é a MELHOR foto que encaixar
+  no assunto, de qualquer fonte; a busca começa pelo Wikimedia Commons
+  (`node scripts/wikimedia-cover.mjs search` e `get`) e compara com as outras fontes. Sempre abra a
+  foto e confira o tema. Todo `coverImage` leva autor, fonte e link.
 - Cada URL externa é aberta com WebFetch e conferida antes de entrar (não abre = não entra).
 - Sem crase nem `${}` dentro de `content`. Atributos HTML sempre entre aspas duplas.

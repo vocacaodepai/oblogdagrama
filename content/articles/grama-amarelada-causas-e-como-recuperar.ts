@@ -16,10 +16,10 @@ export const article: Article = {
   coverImage: {
     url: "/images/covers/grama-amarelada-causas-e-como-recuperar.jpg",
     width: 1080,
-    height: 720,
-    credit: "Joe Zlomek / Unsplash",
+    height: 810,
     fit: "cover",
-    creditUrl: "https://unsplash.com/photos/yJBfeinBgTo",
+    credit: "Mrs_G / Pixabay",
+    creditUrl: "https://pixabay.com/photos/drought-summer-grass-sprinkler-84611/",
   },
   kind: "guia",
   author: "Equipe do Blog da Grama",
