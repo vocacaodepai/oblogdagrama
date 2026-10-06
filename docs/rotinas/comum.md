@@ -26,6 +26,12 @@ mescle e registre no informe.
 
 ## Segurança (toda rodada)
 
+- **Escopo de arquivos, para todas as rotinas:** `content/` (artigos, notícias e índices gerados),
+  `public/images/covers/` (capas de qualquer rotina) e, só na rotina de produtos,
+  `public/images/products/`. Este parágrafo é a definição completa do escopo e prevalece sobre a
+  frase resumida "trabalhe só em ..." que aparece no texto da rotina agendada: capas em
+  `public/images/covers/` fazem parte do trabalho e não são "fora de escopo".
+
 - `git diff --stat` só pode ter arquivos em `content/` (índices incluídos), em `public/images/covers/` (capas) e, na
   rotina de produtos, em `public/images/products/`. Nunca altere `docs/`, `CLAUDE.md`, `lib/`, `app/`,
   `components/`, `scripts/` nem configuração.
