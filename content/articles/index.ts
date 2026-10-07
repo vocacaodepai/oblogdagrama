@@ -2,25 +2,30 @@
 // Para publicar, crie content/articles/<slug>.ts e rode `npm run check:content`.
 import type { Article } from "@/lib/types";
 
-import { article as i0 } from "./review-soprador-de-folhas-eletrico";
-import { article as i1 } from "./review-rastelo-para-gramado";
-import { article as i2 } from "./comparativo-cortador-de-grama-eletrico-modelos";
-import { article as i3 } from "./comparativo-aparador-de-grama-eletrico";
-import { article as i4 } from "./comparativo-aspersores-para-gramado-tramontina";
-import { article as i5 } from "./jardim-pequeno-com-gramado-ideias-para-aproveitar-o-espaco";
-import { article as i6 } from "./grama-sao-carlos-sombra-vantagens-e-cuidados";
-import { article as i7 } from "./ervas-daninhas-no-gramado-como-identificar-e-controlar";
-import { article as i8 } from "./como-regar-a-grama-frequencia-horario-e-quantidade";
-import { article as i9 } from "./preparo-do-solo-para-gramado-nivelamento-e-correcao";
-import { article as i10 } from "./cortador-de-grama-como-escolher-eletrico-gasolina-ou-manual";
-import { article as i11 } from "./grama-sintetica-vale-a-pena-custos-e-vantagens";
-import { article as i12 } from "./grama-amarelada-causas-e-como-recuperar";
-import { article as i13 } from "./como-adubar-a-grama-quando-e-qual-adubo-usar";
-import { article as i14 } from "./como-cuidar-da-grama-guia-completo-para-o-ano-todo";
-import { article as i15 } from "./como-plantar-grama-de-semente-passo-a-passo";
-import { article as i16 } from "./como-plantar-grama-em-placas-passo-a-passo";
-import { article as i17 } from "./grama-esmeralda-vale-a-pena-vantagens-e-cuidados";
-import { article as i18 } from "./tipos-de-grama-qual-escolher-para-o-seu-jardim";
+import { article as i0 } from "./grama-sintetica-para-pets-cuidados-e-escolha";
+import { article as i1 } from "./manchas-circulares-na-grama-causas-provaveis";
+import { article as i2 } from "./altura-de-corte-da-grama-quanto-cortar-sem-estressar";
+import { article as i3 } from "./quando-plantar-grama-calendario-por-regiao";
+import { article as i4 } from "./grama-batatais-vantagens-desvantagens-e-onde-plantar";
+import { article as i5 } from "./review-soprador-de-folhas-eletrico";
+import { article as i6 } from "./review-rastelo-para-gramado";
+import { article as i7 } from "./comparativo-cortador-de-grama-eletrico-modelos";
+import { article as i8 } from "./comparativo-aparador-de-grama-eletrico";
+import { article as i9 } from "./comparativo-aspersores-para-gramado-tramontina";
+import { article as i10 } from "./jardim-pequeno-com-gramado-ideias-para-aproveitar-o-espaco";
+import { article as i11 } from "./grama-sao-carlos-sombra-vantagens-e-cuidados";
+import { article as i12 } from "./ervas-daninhas-no-gramado-como-identificar-e-controlar";
+import { article as i13 } from "./como-regar-a-grama-frequencia-horario-e-quantidade";
+import { article as i14 } from "./preparo-do-solo-para-gramado-nivelamento-e-correcao";
+import { article as i15 } from "./cortador-de-grama-como-escolher-eletrico-gasolina-ou-manual";
+import { article as i16 } from "./grama-sintetica-vale-a-pena-custos-e-vantagens";
+import { article as i17 } from "./grama-amarelada-causas-e-como-recuperar";
+import { article as i18 } from "./como-adubar-a-grama-quando-e-qual-adubo-usar";
+import { article as i19 } from "./como-cuidar-da-grama-guia-completo-para-o-ano-todo";
+import { article as i20 } from "./como-plantar-grama-de-semente-passo-a-passo";
+import { article as i21 } from "./como-plantar-grama-em-placas-passo-a-passo";
+import { article as i22 } from "./grama-esmeralda-vale-a-pena-vantagens-e-cuidados";
+import { article as i23 } from "./tipos-de-grama-qual-escolher-para-o-seu-jardim";
 
 export const articles: Article[] = [
   i0,
@@ -42,4 +47,9 @@ export const articles: Article[] = [
   i16,
   i17,
   i18,
+  i19,
+  i20,
+  i21,
+  i22,
+  i23,
 ];
