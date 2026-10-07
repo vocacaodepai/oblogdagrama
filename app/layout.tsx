@@ -25,14 +25,20 @@ const nunito = Nunito({
 });
 
 const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
-// Google Analytics 4 (defina NEXT_PUBLIC_GA_ID vazio na Vercel para desligar).
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "";
+// Google Analytics 4. O ID do blog é o padrão; NEXT_PUBLIC_GA_ID na Vercel sobrescreve, e
+// definir a variável vazia desliga o Analytics. Só carrega depois do aceite do aviso de cookies.
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-Q5HXEVFZEJ";
+// Google Search Console, verificação por meta tag (propriedade "prefixo do URL"). É opcional:
+// a verificação por domínio usa registro TXT no DNS e não passa pelo código. Para usar a tag,
+// defina NEXT_PUBLIC_GSC_VERIFICATION na Vercel com o token (sem o prefixo "google-site-verification=").
+const SEARCH_CONSOLE_TOKEN = process.env.NEXT_PUBLIC_GSC_VERIFICATION ?? "";
 
 // Aplica o tema salvo antes da primeira pintura (evita "flash" ao trocar de tema).
 const THEME_INIT = `(function(){try{var t=localStorage.getItem("obdg-theme");if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t)}}catch(e){}})();`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
+  ...(SEARCH_CONSOLE_TOKEN ? { verification: { google: SEARCH_CONSOLE_TOKEN } } : {}),
   title: {
     default: `${site.name}: ${site.tagline}`,
     template: `%s | ${site.name}`,
