@@ -146,6 +146,10 @@ export const article: Article = {
 <p>O segundo é regar no meio do dia, no sol forte, quando boa parte da água evapora antes de entrar no solo. Prefira o início da manhã, que a Husqvarna Brasil também indica como o melhor horário. O terceiro é concentrar o jato num ponto só, o que forma poça, arrasta semente e deixa o resto da área seca.</p>
 <p>O quarto erro é deixar água parada dentro do regador por dias, o que atrai mosquito em época quente. Esvazie e guarde com o bico para baixo. O quinto é achar que regar resolve tudo: grama fraca pode precisar de uma <a href="/artigos/como-cuidar-da-grama-guia-completo-para-o-ano-todo">rotina de cuidados</a> completa, com corte na altura certa e adubação, e não só de mais água.</p>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M6GT5C?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Regador Tramontina 7 L na Amazon agora ↗</a>
+</div>
+
 <h2>Vale a pena? Nota e para quem serve</h2>
 <p>Nossa nota é 6,8 de 10, calculada a partir da ficha técnica e das avaliações públicas. A facilidade de uso pesa a favor (8,0) pelo peso baixo vazio e pela alça grande. A durabilidade fica em 7,0 pelo aditivo anti-UV, e o desempenho em 6,5 pelo limite de 7 litros. O preço (6,0) e as avaliações (6,5) puxam a média para baixo: a loja oficial mostra nota 3,5 de 5 e o preço fica na parte alta da faixa de mercado.</p>
 <p>Para quem é: dono de gramado pequeno, com falhas ou grama recém-plantada, que quer uma rega manual e controlada em pontos específicos. Para quem não é: quem precisa regar o gramado todo ou tem área grande. Leia os comentários dos compradores na Amazon antes de decidir, porque eles mostram detalhes que a ficha não traz.</p>

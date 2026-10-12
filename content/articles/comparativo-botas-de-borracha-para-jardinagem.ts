@@ -42,6 +42,10 @@ export const article: Article = {
 
 <div class="callout-box callout-tip"><span class="callout-label">Transparência</span><p>O Blog da Grama é associado da Amazon e recebe uma comissão se você comprar pelos botões desta página, sem custo extra para você. Esta é uma análise da ficha técnica oficial e das avaliações de compradores, sem teste físico nosso. O preço do dia aparece ao clicar no botão de compra.</p></div>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0CYN62XQL?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Bota Bracol Polytech na Amazon agora ↗</a>
+</div>
+
 <h2>Qual bota de borracha é boa para jardinagem e gramado?</h2>
 <p>Para o gramado, o que pesa é o cano longo, a vedação e o solado. O cano de 30 cm ou mais protege a canela do orvalho e da lama, a peça injetada inteira não deixa a água entrar pela costura, e o solado com frisos segura o pé em grama molhada e barranco. Quem rega de manhã cedo, quando a grama ainda está encharcada, sente essa diferença no primeiro dia.</p>
 <p>O segundo ponto é o material. PVC é o plástico clássico das galochas, mais barato e fácil de lavar. Poliuretano (PU) costuma ser mais leve e flexível, e a Bracol informa que o PU da linha Polytech dura até 5 vezes mais que o PVC, dependendo do ambiente e das condições de uso e conservação.</p>
@@ -85,6 +89,10 @@ export const article: Article = {
 <p>A Bracol não informa o peso na ficha desta versão, então não dá para comparar com a Acqua Lev nesse item. Por ser sem forro, o pé pode suar mais em dia quente: use meia de algodão grossa. Como na outra bota, cada numeração tem página própria na Amazon.</p>
 
 <div class="callout-box callout-warn"><span class="callout-label">Atenção</span><p>Bota de borracha não protege contra corte nem contra respingo de produto químico concentrado. Ao usar aparador, roçadeira ou pulverizador, calce a bota junto com luvas, óculos e calça comprida, leia o rótulo, mantenha crianças e animais afastados e desligue da tomada ou retire a bateria antes de limpar ou regular. Em dúvida, veja os cuidados no <a href="/artigos/oculos-de-protecao-para-rocar-e-cortar-grama-qual-escolher">guia de óculos de proteção</a>.</p></div>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0DP1M2C8Z?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Bota Bracol Acqua Lev na Amazon agora ↗</a>
+</div>
 
 <h2>Erros comuns e quando não comprar</h2>
 <ul>
