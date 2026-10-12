@@ -3,10 +3,13 @@ import { ArticleCard } from "@/components/ArticleCard";
 import { CategoryChips } from "@/components/CategoryChips";
 import { Container } from "@/components/Container";
 import { Pagination } from "@/components/Pagination";
+import { ProductCategoryFilter } from "@/components/ProductCategoryFilter";
 import { Sidebar } from "@/components/Sidebar";
 import type { Article } from "@/lib/articles";
 import { ListingHeader } from "./ListingHeader";
 import { countLabel } from "./paginate";
+
+const ARTICLES_GRID_ID = "artigos-grid";
 
 /**
  * Listagem paginada de artigos (todos, por categoria, reviews): cabeçalho,
@@ -23,6 +26,7 @@ export function ArticleListing({
   totalPages,
   basePath,
   active,
+  productFilter,
   emptyTitle = "Nenhum artigo por aqui ainda",
   emptyText = "Publicamos conteúdo novo todos os dias. Enquanto isso, explore as outras categorias.",
   children,
@@ -40,6 +44,11 @@ export function ArticleListing({
   basePath: string;
   /** Chip ativo: "todos", slug de categoria ou "reviews". */
   active: string;
+  /** Só em /categoria/produtos: categorias e tipos de produto presentes nos itens. */
+  productFilter?: {
+    categories: { slug: string; label: string }[];
+    subcategories: { slug: string; label: string; category: string }[];
+  };
   emptyTitle?: string;
   emptyText?: string;
   /** Conteúdo extra entre o cabeçalho e a grade (ex.: "Como avaliamos"). */
@@ -57,9 +66,18 @@ export function ArticleListing({
         page={page}
         totalPages={totalPages}
       />
-      <CategoryChips active={active} className="mt-8 border-y border-border py-3" />
+      {productFilter ? (
+        <ProductCategoryFilter
+          categories={productFilter.categories}
+          subcategories={productFilter.subcategories}
+          rootId={ARTICLES_GRID_ID}
+          className="mt-8 border-y border-border py-3"
+        />
+      ) : (
+        <CategoryChips active={active} className="mt-8 border-y border-border py-3" />
+      )}
       {children}
-      <div className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
+      <div id={ARTICLES_GRID_ID} className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
         <div className="min-w-0">
           {items.length > 0 ? (
             <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">

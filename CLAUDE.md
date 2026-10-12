@@ -60,6 +60,73 @@ ganha por ser o Wikimedia: se outra fonte tiver uma foto que mostra melhor o tem
 Produtos (categoria Produtos) seguem a regra própria abaixo: foto oficial do fabricante.
 Nunca use imagem gerada por IA. Fotos de capa ficam em `public/images/covers/<slug>.jpg`.
 
+## Padrão de artigo de produto (categoria Produtos)
+
+Padrão replicado do Portal da AI (AI Indica), adaptado para grama. Vale para todo artigo de
+`category: "produtos"` com produto específico e link de compra (comparativo ou review). O
+`npm run check:content` barra o que fugir disso nos artigos publicados ou atualizados a partir de
+12/10/2026. Guia "como escolher" sem produto específico e sem link da Amazon não leva nota nem botões.
+
+**Dois formatos**
+- **Comparativo** (`kind: "guia"`): 2 ou 3 produtos reais da mesma categoria, lado a lado, com tabela,
+  nota por critério e "qual comprar". Sem campo `review`.
+- **Review de produto único** (`kind: "review"`): um produto, com o bloco `review` completo (`tool`,
+  `score`, `criteria`, `pros`, `cons`, `price`, `bestFor`, `url` de afiliado, `affiliate: true`, `ctaLabel`).
+
+**Nota 0-10 em todo artigo de produto.** O card mostra o selo de nota. Review: vem de `review.score`.
+Comparativo: campo `productScore` (0 a 10, uma casa decimal) com a nota editorial do produto que o
+texto recomenda no fim, não a média de estrelas da Amazon. A régua da nota é explicada em
+`components/ScoreScaleNote.tsx` (home e topo de `/categoria/produtos`). Nota quebrada (7,8) é proposital.
+
+**Taxonomia e filtro.** Todo artigo de produto precisa de `productCategory` e `productSubcategory`
+(`lib/types.ts`: `productCategories` e `productSubcategories`). Eles alimentam o filtro de duas camadas
+em `/categoria/produtos` (que mostra tudo numa página só). Produto de tipo novo: adicione a
+subcategoria (e a categoria, se preciso) em `lib/types.ts` antes de publicar.
+
+**Botão de compra (`buy-btn`).**
+```html
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/<ASIN>?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar <Nome curto do produto> na Amazon agora ↗</a>
+</div>
+```
+- O texto sempre cita a Amazon e nunca leva preço. No review, o botão do bloco de veredito usa
+  `ctaLabel: "Comprar <Nome curto> na Amazon agora"` (sem a seta: o componente já acrescenta o ↗).
+  `review.price` também é faixa: `"aprox. R$ 125 a R$ 210 (varia)"`, sem data e sem centavos.
+- **Mínimo 5 botões por artigo**, espalhados, nunca mais de ~3 parágrafos longos seguidos sem um botão.
+  Comparativo: logo abaixo da foto de cada produto (`<figure>`), depois da seção de preço e no veredito
+  final. Review único: depois da introdução ou do veredito curto, depois de prós e contras, depois de
+  "para quem vale a pena", depois da seção de preço e no fecho.
+- `href` sempre com ASIN real e `tag=oblogdagrama-20`. Sem ASIN real, sem botão.
+
+**Aviso de afiliado (uma vez só).** Review único: a página já mostra a caixa "Transparência" logo abaixo do
+veredito (`ReviewDisclosure`), então o `content` NÃO leva o callout. Comparativo (sem `review`): leva o
+callout `<div class="callout-box"><span class="callout-label">Transparência Amazon</span>...</div>` uma vez,
+perto do início do texto (Associado da Amazon, comissão sem custo extra, o preço do dia aparece ao clicar).
+
+**Preço: faixa de mercado, nunca preço exato.**
+- Todo artigo de produto tem um h2 próprio, "Variação de preço" (ou título parecido), com a faixa
+  aproximada de cada produto ("costuma variar de R$ X a R$ Y"): faixa larga e arredondada (±15%,
+  múltiplos de R$ 5; R$ 10 acima de R$ 500), a partir de pesquisa de mercado (Amazon Brasil, Zoom,
+  Buscapé, site do fabricante). Comparativo: uma faixa por produto e qual costuma sair mais em conta e
+  qual tem melhor custo-benefício. Review: a faixa, o que faz o preço subir ou cair e o custo-benefício.
+  A seção fecha dizendo que o preço do dia aparece ao clicar no botão de compra.
+- Sem data de verificação ("verificado em dd/mm"). Chame de "faixa de mercado", nunca "da Amazon". Se
+  nenhuma fonte der o valor, escreva a seção sem números.
+- Nunca preço com centavos. Nunca preço ou faixa no `title`, `seoTitle`, `excerpt`, `metaDescription`
+  nem no botão. Nota e número de avaliações de compradores podem ser citados, sem data.
+
+**Título variado.** `title` e `seoTitle` não podem cair sempre no molde "<produto> vale a pena?". Alterne:
+superlativo e ano ("Os 3 melhores aspersores para gramado de 2026"), pergunta direta, comparação direta
+("Tramontina ou Trapp: qual cortador elétrico comprar?"), uso ou cenário ("Mangueira para jardim pequeno: qual
+não enrosca"), veredito antecipado.
+Evite a mesma estrutura em dois artigos da mesma rodada.
+
+**Imagens.** Foto de modelo comercial vem do site do fabricante (regra "Imagens de produto" abaixo). No
+corpo do comparativo, as fotos em `<figure><img><figcaption>` saem com tamanho padronizado por CSS
+(`.prose-article figure img`, caixa 4:3).
+
+**Home.** O card grande da home preenche a altura da coluna ao lado (herói em altura total), como no Portal.
+
 ## Imagens de produto (categoria Produtos)
 
 Nunca usar gerador de imagem por IA para capa ou foto de produto: a IA erra marca e logo.

@@ -7,7 +7,7 @@ export type CoverOverride = {
   height: number;
   credit: string;
   creditUrl: string;
-  /** "contain" (padrão) para foto de produto; "cover" para foto de paisagem que preenche a capa. */
+  /** Legado: toda capa preenche a caixa (object-cover). Foto de produto precisa chegar enquadrada em 16:9. */
   fit?: "cover" | "contain";
 };
 
@@ -108,7 +108,7 @@ export async function CoverImage({
       loading={priority ? "eager" : "lazy"}
       fetchPriority={priority ? "high" : "auto"}
       decoding={priority ? "sync" : "async"}
-      className={override && override.fit !== "cover" ? "h-full w-full object-contain p-3 sm:p-6" : "h-full w-full object-cover"}
+      className="h-full w-full object-cover"
     />
   );
   const creditText = override ? `Foto: ${override.credit}` : `Foto: ${(photo as { photographer: string; source: string }).photographer} / ${(photo as { photographer: string; source: string }).source}`;

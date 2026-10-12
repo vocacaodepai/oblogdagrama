@@ -2,7 +2,9 @@
 
 Horário: 06:23 (Brasília), uma vez por dia. 5 artigos por rodada, sempre `category: "produtos"`.
 Nome do clone: `grama-produtos`. Siga `docs/rotinas/comum.md` além do que está aqui.
-Leia no `CLAUDE.md` as seções "Imagens de produto" e "Botão de compra".
+Leia no `CLAUDE.md` a seção "Padrão de artigo de produto" inteira (botões, aviso de afiliado, preço,
+nota, taxonomia, título) e as seções "Imagens de produto" e "Botão de compra". O `check:content` barra
+artigo de produto fora desse padrão.
 
 ## Pautas (produto real vendido na Amazon Brasil)
 
@@ -27,6 +29,7 @@ Leia no `CLAUDE.md` as seções "Imagens de produto" e "Botão de compra".
 - Review com foto vertical: rode `node scripts/build-product-cover.mjs <entrada> <saida>` antes de usar.
 - Comparativo: monte um card branco com sombra suave por produto, nome do modelo escrito por você
   embaixo, sobre fundo com leve gradiente (com sharp). Use também as fotos individuais como `<figure>`.
+- Todo artigo leva `productCategory`, `productSubcategory` e nota (`review.score` ou `productScore`).
 - Preencha `coverImage` (`url`, `width`, `height`, `credit` = fabricante + "(imagem oficial do produto)",
   `creditUrl` = página oficial do produto). Sem `fit` (padrão contain, com margem).
 
@@ -36,10 +39,14 @@ Leia no `CLAUDE.md` as seções "Imagens de produto" e "Botão de compra".
 - Review: preencha o bloco `review` completo (tool, score, criteria, pros, cons, price, bestFor,
   url = link de afiliado, affiliate: true, ctaLabel). Critérios: desempenho, facilidade, durabilidade,
   preço, avaliações reais.
-- Link de afiliado: sempre `https://www.amazon.com.br/dp/<ASIN real>?tag=oblogdagrama-20`, com
-  `rel="sponsored noopener noreferrer"`. Confirme que o produto existe de verdade na Amazon Brasil.
-- Callout de transparência no topo (Associado da Amazon, ganha comissão, preço muda, confira antes
-  de comprar). Callout de segurança em máquina de corte.
+- Botões `buy-btn`: mínimo 5 por artigo, texto "Comprar <produto> na Amazon agora ↗", link
+  `https://www.amazon.com.br/dp/<ASIN real>?tag=oblogdagrama-20` com `rel="sponsored noopener noreferrer"`.
+  Confirme que o produto existe de verdade na Amazon Brasil. Posições dos botões no `CLAUDE.md`.
+- Preço: h2 "Variação de preço" com faixa de mercado arredondada por produto, sem datas e sem preço no
+  título, resumo, meta description ou botão.
+- Aviso de afiliado: comparativo leva o callout "Transparência Amazon" uma vez no corpo; review único não
+  (a página já mostra).
+- Título variado entre os 5 artigos da rodada e entre rodadas.
 - Nunca alegue teste físico pessoal: é análise a partir da ficha técnica oficial e das avaliações
   de compradores.
 - Corpo: 1.200 a 1.800 palavras, 5 a 8 h2, 8 a 12 links internos. Tabela comparativa e seção

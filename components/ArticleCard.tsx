@@ -31,24 +31,29 @@ export function ArticleCard({
   priority = false,
   headingLevel = "h3",
   showExcerpt = true,
+  className = "",
 }: {
   article: Article;
   variant?: Variant;
   priority?: boolean;
   headingLevel?: "h2" | "h3";
   showExcerpt?: boolean;
+  className?: string;
 }) {
   const Heading = headingLevel;
   const href = `/artigos/${article.slug}`;
   const label = categoryLabel(article.category);
   const minutes = readingTime(article.content);
-  const isReview = article.kind === "review" && article.review;
+  const score = article.review?.score ?? article.productScore;
+  const hasScore = typeof score === "number";
 
   if (variant === "featured") {
     return (
-      <article className="group relative isolate overflow-hidden rounded-xl border border-border bg-ink text-white card-hover">
+      <article
+        className={`group relative isolate flex flex-col overflow-hidden rounded-xl border border-border bg-ink text-white card-hover ${className}`}
+      >
         <Link href={href} className="absolute inset-0 z-10" aria-label={article.title} />
-        <div className="aspect-[16/10] sm:aspect-[16/9] lg:aspect-[16/10]">
+        <div className="aspect-[16/10] flex-1 sm:aspect-[16/9] lg:aspect-auto lg:min-h-[22rem]">
           <CoverImage
             query={article.imageQuery}
             seed={article.seed}
@@ -67,7 +72,7 @@ export function ArticleCard({
             <span className="label-mono rounded-md bg-white/10 px-2 py-1 text-white backdrop-blur-sm">
               {label}
             </span>
-            {isReview && <ReviewBadge score={article.review!.score} />}
+            {hasScore && <ReviewBadge score={score} />}
           </div>
           <Heading className="mt-3 max-w-3xl font-display text-2xl font-bold leading-tight tracking-tight sm:text-4xl">
             {article.title}
@@ -130,7 +135,7 @@ export function ArticleCard({
         <div className="flex flex-col justify-center gap-1.5 p-4">
           <div className="flex items-center gap-2">
             <span className="label-mono text-accent">{label}</span>
-            {isReview && <ReviewBadge score={article.review!.score} />}
+            {hasScore && <ReviewBadge score={score} />}
           </div>
           <Heading className="line-clamp-3 font-display text-base font-semibold leading-snug">
             <Link href={href} className="transition group-hover:text-accent">
@@ -146,7 +151,12 @@ export function ArticleCard({
   }
 
   return (
-    <article className="group flex flex-col overflow-hidden rounded-xl border border-border bg-surface card-hover">
+    <article
+      className="group flex flex-col overflow-hidden rounded-xl border border-border bg-surface card-hover"
+      data-product-category={article.productCategory}
+      data-product-subcategory={article.productSubcategory}
+      data-review-tool={article.review?.tool}
+    >
       <Link href={href} className="relative block aspect-[16/10] w-full overflow-hidden" tabIndex={-1} aria-hidden="true">
         <CoverImage
           query={article.imageQuery}
@@ -162,9 +172,9 @@ export function ArticleCard({
         <span className="label-mono absolute left-3 top-3 rounded-md bg-ink/70 px-2 py-1 text-white backdrop-blur-sm">
           {label}
         </span>
-        {isReview && (
+        {hasScore && (
           <span className="absolute right-3 top-3">
-            <ReviewBadge score={article.review!.score} />
+            <ReviewBadge score={score} />
           </span>
         )}
       </Link>

@@ -6,6 +6,7 @@ import { CategoryChips } from "@/components/CategoryChips";
 import { Container } from "@/components/Container";
 import { NewsList } from "@/components/NewsRow";
 import { NewsTicker } from "@/components/NewsTicker";
+import { ScoreScaleNote } from "@/components/ScoreScaleNote";
 import { SectionHeading } from "@/components/SectionHeading";
 import { FeaturedList, Sidebar } from "@/components/Sidebar";
 import {
@@ -152,8 +153,8 @@ export default function Home() {
               className="hero-glow pointer-events-none absolute inset-x-0 -top-8 -z-10 h-3/4 opacity-30 blur-3xl"
             />
             <div className="grid grid-cols-1 gap-6 lg:grid-cols-12">
-              <div className="lg:col-span-8">
-                <ArticleCard article={lead} variant="featured" priority headingLevel="h2" />
+              <div className="lg:col-span-8 lg:h-full">
+                <ArticleCard article={lead} variant="featured" priority headingLevel="h2" className="lg:h-full" />
               </div>
               <div className="flex flex-col gap-4 lg:col-span-4">
                 {secondary.map((a) => (
@@ -191,11 +192,12 @@ export default function Home() {
             <section aria-label="Melhores produtos">
               <SectionHeading
                 label="Melhores produtos"
-                title="O que comprar para cuidar em casa"
+                title="O que vale comprar para o gramado"
                 href="/categoria/produtos"
-                linkText="Ver todos os guias de compra"
+                linkText="Ver todas as indicações"
               />
-              <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+              <ScoreScaleNote />
+              <div className="mt-6 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
                 {aiIndicaPicks.map((a) => (
                   <ArticleCard key={a.slug} article={a} />
                 ))}
@@ -234,7 +236,7 @@ export default function Home() {
             <div className="lg:col-span-8">
               <p className="label-mono text-ink-foreground/60">{site.name}</p>
               <h2 className="mt-3 font-display text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl">
-                Cuidar em casa fica mais leve com o produto certo
+                Um gramado bonito começa pela escolha certa
               </h2>
               <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-foreground/80 sm:text-lg">
                 {site.description}

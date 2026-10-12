@@ -14,9 +14,9 @@ export const article: Article = {
   imageQuery: "hand crank seed spreader lawn",
   seed: 605,
   coverImage: {
-    url: "/images/products/review-espalhador-manual-de-adubo-e-sementes.jpg",
-    width: 1200,
-    height: 800,
+    url: "/images/products/review-espalhador-manual-de-adubo-e-sementes-capa.jpg",
+    width: 1600,
+    height: 900,
     credit: "Jacto (imagem oficial do produto)",
     creditUrl: "https://jacto.com/brasil/products/distribuidores-de-granulos/jacto-gm-3",
   },

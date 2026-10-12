@@ -14,9 +14,9 @@ export const article: Article = {
   imageQuery: "leaf blower garden lawn",
   seed: 207,
   coverImage: {
-    url: "/images/products/review-soprador-de-folhas-eletrico.jpg",
-    width: 1200,
-    height: 1200,
+    url: "/images/products/review-soprador-de-folhas-eletrico-capa.jpg",
+    width: 1600,
+    height: 900,
     credit: "Philco (imagem oficial do produto)",
     creditUrl: "https://www.philco.com.br/soprador-e-aspirador-psa1000-127v-051101020/p",
   },

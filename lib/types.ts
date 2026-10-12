@@ -59,6 +59,50 @@ export const categories = [
 
 export type Category = (typeof categories)[number]["slug"];
 
+/**
+ * Taxonomia de produto, usada só pelo filtro de `/categoria/produtos` (não
+ * confundir com `categories` acima, que é a categoria editorial do artigo).
+ * Cada `productSubcategories` aponta pra um `category` daqui.
+ */
+export const productCategories = [
+  { slug: "corte-poda", label: "Corte e poda" },
+  { slug: "rega-solo", label: "Rega e solo" },
+  { slug: "adubo-sementes", label: "Adubo e sementes" },
+  { slug: "ferramentas", label: "Ferramentas manuais" },
+  { slug: "protecao", label: "Proteção (EPI)" },
+] as const;
+
+export type ProductCategory = (typeof productCategories)[number]["slug"];
+
+export const productSubcategories = [
+  { slug: "cortador", label: "Cortador de grama", category: "corte-poda" },
+  { slug: "aparador-rocadeira", label: "Aparador e roçadeira", category: "corte-poda" },
+  { slug: "tesoura-de-grama", label: "Tesoura de grama", category: "corte-poda" },
+  { slug: "soprador", label: "Soprador de folhas", category: "corte-poda" },
+  { slug: "aspersor", label: "Aspersor", category: "rega-solo" },
+  { slug: "mangueira", label: "Mangueira", category: "rega-solo" },
+  { slug: "esguicho", label: "Esguicho", category: "rega-solo" },
+  { slug: "temporizador", label: "Temporizador de torneira", category: "rega-solo" },
+  { slug: "kit-irrigacao", label: "Kit de irrigação", category: "rega-solo" },
+  { slug: "regador", label: "Regador", category: "rega-solo" },
+  { slug: "medidor-de-umidade", label: "Medidor de umidade", category: "rega-solo" },
+  { slug: "adubo", label: "Adubo", category: "adubo-sementes" },
+  { slug: "semente", label: "Semente de grama", category: "adubo-sementes" },
+  { slug: "espalhador", label: "Espalhador", category: "adubo-sementes" },
+  { slug: "pulverizador", label: "Pulverizador", category: "adubo-sementes" },
+  { slug: "rastelo", label: "Rastelo", category: "ferramentas" },
+  { slug: "aerador", label: "Aerador manual", category: "ferramentas" },
+  { slug: "pa", label: "Pá e enxada", category: "ferramentas" },
+  { slug: "kit-ferramentas", label: "Kit de ferramentas", category: "ferramentas" },
+  { slug: "carrinho-de-mao", label: "Carrinho de mão", category: "ferramentas" },
+  { slug: "luvas", label: "Luvas", category: "protecao" },
+  { slug: "oculos", label: "Óculos de proteção", category: "protecao" },
+  { slug: "botas", label: "Botas", category: "protecao" },
+] as const;
+
+export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];
+
+
 /** Dados estruturados de um review de produto (artigos com kind: "review"). */
 export type ReviewData = {
   /** Nome do produto avaliado. */
@@ -92,6 +136,17 @@ export type Article = {
   /** Meta description (120-160 caracteres). Padrão: excerpt. */
   metaDescription?: string;
   category: Category;
+  /** Taxonomia de produto (só artigos de `category: "produtos"`), para o filtro em /categoria/produtos. */
+  productCategory?: ProductCategory;
+  productSubcategory?: ProductSubcategory;
+  /**
+   * Nota editorial de 0 a 10 (uma casa decimal) do produto recomendado, usada pra mostrar o selo
+   * de nota no card de todo artigo de produto, comparativo ou review único. Em `kind: "review"`,
+   * normalmente igual a `review.score`; em comparativo (`kind: "guia"`), é a nota do produto que
+   * indicamos no fim do texto (não existe campo `review` nesse caso, por comparar mais de um produto).
+   * Guia "como escolher" sem produto específico não leva nota.
+   */
+  productScore?: number;
   date: string; // ISO (AAAA-MM-DD)
   /** Data da última atualização editorial (AAAA-MM-DD). */
   updated?: string;
@@ -109,7 +164,7 @@ export type Article = {
     height: number;
     credit: string;
     creditUrl: string;
-    /** "contain" (padrão) para foto de produto; "cover" para foto de paisagem. */
+    /** Legado: toda capa preenche a caixa (object-cover). */
     fit?: "cover" | "contain";
   };
   content: string; // HTML

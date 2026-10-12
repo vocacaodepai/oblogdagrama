@@ -10,7 +10,7 @@ import type { Article, Category } from "@/lib/types";
 import { categories } from "@/lib/types";
 
 export type { Article, Category, FaqItem, QuizQuestion, ReviewData } from "@/lib/types";
-export { categories } from "@/lib/types";
+export { categories, productCategories, productSubcategories } from "@/lib/types";
 
 export const site = {
   name: "O Blog da Grama",

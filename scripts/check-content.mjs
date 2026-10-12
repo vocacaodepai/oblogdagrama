@@ -21,6 +21,11 @@ const STRICT_FROM_DATE = "2026-10-01";
 // dos artigos (>= 900 palavras, >= 3 h2). As notícias já publicadas antes ficam como estão.
 const NEWS_STRICT_FROM_DATE = "2026-10-01";
 const MIN_INTERNAL_LINKS = 5;
+// Artigos de produto (categoria "produtos") com data ou atualização a partir daqui seguem o padrão
+// de produto: nota, taxonomia, botões de compra espalhados, seção de preço, aviso de afiliado.
+const PRODUCT_STRICT_FROM_DATE = "2026-10-12";
+const AFFILIATE_TAG = "oblogdagrama-20";
+const MIN_BUY_BUTTONS = 5;
 const MIN_WORDS_STRICT = 900;
 const MIN_WORDS_WARN = 600;
 
@@ -70,6 +75,17 @@ const ALLOWED_TAGS = new Set([
 const errors = [];
 const warnings = [];
 
+// Taxonomia de produto (fonte única: lib/types.ts).
+const typesSrc = readFileSync(resolve(ROOT, "lib/types.ts"), "utf8");
+const PRODUCT_CATEGORIES = new Set(
+  [...(/export const productCategories = \[([\s\S]*?)\] as const;/.exec(typesSrc)?.[1] ?? "").matchAll(/slug: "([a-z-]+)"/g)].map((m) => m[1])
+);
+const PRODUCT_SUBCATEGORIES = new Map(
+  [...(/export const productSubcategories = \[([\s\S]*?)\] as const;/.exec(typesSrc)?.[1] ?? "").matchAll(/slug: "([a-z-]+)"[^}]*category: "([a-z-]+)"/g)].map(
+    (m) => [m[1], m[2]]
+  )
+);
+
 function readField(block, name) {
   const m = new RegExp(`\\n\\s*${name}:\\s*"([^"]*)"`).exec(block);
   return m ? m[1] : "";
@@ -116,6 +132,17 @@ function extractArticles() {
       title: readField(src, "title"),
       excerpt: readField(src, "excerpt"),
       articleKind: readField(src, "kind"),
+      category: readField(src, "category"),
+      productCategory: readField(src, "productCategory"),
+      productSubcategory: readField(src, "productSubcategory"),
+      productScore: (() => {
+        const m = /\n\s*productScore:\s*([\d.]+)/.exec(src);
+        return m ? Number(m[1]) : null;
+      })(),
+      metaDescription: readField(src, "metaDescription"),
+      reviewCta: readField(src, "ctaLabel"),
+      reviewPrice: readField(src, "price"),
+      seoTitle: readField(src, "seoTitle"),
       hasKeyPoints: /\n\s*keyPoints:\s*\[/.test(src),
       hasFaq: /\n\s*faq:\s*\[/.test(src),
       hasReview: /\n\s*review:\s*\{/.test(src),
@@ -160,6 +187,63 @@ function extractNews() {
     });
   }
   return items;
+}
+
+/** Padrão de artigo de produto (categoria "produtos"): ver CLAUDE.md, seção "Padrão de artigo de produto". */
+function checkProduct(it, where) {
+  const html = it.content;
+  const isProductPage = /amazon\.com\.br/.test(html) || it.articleKind === "review";
+  if (!isProductPage) return; // guia "como escolher" sem produto específico nem link de compra
+
+  if (!PRODUCT_CATEGORIES.has(it.productCategory)) errors.push(`${where}: productCategory ausente ou inválido ("${it.productCategory}")`);
+  else if (PRODUCT_SUBCATEGORIES.get(it.productSubcategory) !== it.productCategory) {
+    errors.push(`${where}: productSubcategory ausente ou não pertence a "${it.productCategory}" ("${it.productSubcategory}")`);
+  }
+  if (it.reviewScore === null && it.productScore === null) {
+    errors.push(`${where}: sem nota (review.score no review ou productScore no comparativo, 0 a 10)`);
+  }
+  if (it.productScore !== null && (it.productScore < 0 || it.productScore > 10)) errors.push(`${where}: productScore fora de 0-10`);
+
+  // Botões de compra
+  const buttons = [...html.matchAll(/<div class="buy-btn">([\s\S]*?)<\/div>/g)].map((m) => m[1]);
+  if (buttons.length < MIN_BUY_BUTTONS) errors.push(`${where}: ${buttons.length} botões buy-btn (mínimo ${MIN_BUY_BUTTONS} espalhados pelo artigo)`);
+  for (const b of buttons) {
+    const href = /href="([^"]+)"/.exec(b)?.[1] ?? "";
+    const label = b.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+    if (!new RegExp(`^https://www\\.amazon\\.com\\.br/dp/[A-Z0-9]{10}\\?tag=${AFFILIATE_TAG}$`).test(href)) {
+      errors.push(`${where}: botão com href fora do padrão https://www.amazon.com.br/dp/<ASIN>?tag=${AFFILIATE_TAG} -> ${href}`);
+    }
+    if (!/rel="sponsored noopener noreferrer"/.test(b) || !/target="_blank"/.test(b)) errors.push(`${where}: botão sem rel="sponsored noopener noreferrer" e target="_blank"`);
+    if (!/^Comprar .+ na Amazon agora ↗$/.test(label)) errors.push(`${where}: texto do botão deve ser "Comprar <produto> na Amazon agora ↗" -> "${label}"`);
+    if (/R\$/.test(label)) errors.push(`${where}: preço no texto do botão`);
+  }
+  if (it.articleKind === "review") {
+    if (!/^Comprar .+ na Amazon agora$/.test(it.reviewCta)) errors.push(`${where}: review.ctaLabel deve ser "Comprar <produto> na Amazon agora" (sem seta) -> "${it.reviewCta}"`);
+    if (/verificad|\d{1,2}\/\d{1,2}\/\d{2,4}|,\d{2}\b/.test(it.reviewPrice) || !/R\$/.test(it.reviewPrice)) {
+      errors.push(`${where}: review.price deve ser faixa de mercado ("aprox. R$ X a R$ Y (varia)"), sem data e sem centavos -> "${it.reviewPrice}"`);
+    }
+  }
+  // Parágrafos longos demais sem botão no meio
+  let run = 0;
+  let maxRun = 0;
+  for (const m of html.matchAll(/<div class="buy-btn">[\s\S]*?<\/div>|<p>([\s\S]*?)<\/p>/g)) {
+    if (m[0].startsWith("<div")) run = 0;
+    else if (m[1].replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length > 35) maxRun = Math.max(maxRun, ++run);
+  }
+  if (maxRun > 3) warnings.push(`${where}: ${maxRun} parágrafos longos seguidos sem botão de compra (ideal: no máximo 3)`);
+
+  // Preço: seção própria, faixa de mercado, nunca preço exato nem datas de verificação
+  if (!/<h2[^>]*>[^<]*[Pp]re[çc]o[^<]*<\/h2>/.test(html)) errors.push(`${where}: falta a seção h2 de preço ("Variação de preço")`);
+  if (/R\$\s?\d[\d.]*,\d{2}/.test(html)) errors.push(`${where}: preço exato com centavos (use faixa de mercado arredondada)`);
+  if (/verificad[oa]s? em\s+\d|faixa aproximada em\s+\d|pre[çc]o[^<]{0,60}\d{1,2}\/\d{1,2}\/\d{2,4}/i.test(html)) errors.push(`${where}: data de verificação de preço no texto (não use datas)`);
+  for (const [campo, v] of [["title", it.title], ["seoTitle", it.seoTitle], ["excerpt", it.excerpt], ["metaDescription", it.metaDescription]]) {
+    if (/R\$/.test(v)) errors.push(`${where}: preço (R$) no ${campo}`);
+  }
+
+  // Transparência Amazon: review único mostra pela página; comparativo leva o callout no corpo
+  const hasCallout = /callout-label">\s*Transpar[êe]ncia/i.test(html);
+  if (it.articleKind === "review" && hasCallout) errors.push(`${where}: review único não leva o callout de transparência no corpo (a página já mostra)`);
+  if (it.articleKind !== "review" && !hasCallout) errors.push(`${where}: comparativo sem o callout "Transparência Amazon" no corpo`);
 }
 
 function check() {
@@ -212,6 +296,14 @@ function check() {
     if (it.kind === "artigos" && !it.content) {
       errors.push(`${where}: artigo sem content`);
       continue;
+    }
+
+    if (
+      it.kind === "artigos" &&
+      it.category === "produtos" &&
+      (it.date >= PRODUCT_STRICT_FROM_DATE || (it.updated && it.updated >= PRODUCT_STRICT_FROM_DATE))
+    ) {
+      checkProduct(it, where);
     }
     if (!it.content) continue;
 

@@ -56,7 +56,9 @@ mescle e registre no informe.
 - Artigo com máquina de corte ou produto químico traz aviso de segurança (rótulo, EPI,
   crianças e animais afastados).
 - Hemisfério sul: estações e épocas de plantio invertidas em relação ao norte.
-- Preço só com "verificado em dd/mm/aaaa" e a ressalva de que varia por região.
+- Preço de produto: sempre faixa de mercado arredondada, nunca preço exato nem data de verificação
+  (regras completas em "Padrão de artigo de produto" no `CLAUDE.md`). Fora de produto, preço só como
+  faixa aproximada com a ressalva de que varia por região.
 - Nunca mencione IA, Claude ou Anthropic no conteúdo do site.
 - Capas: siga "Imagens de capa (ordem de busca)" no `CLAUDE.md`. A regra é a MELHOR foto que encaixar
   no assunto, de qualquer fonte; a busca começa pelo Wikimedia Commons
