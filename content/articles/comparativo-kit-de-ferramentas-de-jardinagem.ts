@@ -2,14 +2,18 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "comparativo-kit-de-ferramentas-de-jardinagem",
-  title: "Kit de ferramentas de jardinagem: comparativo de 3 Tramontina",
-  seoTitle: "Kit de ferramentas de jardinagem: 3 Tramontina",
+  title: "Os 3 melhores kits de ferramentas de jardinagem de 2026",
+  seoTitle: "3 melhores kits de ferramentas de jardinagem (2026)",
   excerpt:
     "Kit de ferramentas de jardinagem: compare três conjuntos Tramontina de 3 peças (plástico e aço com cabo de madeira) e veja qual serve ao seu gramado.",
   metaDescription:
     "Kit de ferramentas de jardinagem: compare três conjuntos Tramontina de 3 peças (plástico e aço com cabo de madeira) e veja qual serve ao seu gramado.",
   category: "produtos",
+  productCategory: "ferramentas",
+  productSubcategory: "kit-ferramentas",
+  productScore: 8.2,
   date: "2026-10-11",
+  updated: "2026-10-11",
   readTime: 8,
   imageQuery: "garden hand tools trowel",
   seed: 1002,
@@ -36,7 +40,11 @@ export const article: Article = {
 <p>O melhor <strong>kit de ferramentas de jardinagem</strong> para quem cuida de gramado é o que traz as peças certas para a sua tarefa: o Tramontina 78102801 (duas pazinhas e um ancinho, em aço e madeira) atende plantio de mudas e conserto de falhas, o 78108100 (plástico) é o mais leve e simples, e o 78100801 troca uma pazinha por um garfo de 4 dentes para afofar a terra.</p>
 <p>Os três são conjuntos de 3 peças da mesma marca, vendidos na Amazon, e custam pouco perto de qualquer máquina. Aqui você vê a ficha de cada um, uma tabela lado a lado e o que cada ferramenta faz no dia a dia do gramado. Se a sua dúvida é sobre ferramenta de cabo longo, comece pela <a href="/artigos/review-rastelo-para-gramado">análise do rastelo para gramado</a>.</p>
 
-<div class="callout-box callout-tip"><span class="callout-label">Transparência</span><p>O Blog da Grama é associado da Amazon e recebe uma comissão se você comprar pelos botões desta página, sem custo extra para você. Esta é uma análise da ficha técnica oficial e das avaliações de compradores, sem teste físico nosso. Preço e disponibilidade mudam: confira a página da Amazon antes de comprar.</p></div>
+<div class="callout-box callout-tip"><span class="callout-label">Transparência</span><p>O Blog da Grama é associado da Amazon e recebe uma comissão se você comprar pelos botões desta página, sem custo extra para você. Esta é uma análise da ficha técnica oficial e das avaliações de compradores, sem teste físico nosso. O preço do dia aparece ao clicar no botão de compra.</p></div>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M7K6SM?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Tramontina 78102801 na Amazon agora ↗</a>
+</div>
 
 <h2>Qual kit de ferramentas de jardinagem escolher para o gramado?</h2>
 <p>Comece pelo serviço que você faz mais. Quem planta mudas de grama em buraquinhos, repara falhas ou capina cantos pede uma pazinha estreita e um ancinho pequeno. Quem revolve terra em canteiro e floreira se dá bem com garfo e pazinha larga.</p>
@@ -52,31 +60,38 @@ export const article: Article = {
 <tr><td>78100801 (metálico, cabo de madeira)</td><td>Pazinha larga, ancinho 3 dentes, garfo 4 dentes</td><td>Aço carbono com pintura eletrostática e cabo de madeira envernizado</td><td>392 g</td><td>34,5 x 11 x 8,5 cm</td></tr>
 </tbody>
 </table>
-<p>Os dados vêm das páginas oficiais da Tramontina do <a href="https://www.tramontina.com.br/conjunto-para-jardinagem-tramontina-em-plastico-colorido-3-pecas/78108100.html" rel="noopener noreferrer" target="_blank">78108100</a>, do <a href="https://www.tramontina.com.br/conjunto-para-jardim-com-cabo-de-madeira-3-pecas-tramontina/78102801.html" rel="noopener noreferrer" target="_blank">78102801</a> e do <a href="https://www.tramontina.com.br/jogo-para-jardinagem-tramontina-pecas-metalicas-com-cabo-de-madeira-3-pecas/78100801.html" rel="noopener noreferrer" target="_blank">78100801</a>. Na loja do fabricante, verificado em 11/10/2026, o 78108100 aparecia por R$ 27,90, o 78102801 por R$ 55,90 e o 78100801 por R$ 54,05 à vista. Os preços variam por região, vendedor e época, e a Amazon pode estar acima ou abaixo disso.</p>
+<p>Os dados vêm das páginas oficiais da Tramontina do <a href="https://www.tramontina.com.br/conjunto-para-jardinagem-tramontina-em-plastico-colorido-3-pecas/78108100.html" rel="noopener noreferrer" target="_blank">78108100</a>, do <a href="https://www.tramontina.com.br/conjunto-para-jardim-com-cabo-de-madeira-3-pecas-tramontina/78102801.html" rel="noopener noreferrer" target="_blank">78102801</a> e do <a href="https://www.tramontina.com.br/jogo-para-jardinagem-tramontina-pecas-metalicas-com-cabo-de-madeira-3-pecas/78100801.html" rel="noopener noreferrer" target="_blank">78100801</a>.</p>
 
 <h2>Tramontina 78108100: plástico leve para começar</h2>
 <figure><img src="/images/products/comparativo-kit-de-ferramentas-de-jardinagem-tramontina-78108100.jpg" alt="Conjunto para jardinagem Tramontina 78108100 em plástico, com pazinha estreita verde, ancinho grafite e pazinha larga laranja" width="900" height="900" /><figcaption>Conjunto Tramontina 78108100. Foto: Tramontina (imagem oficial do produto).</figcaption></figure>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B07RZLBZ6B?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Tramontina 78108100 na Amazon agora ↗</a>
+</div>
 <p>O 78108100 reúne uma pazinha larga laranja (27,5 cm), uma pazinha estreita verde (27,5 cm) e um ancinho grafite de 3 dentes (25 cm). Tudo em polipropileno de alta resistência, com cabos de formato ergonômico. O conjunto inteiro pesa 192 g, menos da metade dos kits de aço.</p>
 <p>A Tramontina indica a pazinha larga para cavar, remover e transportar terra, a estreita para cavar e transplantar mudas, e o ancinho para afofar a terra e retirar detritos. Para vaso, horta pequena e mudas de grama em solo já solto, a leveza ajuda. As avaliações de compradores na Amazon ficam em torno de 4,8 estrelas, com mais de mil notas na listagem consultada.</p>
 <p>O ponto de atenção é o esforço: em terra argilosa e seca, ou perto de raiz e pedra, o plástico pode flexionar ou lascar. Use para solo úmido e macio, não para alavancar.</p>
-<div class="buy-btn"><a href="https://www.amazon.com.br/dp/B07RZLBZ6B?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Conjunto Tramontina 78108100 agora ↗</a></div>
-<p><small>Link de afiliado da Amazon: o blog pode receber comissão pela compra.</small></p>
 
 <h2>Tramontina 78102801: o mais completo para plantio de mudas</h2>
 <figure><img src="/images/products/comparativo-kit-de-ferramentas-de-jardinagem-tramontina-78102801.jpg" alt="Conjunto para jardinagem Tramontina 78102801 com duas pazinhas e um ancinho de aço laranja com cabo de madeira" width="900" height="900" /><figcaption>Conjunto Tramontina 78102801. Foto: Tramontina (imagem oficial do produto).</figcaption></figure>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M7K6SM?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Tramontina 78102801 na Amazon agora ↗</a>
+</div>
 <p>Este kit tem pazinha larga, pazinha estreita e ancinho de 3 dentes, em aço carbono especial com pintura eletrostática a pó. Os cabos são de madeira de origem renovável, com acabamento envernizado. O conjunto pesa 410 g, segundo a ficha.</p>
 <p>É a combinação que mais se aproxima do que o gramado pede: a estreita abre o buraco da muda e pega o pedaço de grama sem destruir a raiz, a larga carrega terra e areia, e o ancinho afofa e tira restos. A Tramontina cita uso em agricultura, horticultura, fruticultura e jardinagem em serviços gerais. Para <a href="/artigos/como-plantar-grama-por-mudas-passo-a-passo">plantar grama por mudas</a>, é o mais coerente dos três.</p>
 <p>A listagem na Amazon mostra nota próxima de 4,8, com milhares de avaliações. A página da Tramontina mostra poucas avaliações e nota de 3,2, então vale ler os comentários recentes antes de decidir. Por ter cabo de madeira, o conjunto pede para ser seco e guardado fora da chuva.</p>
-<div class="buy-btn"><a href="https://www.amazon.com.br/dp/B076M7K6SM?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Conjunto Tramontina 78102801 agora ↗</a></div>
-<p><small>Link de afiliado da Amazon: o blog pode receber comissão pela compra.</small></p>
 
 <h2>Tramontina 78100801: garfo de 4 dentes para afofar a terra</h2>
 <figure><img src="/images/products/comparativo-kit-de-ferramentas-de-jardinagem-tramontina-78100801.jpg" alt="Jogo para jardinagem Tramontina 78100801 com pazinha larga, garfo de 4 dentes e ancinho de 3 dentes" width="900" height="900" /><figcaption>Jogo Tramontina 78100801. Foto: Tramontina (imagem oficial do produto).</figcaption></figure>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076MDJGR2?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Tramontina 78100801 na Amazon agora ↗</a>
+</div>
 <p>O 78100801 vem com pazinha larga, ancinho de 3 dentes e garfo de 4 dentes (77915/001), no mesmo aço carbono pintado e cabo de madeira envernizado. A Tramontina informa 392 g no conjunto e 90 dias de garantia legal contra defeitos de fabricação. Segundo a ficha, o garfo serve para afofar a terra e revolver o solo.</p>
 <p>Ele agrada quem mexe mais com canteiro, floreira e terra de vaso do que com muda de grama. O garfo desmancha torrões e mistura adubo orgânico ou terra vegetal sem cortar raízes de plantas vizinhas. Como falta a pazinha estreita, abrir buraco fundo e apertado fica menos prático.</p>
 <p>A listagem consultada na Amazon tem nota por volta de 4,8, com cerca de mil avaliações, e aparecia como vendida por terceiros. Confira quem vende e quem entrega antes de fechar, e compare com o 78102801 se você planeja mexer com mudas.</p>
-<div class="buy-btn"><a href="https://www.amazon.com.br/dp/B076MDJGR2?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Jogo Tramontina 78100801 agora ↗</a></div>
-<p><small>Link de afiliado da Amazon: o blog pode receber comissão pela compra.</small></p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076MDJGR2?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Tramontina 78100801 na Amazon agora ↗</a>
+</div>
 
 <h2>O que cada ferramenta faz no gramado</h2>
 <p>A pazinha estreita é a mais útil para quem repara falha: ela corta um quadrado de grama, abre espaço e acomoda a muda. A larga pega a terra para nivelar um buraco, como no passo a passo de <a href="/artigos/falhas-no-gramado-como-recuperar-areas-sem-grama">recuperar áreas sem grama</a>. Como o cabo é curto, o trabalho é feito de joelhos ou agachado, em áreas pequenas.</p>
@@ -94,10 +109,26 @@ export const article: Article = {
 </ul>
 <p>Não compre kit de mão se o seu serviço é capinar um quintal inteiro ou limpar a grama de folhas: o soprador de folhas e o rastelo resolvem melhor. Para levar terra, areia ou entulho, o <a href="/artigos/carrinho-de-mao-qual-escolher-para-jardim-e-gramado">carrinho de mão</a> é a escolha certa, e para regar o canteiro depois do plantio, veja o <a href="/artigos/review-esguicho-para-mangueira-de-jardim">esguicho para mangueira</a>.</p>
 
+<h2>Variação de preço</h2>
+<p>Pela pesquisa em lojas e comparadores, a faixa de mercado do 78108100 (plástico) costuma variar de R$ 15 a R$ 40. O 78102801 costuma variar de R$ 35 a R$ 85, e o 78100801 de R$ 45 a R$ 65. O preço muda com o vendedor, a região e a época.</p>
+<p>O 78108100 costuma sair mais em conta, mas o aço dura mais em solo compactado. Para o gramado, o melhor custo-benefício é o 78102801: por pouco mais que o plástico, traz as duas pazinhas e o ancinho em aço. O preço do dia aparece ao clicar no botão de compra.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B07RZLBZ6B?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Tramontina 78108100 na Amazon agora ↗</a>
+</div>
+
 <h2>Qual comprar: a escolha por tipo de serviço</h2>
 <p><strong>Plantio de mudas de grama e reparo de falhas:</strong> Tramontina 78102801, por ter pazinha estreita e larga mais o ancinho e cabos de madeira. É a opção mais completa para o gramado.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M7K6SM?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Tramontina 78102801 na Amazon agora ↗</a>
+</div>
 <p><strong>Canteiro, floreira e terra de vaso:</strong> Tramontina 78100801, pelo garfo de 4 dentes e pela pazinha larga. Perde na muda pequena por não ter a pazinha estreita.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076MDJGR2?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Tramontina 78100801 na Amazon agora ↗</a>
+</div>
 <p><strong>Uso leve, orçamento curto e solo macio:</strong> Tramontina 78108100, o mais leve e barato, em plástico, para vasos, horta pequena e quem quer testar a rotina de jardinagem. Se a dúvida for entre aço e plástico, escolha o aço e invista pouco mais: a diferença de preço é pequena perto do custo de trocar uma peça quebrada.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B07RZLBZ6B?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Tramontina 78108100 na Amazon agora ↗</a>
+</div>
 <p>Seja qual for o kit, ele completa o conjunto básico do gramado. Para planejar o ano todo, veja o <a href="/artigos/como-cuidar-da-grama-guia-completo-para-o-ano-todo">guia completo de cuidados</a> e escolha as próximas ferramentas com calma.</p>
 `,
   faq: [

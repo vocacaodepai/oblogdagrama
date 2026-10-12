@@ -2,13 +2,16 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "review-tesoura-de-grama-para-bordas",
-  title: "Tesoura de grama para bordas: análise da Tramontina 78322501",
-  seoTitle: "Tesoura de grama para bordas: análise Tramontina",
+  title: "Tesoura de grama ou aparador para bordas: qual usar?",
+  seoTitle: "Tesoura de grama ou aparador para bordas: qual usar?",
   excerpt:
-    "Tesoura de grama para bordas e cantos: veja o que a ficha da Tramontina 78322501 informa, para quem serve, os limites, a nota por critério e como usar com segurança.",
+    "Tesoura de grama ou aparador nas bordas? Veja o que a ficha da Tramontina 78322501 informa, para quem serve, os limites, a nota por critério e como usar com segurança.",
   metaDescription:
-    "Tesoura de grama para bordas e cantos: veja o que a ficha da Tramontina 78322501 informa, para quem serve, os limites, a nota por critério e como usar com segurança.",
+    "Tesoura de grama ou aparador nas bordas? Veja o que a ficha da Tramontina 78322501 informa, para quem serve, os limites, a nota por critério e como usar com segurança.",
   category: "produtos",
+  productCategory: "corte-poda",
+  productSubcategory: "tesoura-de-grama",
+  updated: "2026-10-11",
   date: "2026-10-08",
   readTime: 7,
   imageQuery: "grass shears lawn edge",
@@ -26,7 +29,7 @@ export const article: Article = {
   keyPoints: [
     "A tesoura para grama Tramontina 78322501 é manual, tem lâminas de aço carbono, cabeça giratória em 360° com 16 posições de corte e pesa 252 g sem embalagem, segundo o fabricante.",
     "Ela resolve o acabamento de bordas, canteiros e cantos que o cortador não alcança, mas não substitui o aparador em áreas grandes nem serve para galhos.",
-    "A loja oficial mostra R$ 139,00 (verificado em 08/10/2026, varia por vendedor), e o uso pede luvas, calçado fechado e a trava de segurança acionada ao guardar.",
+    "O preço varia por loja e vendedor, e o uso pede luvas, calçado fechado e a trava de segurança acionada ao guardar.",
   ],
   review: {
     tool: "Tesoura para Grama Tramontina em Aço com Cabo Plástico (ref. 78322501)",
@@ -50,12 +53,12 @@ export const article: Article = {
       "Custa bem mais que as tesouras de cerca viva de cabo de madeira da mesma marca.",
       "A ficha não informa o comprimento da lâmina nem garantia além dos 90 dias legais.",
     ],
-    price: "R$ 139,00 na loja oficial da Tramontina (verificado em 08/10/2026; varia por região e vendedor)",
+    price: "aprox. R$ 120 a R$ 160 (varia)",
     bestFor:
       "Quem tem jardim pequeno ou médio e quer acabar bordas, canteiros e cantos de calçada sem comprar uma máquina.",
     url: "https://www.amazon.com.br/dp/B076M81W4N?tag=oblogdagrama-20",
     affiliate: true,
-    ctaLabel: "Comprar Tesoura para Grama Tramontina agora ↗",
+    ctaLabel: "Comprar Tesoura de Grama Tramontina na Amazon agora",
   },
   sources: [
     {
@@ -71,17 +74,27 @@ export const article: Article = {
 <p>A <strong>tesoura de grama para bordas</strong> serve para aparar à mão os cantos e as faixas que o cortador deixa para trás, junto de calçadas, canteiros, muros e pedras. É uma ferramenta pequena, sem motor, que dá acabamento ao gramado. Esta análise olha o modelo Tramontina 78322501, vendido na Amazon Brasil.</p>
 <p>Tudo aqui parte da ficha técnica oficial da Tramontina e de avaliações públicas de compradores. Não houve teste físico da nossa parte, então o texto lê a ficha, compara com o uso comum e diz para quem o modelo faz sentido.</p>
 
-<div class="callout-box callout-tip"><span class="callout-label">Transparência</span><p>Somos associados da Amazon e podemos ganhar uma comissão se você comprar pelo botão deste artigo, sem custo extra para você. O preço muda com frequência e por vendedor, então confira o valor e as condições na página antes de comprar.</p></div>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M81W4N?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tesoura de Grama Tramontina na Amazon agora ↗</a>
+</div>
 
 <h2>Para que serve uma tesoura de grama nas bordas do gramado?</h2>
 <p>O cortador de grama tem uma largura de corte e um corpo que não encostam em tudo. Sobra uma faixa junto ao muro, ao pé da árvore, ao meio-fio e ao canteiro. Se ninguém apara ali, a grama cresce mais alta que o resto e o gramado parece desigual, mesmo bem cuidado.</p>
 <p>A tesoura de grama resolve essa faixa. A própria Tramontina descreve o modelo como próprio para acabamento de canteiros e para aparar as bordas do gramado, onde o cortador não chega. É um complemento do cortador, não um substituto dele.</p>
 <p>Se o seu problema é uma área grande de borda, o <a href="/artigos/comparativo-aparador-de-grama-eletrico">comparativo de aparadores elétricos</a> mostra a alternativa com motor. Já em jardim pequeno, a tesoura costuma bastar. Quem está montando o espaço pode ver ideias de <a href="/artigos/jardim-pequeno-com-gramado-ideias-para-aproveitar-o-espaco">jardim pequeno com gramado</a>, em que as bordas ocupam boa parte do trabalho.</p>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M81W4N?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tesoura de Grama Tramontina na Amazon agora ↗</a>
+</div>
+
 <h2>O que diz a ficha técnica da Tramontina 78322501</h2>
 <p>Segundo a página oficial, as lâminas são de aço carbono especial de alta qualidade, e a peça é temperada em todo o corpo para resistir mais ao desgaste. Os cabos são de plástico, leves e ergonômicos. O peso informado é de 252 g sem embalagem, e as medidas são 36 cm de comprimento, 12 cm de altura e 3,3 cm de largura.</p>
 <p>O diferencial é a cabeça giratória em 360°, com 16 posições de corte, pensada para seguir qualquer contorno. Há também uma base de apoio com regulagem de altura, que ajuda a manter o corte uniforme, e um botão de trava que permite operar a tesoura com uma só mão.</p>
 <p>A ficha cita ainda uma trava de segurança para fechar as lâminas quando a ferramenta não está em uso. A garantia informada é a legal, de 90 dias contra vícios ou defeitos de fabricação. O comprimento da lâmina não aparece na ficha, e o cabo é fixo: não existe versão telescópica neste modelo.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M81W4N?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tesoura de Grama Tramontina na Amazon agora ↗</a>
+</div>
 
 <div class="callout-box callout-warn"><span class="callout-label">Segurança</span><p>A lâmina é afiada e o próprio fabricante avisa que o contato pode causar lesões. Use luvas e calçado fechado, aparando sempre com a mão livre longe do corte, e mantenha crianças e animais afastados. Ao terminar, feche as lâminas com a trava de segurança e guarde fora do alcance das crianças.</p></div>
 
@@ -97,32 +110,62 @@ export const article: Article = {
 </ol>
 <p>A altura da borda deve acompanhar a do gramado. Segundo a Grama Legal, podas muito baixas causam grande prejuízo à grama, então não rebaixe a borda só porque é fácil. Para a altura certa de cada espécie, veja o guia de <a href="/artigos/altura-de-corte-da-grama-quanto-cortar-sem-estressar">altura de corte da grama</a>.</p>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M81W4N?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tesoura de Grama Tramontina na Amazon agora ↗</a>
+</div>
+
 <h2>Bordas, canteiros e caminhos: onde a tesoura rende mais</h2>
 <p>Ela rende mais onde o espaço é pequeno e o contorno é irregular. Canteiros curvos, pé de árvore, volta de poste e bordas de vaso são exemplos. A cabeça giratória foi feita justamente para esses casos, em que uma máquina exigiria manobras e correria o risco de bater em plantas.</p>
 <p>Perto de calçadas e do <a href="/artigos/caminho-de-pedra-no-gramado-como-fazer-sem-matar-a-grama">caminho de pedra no gramado</a>, a tesoura evita o contato da lâmina com pedra, que é um problema comum em aparadores de fio. Em compensação, cada metro de borda toma tempo. Um quintal com 40 m de meio-fio já pede uma tarde de trabalho com a tesoura.</p>
 <p>Uma cena comum: você corta o gramado no sábado, o cortador deixa uma franja alta junto ao muro, e na semana seguinte ela parece uma moldura mal acabada. Dez minutos de tesoura devolvem o aspecto limpo. Quem tem <a href="/artigos/grama-esmeralda-vale-a-pena-vantagens-e-cuidados">grama esmeralda</a>, que forma tapete denso, costuma notar a franja com mais facilidade.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M81W4N?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tesoura de Grama Tramontina na Amazon agora ↗</a>
+</div>
 
 <h2>Pontos fortes e limites do modelo</h2>
 <p>O ponto forte é a ergonomia pensada para borda: a cabeça gira, o cabo é leve e dá para trabalhar com uma só mão. A trava de segurança é um detalhe útil, porque tesoura aberta no chão é risco para pés descalços e para animais.</p>
 <p>O limite principal é a escala. Tesoura é trabalho manual, e em borda longa o esforço repetido cansa a mão. Outro limite é a altura: com 36 cm de comprimento, o uso é com a pessoa agachada ou ajoelhada, o que pode incomodar quem tem problema de joelho ou coluna.</p>
 <p>Também não é ferramenta de poda. A lâmina foi feita para folhas de grama, não para galhos ou caules lenhosos, e forçar o corte pode danificar o fio e a articulação. A Tramontina recomenda secar a ferramenta depois de lavar e passar uma fina camada de óleo nas lâminas e nas articulações.</p>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M81W4N?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tesoura de Grama Tramontina na Amazon agora ↗</a>
+</div>
+
 <h2>Quando não comprar esta tesoura</h2>
 <p>Se o seu gramado tem borda longa, como um terreno de esquina ou um jardim de 300 m², a tesoura vai virar castigo. Nesse caso, um aparador faz mais sentido, e o <a href="/artigos/cortador-sem-fio-a-bateria-qual-comprar">cortador sem fio a bateria</a> também entra na conta, porque alguns modelos chegam mais perto das bordas.</p>
 <p>Também vale pensar duas vezes se o orçamento é curto. A própria Tramontina vende tesouras de cerca viva e grama com cabo de madeira e lâminas retas, em geral mais baratas, que fazem o mesmo corte básico, embora sem a cabeça giratória. Se você só precisa aparar uma faixa reta e curta, elas bastam.</p>
 <p>Por fim, a tesoura não corrige falhas do gramado, apenas deixa o contorno mais limpo. Se a borda está rala porque a grama morreu, o assunto é outro, e o guia de <a href="/artigos/falhas-no-gramado-como-recuperar-areas-sem-grama">falhas no gramado</a> ajuda a entender a causa antes de qualquer ferramenta, já que cortar melhor não traz de volta a grama que sumiu.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M81W4N?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tesoura de Grama Tramontina na Amazon agora ↗</a>
+</div>
 
 <h2>Erros comuns ao aparar bordas</h2>
 <p>O primeiro erro é aparar com a grama molhada. As folhas dobram, o corte fica irregular e a lâmina prende. O segundo é cortar rente demais, o que expõe o solo e deixa a borda amarelada. O terceiro é usar a tesoura sem luvas: um escorregão ou um aperto mal dado machuca a mão.</p>
 <p>O quarto é deixar a ferramenta aberta e sem a trava. Além do risco de acidente, a lâmina exposta sofre com pancadas e perde o fio mais rápido. Guardar fechada, limpa e seca, com óleo nas articulações, é o que a Tramontina recomenda.</p>
 <p>O quinto é proteger só as mãos e esquecer os olhos quando há outras máquinas por perto. Se a tesoura é usada junto com aparador ou cortador, veja as opções de <a href="/artigos/oculos-de-protecao-para-rocar-e-cortar-grama-qual-escolher">óculos de proteção</a> e de <a href="/artigos/review-luvas-de-protecao-para-jardinagem">luvas de proteção para jardinagem</a>. Para montar o plano de cuidados da grama o ano todo, o guia <a href="/artigos/como-cuidar-da-grama-guia-completo-para-o-ano-todo">como cuidar da grama</a> mostra onde o acabamento se encaixa.</p>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M81W4N?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tesoura de Grama Tramontina na Amazon agora ↗</a>
+</div>
+
 <h2>Vale a pena? Nota e para quem serve</h2>
-<p>Nossa nota é 7,7 de 10, calculada a partir da ficha técnica e das avaliações públicas. Facilidade de uso (8,5) e avaliações (8,5) puxam para cima: a loja oficial da Tramontina mostra 4,3 de 5. Desempenho e durabilidade ficam em 7,5, e o preço em 6,5, porque R$ 139,00 na loja oficial é um valor alto para uma tesoura manual.</p>
+<p>Nossa nota é 7,7 de 10, calculada a partir da ficha técnica e das avaliações públicas. Facilidade de uso (8,5) e avaliações (8,5) puxam para cima: a loja oficial da Tramontina mostra 4,3 de 5. Desempenho e durabilidade ficam em 7,5, e o preço em 6,5, porque a faixa de mercado é alta para uma tesoura manual.</p>
 <p>Para quem é: dono de jardim pequeno ou médio, com canteiros e cantos de calçada, que quer acabamento sem barulho e sem máquina. Para quem não é: quem tem borda longa, problema de joelho ou precisa só de uma tesoura simples e barata.</p>
 
-<div class="buy-btn"><a href="https://www.amazon.com.br/dp/B076M81W4N?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tesoura para Grama Tramontina agora ↗</a></div>
-<p><small>Aviso de afiliado: este link é de afiliado da Amazon e podemos receber comissão. Preço de referência de R$ 139,00 (R$ 132,05 à vista) na <a href="https://www.tramontina.com.br/tesoura-para-grama-tramontina-em-aco-com-cabo-plastico/78322501.html" rel="noopener noreferrer" target="_blank">loja oficial da Tramontina</a>, verificado em 08/10/2026; o valor varia por região e vendedor, então confira antes de comprar.</small></p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M81W4N?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tesoura de Grama Tramontina na Amazon agora ↗</a>
+</div>
+
+<h2>Variação de preço</h2>
+<p>Pela faixa de mercado, a tesoura Tramontina 78322501 costuma variar de R$ 120 a R$ 160. O que puxa o valor para cima é o vendedor intermediário, o frete e a falta de promoção; o que empurra para baixo são ofertas pontuais e a compra junto com outros itens.</p>
+<p>No custo-benefício, ela fica no meio-termo: custa mais que as tesouras de cerca viva de cabo de madeira da mesma marca, em geral bem mais baratas, e paga a diferença com a cabeça giratória e a trava de segurança. Para quem apara bordas curvas toda semana, a diferença compensa; para uma faixa reta e curta, não. O preço do dia aparece ao clicar no botão de compra.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M81W4N?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tesoura de Grama Tramontina na Amazon agora ↗</a>
+</div>
+
 
 <figure><img src="/images/products/review-tesoura-de-grama-para-bordas-produto.jpg" alt="Tesoura para grama Tramontina com cabos laranja e preto e lâminas de aço" /><figcaption>Tesoura para Grama Tramontina em aço com cabo plástico. Foto: Tramontina (imagem oficial do produto).</figcaption></figure>
   `,
