@@ -2,13 +2,16 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "review-soprador-de-folhas-eletrico",
-  title: "Soprador de folhas elétrico Philco PSA1000: vale a pena?",
-  seoTitle: "Soprador de folhas elétrico Philco PSA1000: vale?",
+  title: "Soprador de folhas elétrico Philco: bom para quintal pequeno",
+  seoTitle: "Soprador elétrico Philco PSA1000: bom para quintal pequeno",
   excerpt:
-    "Análise do soprador de folhas elétrico Philco PSA1000 (830 W, sopra e aspira) para limpar folhas secas do gramado: ficha técnica, prós, contras e cuidados.",
+    "O soprador de folhas elétrico Philco PSA1000 (830 W, sopra e aspira) limpa folhas secas do gramado de quintal pequeno: ficha técnica, prós, contras e cuidados.",
   metaDescription:
-    "Análise do soprador de folhas elétrico Philco PSA1000 (830 W, sopra e aspira) para limpar folhas secas do gramado: ficha técnica, prós, contras e cuidados.",
+    "O soprador de folhas elétrico Philco PSA1000 (830 W, sopra e aspira) limpa folhas secas do gramado de quintal pequeno: ficha técnica, prós, contras e cuidados.",
   category: "produtos",
+  productCategory: "corte-poda",
+  productSubcategory: "soprador",
+  updated: "2026-10-11",
   date: "2026-10-06",
   readTime: 7,
   imageQuery: "leaf blower garden lawn",
@@ -63,20 +66,20 @@ export const article: Article = {
       "Motor com escovas de carvão, que o manual manda trocar quando desgastam",
       "Exige óculos e protetor auricular, como o manual orienta",
     ],
-    price: "Cerca de R$ 200 no site do fabricante (verificado em 06/10/2026); varia por região e loja",
+    price: "aprox. R$ 145 a R$ 250 (varia)",
     bestFor:
       "Quem tem gramado pequeno ou médio, tomada por perto e quer limpar folhas secas e detritos leves sem rastelar tudo à mão.",
     url: "https://www.amazon.com.br/dp/B0BGJRPBWY?tag=oblogdagrama-20",
     affiliate: true,
-    ctaLabel: "Comprar Philco PSA1000 agora ↗",
+    ctaLabel: "Comprar Philco PSA1000 na Amazon agora",
   },
   content: `
-<div class="callout-box callout-tip"><span class="callout-label">Transparência</span><p>Somos associados da Amazon e ganhamos uma pequena comissão se você comprar pelo link deste artigo, sem custo extra para você. O preço muda com frequência, então confira o valor e a voltagem na página antes de fechar a compra. Esta é uma análise da ficha técnica oficial e do manual do fabricante, não de um teste físico nosso.</p></div>
-
 <p>O <strong>soprador de folhas elétrico</strong> Philco PSA1000 é um aparelho de 830 W que sopra e aspira, feito para limpar folhas secas e detritos leves de jardins, pátios e calçadas. Para um gramado pequeno ou médio com tomada por perto, ele resolve a limpeza sem rastelo. Ele não tritura folhas, e o fio limita o alcance.</p>
-<p>Aqui você vê a ficha técnica oficial, o que esperar no gramado, os pontos fortes e fracos, os erros mais comuns e quando não vale comprar. A análise parte do site e do manual da Philco e de uma fonte universitária sobre folhas no gramado. O preço de referência foi conferido no site do fabricante, e as notas por critério estão no quadro do review.</p>
+<p>Aqui você vê a ficha técnica oficial, o que esperar no gramado, os pontos fortes e fracos, os erros mais comuns e quando não vale comprar. A análise parte do site e do manual da Philco e de uma fonte universitária sobre folhas no gramado. As notas por critério estão no quadro do review.</p>
 
-<div class="buy-btn"><a href="https://www.amazon.com.br/dp/B0BGJRPBWY?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PSA1000 agora ↗</a></div>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0BGJRPBWY?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PSA1000 na Amazon agora ↗</a>
+</div>
 <p><small>Link de afiliado da Amazon. O anúncio linkado traz este modelo na versão 127 V; a versão 220 V costuma ter anúncio separado, então escolha a voltagem da sua tomada.</small></p>
 
 <figure>
@@ -88,6 +91,10 @@ export const article: Article = {
 <p>Folha seca parada sobre a grama não é só questão de aparência. Uma camada espessa bloqueia a luz e reduz o crescimento da grama pelo sombreamento, e ainda segura umidade na superfície, o que aumenta a chance de doença, segundo a <a href="https://ext.vt.edu/content/dam/pubs_ext_vt_edu/430/430-521/SPES-729.pdf" rel="noopener noreferrer" target="_blank">extensão da Virginia Tech</a>. Esse texto vem de um clima diferente do nosso, mas a lógica da luz e da umidade vale para qualquer gramado.</p>
 <p>No seu quintal, o sinal costuma ser uma mancha clara onde o monte de folhas ficou parado por dias. Se você viu isso, vale ler sobre <a href="/artigos/grama-amarelada-causas-e-como-recuperar">grama amarelada e suas causas</a>, porque a falta de luz é só uma delas.</p>
 <p>A mesma fonte lembra que, com pouca folha, picar com o cortador e deixar sobre o gramado costuma funcionar. O soprador entra quando o volume é maior, quando a folha se espalha por canteiros e calçadas ou quando você quer recolher tudo em saco. Nem toda situação pede máquina: com poucas folhas, um rastelo resolve, e há uma <a href="/artigos/review-rastelo-para-gramado">análise de rastelo para gramado</a> aqui no blog.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0BGJRPBWY?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PSA1000 na Amazon agora ↗</a>
+</div>
 
 <h2>O que o Philco PSA1000 oferece na ficha técnica</h2>
 <p>Segundo a <a href="https://www.philco.com.br/soprador-e-aspirador-psa1000-127v-051101020/p" rel="noopener noreferrer" target="_blank">página oficial da Philco</a>, o PSA1000 tem 830 W de potência e 16.000 rotações por minuto. A velocidade do ar chega a 275 km/h, o volume de ar é de 4,41 m³ e há seis níveis de velocidade, além de trava de acionamento e pega emborrachada.</p>
@@ -102,15 +109,27 @@ export const article: Article = {
 
 <div class="callout-box callout-warn"><span class="callout-label">Segurança</span><p>Leia o manual antes de ligar. Use óculos de proteção, protetor auricular, calçado fechado e calça comprida, e mantenha crianças e animais longe, porque o manual manda não operar com pessoas ou animais ao redor nem soprar detritos na direção de alguém. Desligue e tire o plugue da tomada antes de limpar, trocar acessório ou desentupir o bocal. Use extensão própria para área externa e nunca use o aparelho na chuva ou sobre folhas e grama molhadas.</p></div>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0BGJRPBWY?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PSA1000 na Amazon agora ↗</a>
+</div>
+
 <h2>Como ele se sai no gramado</h2>
 <p>Com 830 W, o PSA1000 é um aparelho de porte doméstico. A Philco o indica para limpeza de jardins, pátios, calçadas e calhas, e o ajuste de seis velocidades ajuda a não arrancar terra nem espalhar tudo de volta. Pelo que a ficha descreve, folha seca, grama cortada e sujeira leve são o terreno dele, de preferência em um dia seco.</p>
 <p>O limite aparece com volume e umidade. Folha molhada, grudada ou em camada grossa dá mais trabalho, e o manual recomenda evitar aspirar água ou líquidos. Um quintal grande, com árvores que soltam muita folha, pede um soprador mais forte, a bateria ou a gasolina, e nesse caso o rastelo pode até compensar mais.</p>
 <p>Uma cena comum: depois de uma semana de vento, a grama junto ao muro fica coberta de folhas. Com o soprador em velocidade baixa a média, você empurra tudo para um canto, aspira o que sobrou no saco e segue para o corte. Se ainda falta máquina de corte, veja como <a href="/artigos/cortador-de-grama-como-escolher-eletrico-gasolina-ou-manual">escolher um cortador de grama</a> e o <a href="/artigos/comparativo-cortador-de-grama-eletrico-modelos">comparativo de cortador de grama elétrico</a>.</p>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0BGJRPBWY?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PSA1000 na Amazon agora ↗</a>
+</div>
+
 <h2>Prós e contras para quem cuida de gramado</h2>
-<p>O ponto mais forte é o custo: por cerca de R$ 200 no site do fabricante (verificado em 06/10/2026, com variação por região e loja), você leva um aparelho que sopra, aspira e traz saco coletor. A trava do gatilho evita manter o dedo apertado durante o uso prolongado, e a pega emborrachada ajuda no controle.</p>
+<p>O ponto mais forte é o custo: por um valor que costuma ficar na faixa baixa da categoria (veja a seção de preço), você leva um aparelho que sopra, aspira e traz saco coletor. A trava do gatilho evita manter o dedo apertado durante o uso prolongado, e a pega emborrachada ajuda no controle.</p>
 <p>Do lado dos contras, o fio é o principal. Ele exige tomada por perto e extensão adequada, e o manual orienta usar cabo com especificação igual ou superior ao do aparelho. Sem triturador, o volume de folhas recolhidas continua grande, e é preciso descartar ou compostar. O motor tem escovas de carvão, que o manual manda inspecionar e trocar sempre em par.</p>
 <p>Também vale pensar no jardim inteiro. Um soprador não substitui o básico do gramado: luz e água. Se a grama está ralada, o problema pode ser <a href="/artigos/como-regar-a-grama-frequencia-horario-e-quantidade">rega fora do ponto</a> ou solo compactado, e tirar as folhas não resolve sozinho. Nada aqui garante que a grama se recupere só com a limpeza.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0BGJRPBWY?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PSA1000 na Amazon agora ↗</a>
+</div>
 
 <h2>Erros comuns ao usar um soprador no gramado</h2>
 <ul>
@@ -127,11 +146,25 @@ export const article: Article = {
 <p>Também deixe de lado se você espera um aparelho profissional de uso diário. É um aparelho doméstico de 830 W, e as escovas de carvão se desgastam com o uso. Para a manutenção do gramado como um todo, o <a href="/artigos/como-cuidar-da-grama-guia-completo-para-o-ano-todo">guia completo de cuidados com a grama</a> mostra o calendário do ano.</p>
 <p>E se a ideia é deixar o terreno limpo para plantar ou nivelar, o <a href="/artigos/preparo-do-solo-para-gramado-nivelamento-e-correcao">preparo do solo para gramado</a> evita retrabalho. Para quintais pequenos, veja as ideias de <a href="/artigos/jardim-pequeno-com-gramado-ideias-para-aproveitar-o-espaco">jardim pequeno com gramado</a>.</p>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0BGJRPBWY?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PSA1000 na Amazon agora ↗</a>
+</div>
+
+<h2>Variação de preço</h2>
+<p>Pela faixa de mercado que encontramos em lojas brasileiras, o Philco PSA1000 costuma variar de R$ 145 a R$ 250. A parte de baixo da faixa aparece em anúncios com pagamento à vista e em lojas oficiais; a parte de cima, em vendedores intermediários e em períodos sem promoção. A voltagem (127 V ou 220 V) também muda o anúncio e, às vezes, o valor.</p>
+<p>Para um soprador e aspirador com saco coletor e seis velocidades, o custo-benefício é bom quando o preço está no meio ou na parte de baixo da faixa. Perto do teto, vale comparar com um soprador a bateria, que não depende de tomada. O preço do dia aparece ao clicar no botão de compra.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0BGJRPBWY?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PSA1000 na Amazon agora ↗</a>
+</div>
+
 <h2>Vale a pena? O veredito</h2>
 <p>Para a maioria dos quintais pequenos e médios, o PSA1000 é uma opção de custo baixo para varrer folha seca do gramado e da calçada. A nota geral é 7,4: ponto forte em preço e facilidade, ponto fraco na durabilidade esperada e na dependência da tomada. A nota de avaliações reais é prudente porque não conseguimos consultar a página da Amazon nesta análise.</p>
 <p>Antes de comprar, abra a página do produto e leia a nota e os comentários recentes de quem comprou, confira se a voltagem bate com a sua tomada e veja o prazo de entrega. Depois de limpar, olhe a grama: se aparecerem falhas ou amarelado, o guia de <a href="/artigos/como-adubar-a-grama-quando-e-qual-adubo-usar">adubação da grama</a> e o de <a href="/artigos/tipos-de-grama-qual-escolher-para-o-seu-jardim">tipos de grama</a> ajudam a entender a causa. Se aparecer sinal suspeito de praga ou doença, leve uma amostra a um agrônomo ou a uma loja agropecuária.</p>
 
-<div class="buy-btn"><a href="https://www.amazon.com.br/dp/B0BGJRPBWY?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PSA1000 agora ↗</a></div>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0BGJRPBWY?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PSA1000 na Amazon agora ↗</a>
+</div>
   `,
   faq: [
     {

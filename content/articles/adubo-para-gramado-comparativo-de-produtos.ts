@@ -39,6 +39,9 @@ export const article: Article = {
   content: `
 <p>O melhor <strong>adubo para gramado</strong> entre os dois que comparamos depende do que você quer: o Forth Jardim é um fertilizante de uso geral, em balde de 400 g, e o Dimy Grass é específico para gramados, com nitrogênio de liberação lenta segundo o fabricante. Os dois têm ficha de garantia do fabricante e anúncio na Amazon Brasil.</p>
 <p>A diferença aparece na fórmula, no formato e no jeito de usar, e não no preço do pacote. Aqui você vê o NPK declarado de cada um, uma tabela lado a lado e os cuidados antes de abrir a embalagem. Para entender a base do assunto, vale ler antes o guia de <a href="/artigos/como-adubar-a-grama-quando-e-qual-adubo-usar">como adubar a grama</a>.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B09SBP3MSW?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Dimy Grass 1 kg na Amazon agora ↗</a>
+</div>
 
 <div class="callout-box"><span class="callout-label">Transparência Amazon</span><p>O Blog da Grama é Associado da Amazon e pode ganhar uma comissão se você comprar pelos botões desta página, sem custo extra para você. O preço do dia aparece ao clicar no botão de compra. A análise parte da ficha técnica oficial e das avaliações de compradores, sem teste físico nosso.</p></div>
 
@@ -91,6 +94,9 @@ export const article: Article = {
 <p>O Dimy Grass é descrito pelo fabricante como um fertilizante da família dos NPKs de liberação lenta, com 25% de nitrogênio, 5% de fósforo e 15% de potássio, mais micronutrientes. A Dimy informa liberação lenta do nitrogênio por até 6 meses e indica o produto para manutenção de gramados já formados, em cobertura e não antes do plantio. As embalagens são caixa de 1 kg e sacos de 5 kg e 25 kg.</p>
 <p>A ideia de liberação lenta tem base técnica. Segundo a <a href="https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1056527/1/CNPASA2016doc28.pdf" target="_blank" rel="noopener noreferrer">Embrapa</a>, os fertilizantes de liberação lenta ou controlada são aqueles em que o nutriente sai mais devagar que nas fontes comuns, e a eficiência dos adubos nitrogenados fica em torno de 50% por causa de perdas como lixiviação e volatilização. A mesma publicação ressalta que os benefícios relatados nem sempre aparecem no campo e variam com solo, clima e manejo. Ou seja: é uma vantagem possível, não garantida.</p>
 <p>No outro lado da balança, o nitrogênio alto pede cuidado com a escolha da dose, que só o rótulo e o agrônomo definem. O anúncio da Amazon para a caixa de 1 kg costuma oscilar entre disponível e indisponível, então confira o estoque antes de se planejar.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B09SBP3MSW?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Dimy Grass 1 kg na Amazon agora ↗</a>
+</div>
 <h2>Como ler o NPK da embalagem sem cair em armadilha</h2>
 <p>Os três números do NPK são as garantias de nitrogênio (N), fósforo (P2O5) e potássio (K2O), em porcentagem do produto. Número maior de um nutriente não significa adubo melhor: significa que ele é mais concentrado naquele nutriente. O que importa é o que o seu solo precisa.</p>
 <p>Por isso a análise de solo vem antes da compra. O <a href="https://www.iac.sp.gov.br/publicacoes/boletim100.php" target="_blank" rel="noopener noreferrer">Boletim 100 do IAC</a>, com recomendações de adubação e calagem para o Estado de São Paulo, inclui um capítulo de gramados e valores de referência para os teores de nutrientes no solo. Com o laudo na mão, um engenheiro agrônomo cruza o resultado com a espécie de grama e diz qual fórmula faz sentido. Sem laudo, a escolha vira palpite.</p>

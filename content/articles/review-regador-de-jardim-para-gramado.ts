@@ -87,6 +87,10 @@ export const article: Article = {
 <p>Para um gramado já formado, a história muda. A recomendação para gramados é irrigar de forma funda e espaçada, e a Universidade da Flórida (UF/IFAS) cita de 0,5 a 0,75 polegada por vez (cerca de 13 a 19 mm) em solo arenoso sem limite para as raízes, segundo a <a href="https://ask.ifas.ufl.edu/publication/AE436" rel="noopener noreferrer" target="_blank">publicação AE436</a>. Fazer isso com regador, em área grande, vira um dia de trabalho.</p>
 <p>O regador entra, então, como complemento do que já está no quintal. Se você ainda não definiu a rega principal, o guia de <a href="/artigos/como-regar-a-grama-frequencia-horario-e-quantidade">como regar a grama</a> mostra frequência, horário e quantidade.</p>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M6GT5C?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Regador Tramontina 7 L na Amazon agora ↗</a>
+</div>
+
 <h2>O que diz a ficha técnica do Tramontina de 7 L</h2>
 <p>Segundo a página oficial (referência 78600072), o regador é fabricado em plástico, com aditivo de proteção anti-UV que, de acordo com a marca, garante alta durabilidade e proteção da cor. A capacidade é de 7 L. A foto mostra alça grande e fechada no alto do corpo e um bico longo com chuveiro amarelo na ponta.</p>
 <p>As medidas sem embalagem são 33,4 cm de altura, 12,8 cm de largura e 57,6 cm de comprimento, com 530 g. Com embalagem, o fabricante informa 540 g. A garantia indicada é a legal, de 90 dias contra vícios ou defeitos de fabricação, e a loja oficial mostra nota 3,5 de 5 entre compradores.</p>

@@ -47,12 +47,24 @@ export const article: Article = {
 
 <div class="callout-box"><span class="callout-label">Transparência Amazon</span><p>Como Associado da Amazon, o Blog da Grama pode ganhar comissão se você comprar pelos botões deste artigo, sem custo extra para você. O preço do dia aparece ao clicar no botão de compra, e vale conferir o conteúdo da caixa e o prazo antes de fechar.</p></div>
 
-<div class="callout-box callout-warn"><span class="callout-label">Segurança</span><p>Leia o manual antes do primeiro uso e use óculos de proteção e calçado fechado. Mantenha crianças e animais longe da área de corte. Retire a bateria antes de limpar, desentupir, esvaziar o coletor ou regular a altura. Não corte grama molhada e carregue as baterias somente com o carregador original, longe de umidade.</p></div>
+<div class="callout-box callout-warn"><span class="callout-label">Segurança</span><div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B07NDZMRQ1?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Worx WG779E.2 na Amazon agora ↗</a>
+</div>
+
+<p>Leia o manual antes do primeiro uso e use óculos de proteção e calçado fechado. Mantenha crianças e animais longe da área de corte. Retire a bateria antes de limpar, desentupir, esvaziar o coletor ou regular a altura. Não corte grama molhada e carregue as baterias somente com o carregador original, longe de umidade.</p></div>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0CW1MFLLQ?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Bosch GRA 18V2-46 Solo na Amazon agora ↗</a>
+</div>
 
 <h2>Cortador de grama a bateria vale a pena para o seu quintal?</h2>
 <p>O modelo sem fio resolve o maior incômodo do elétrico comum: o cabo. Você não precisa de tomada perto, não corre o risco de passar a lâmina por cima da extensão e consegue contornar canteiros e árvores sem se enroscar. Em compensação, a autonomia depende das baterias, e o preço do conjunto costuma pesar mais.</p>
 <p>Antes de comparar modelos, meça o gramado em m² e veja se há subidas ou muitos cantos. Para jardins pequenos, uma máquina de 34 cm manobra bem em portões estreitos, como mostram as ideias de <a href="/artigos/jardim-pequeno-com-gramado-ideias-para-aproveitar-o-espaco">jardim pequeno com gramado</a>. Para áreas maiores, um corte de 46 cm reduz o número de passadas.</p>
 <p>Outro ponto é o tipo de grama. Cada espécie tem uma altura ideal, e jardim com sombra pede corte mais alto, então vale conhecer o perfil da sua em <a href="/artigos/tipos-de-grama-qual-escolher-para-o-seu-jardim">tipos de grama: qual escolher para o seu jardim</a>. Se a sua tomada fica longe do gramado e a área é pequena, o <a href="/artigos/comparativo-cortador-de-grama-eletrico-modelos">comparativo de cortadores de grama elétricos</a> mostra a opção com fio, que costuma custar menos.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B07NDZMRQ1?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Worx WG779E.2 na Amazon agora ↗</a>
+</div>
 
 <h2>Worx WG779E.2: o que dizem as fichas técnicas</h2>
 <p>A Worx descreve a linha WG779E como um cortador sem fio de 40 V Max, alimentado por duas baterias PowerShare de 20 V. A ficha oficial da versão europeia informa corte de 34 cm, seis alturas de 20 a 70 mm, coletor de 30 litros, motor escovado, peso de 11,1 kg com bateria e área recomendada de 250 a 400 m². A Worx não publica uma autonomia em minutos nessa página, apenas indica o uso como prolongado.</p>
@@ -101,6 +113,10 @@ export const article: Article = {
 <p>Em cortador sem fio, a máquina é só parte do preço. Cada bateria, cada carregador e a capacidade em Ah definem quanto tempo você corta sem parar e quanto vai gastar no total. Uma máquina barata sem bateria pode sair mais cara que um kit completo.</p>
 <p>O Worx vem como conjunto no anúncio, o que facilita a decisão de quem não tem nenhuma ferramenta sem fio. O Bosch pede que você some duas baterias de 18 V e um carregador. Se você já tem ferramentas do sistema Bosch 18V ou de uma marca do padrão AMPShare, esse custo cai bastante.</p>
 <p>Duas regras valem para qualquer modelo. Use apenas o carregador original ou o indicado no manual, nunca um genérico, e guarde as baterias em local seco, longe de sol forte. Fabricantes só garantem autonomia para as baterias e para o gramado que descrevem: grama alta, densa ou úmida gasta a carga bem mais rápido, e isso as fichas não medem.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0CW1MFLLQ?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Bosch GRA 18V2-46 Solo na Amazon agora ↗</a>
+</div>
 
 <h2>Variação de preço</h2>
 <p>Não encontramos uma faixa de mercado confiável para nenhum dos dois modelos no Brasil, então não vamos chutar números. O preço varia bastante entre vendedores e épocas, e depende de um detalhe que muda a conta: o Worx vem como kit com duas baterias e carregador, e o Bosch GRA 18V2-46 é anunciado como Solo.</p>

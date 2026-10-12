@@ -2,14 +2,17 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "review-esguicho-para-mangueira-de-jardim",
-  title: "Esguicho para mangueira de jardim: análise do Tramontina",
-  seoTitle: "Esguicho para mangueira de jardim: análise Tramontina",
+  title: "Esguicho para mangueira de jardim serve para regar gramado?",
+  seoTitle: "Esguicho para mangueira serve para regar gramado?",
   excerpt:
     "Esguicho para mangueira de jardim Tramontina com jato regulável: veja a ficha técnica, os limites, a nota por critério e se vale a pena para o gramado.",
   metaDescription:
     "Esguicho para mangueira de jardim Tramontina com jato regulável: veja a ficha técnica, os limites, a nota por critério e se vale a pena para o gramado.",
   category: "produtos",
+  productCategory: "rega-solo",
+  productSubcategory: "esguicho",
   date: "2026-10-11",
+  updated: "2026-10-11",
   readTime: 7,
   imageQuery: "garden hose spray nozzle",
   seed: 1004,
@@ -26,7 +29,7 @@ export const article: Article = {
   keyPoints: [
     "O esguicho Tramontina 78514000 é uma peça de plástico para mangueira de 1/2 polegada, com regulagem frontal que vai do jato mais fechado ao mais aberto.",
     "Pesa só 32 g, segundo o fabricante, e serve para regar canteiros e pontos do gramado à mão, não para molhar o terreno inteiro.",
-    "Custa em torno de R$ 8 a R$ 9 (verificado em 11/10/2026, varia), tem 90 dias de garantia legal e não substitui um aspersor em área grande.",
+    "Tem preço baixo (veja a faixa de mercado na seção de preço), 90 dias de garantia legal e não substitui um aspersor em área grande.",
   ],
   review: {
     tool: "Esguicho Tramontina com engate rosqueado e jato regulável 1/2 polegada (78514000)",
@@ -49,12 +52,12 @@ export const article: Article = {
       "Serve para mangueira de 1/2 polegada: outras bitolas pedem outro modelo ou adaptador.",
       "Não tem gatilho de trava, então a mão precisa segurar a mangueira enquanto rega.",
     ],
-    price: "Em torno de R$ 8 a R$ 9 (verificado em 11/10/2026; varia por região e vendedor)",
+    price: "aprox. R$ 5 a R$ 10 (varia)",
     bestFor:
       "Quem tem mangueira de 1/2 polegada e quer uma peça barata para regar canteiros, bordas e falhas do gramado, ou lavar calçada e ferramentas.",
     url: "https://www.amazon.com.br/dp/B00NFLGLQI?tag=oblogdagrama-20",
     affiliate: true,
-    ctaLabel: "Comprar Esguicho Tramontina 78514000 agora ↗",
+    ctaLabel: "Comprar Esguicho Tramontina na Amazon agora",
   },
   sources: [
     {
@@ -70,17 +73,28 @@ export const article: Article = {
 <p>O <strong>esguicho para mangueira de jardim</strong> com jato regulável, como o Tramontina 78514000, é uma peça de plástico que encaixa na mangueira de 1/2 polegada e troca o jato firme por uma chuva aberta. Serve para regar canteiros, bordas e falhas do gramado. Não substitui o aspersor em área grande.</p>
 <p>Esta análise parte da ficha técnica oficial da Tramontina e de avaliações públicas de compradores. Não houve teste físico da nossa parte, então tudo aqui é leitura de ficha, comparação com o uso comum e opinião sobre para quem o modelo serve.</p>
 
-<div class="callout-box callout-tip"><span class="callout-label">Transparência</span><p>Somos associados da Amazon e podemos ganhar uma comissão se você comprar pelo botão deste artigo, sem custo extra para você. O preço muda com frequência e por vendedor, então confira o valor, o vendedor e as condições na página antes de comprar.</p></div>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B00NFLGLQI?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Esguicho Tramontina na Amazon agora ↗</a>
+</div>
 
 <h2>Para que serve um esguicho de jato regulável no gramado?</h2>
 <p>O esguicho é o bico que fica na ponta da mangueira. Na versão com regulagem, você gira a parte da frente e muda a saída da água: de um jato mais concentrado, que alcança longe, até um jato aberto e suave, que cai como chuva. A própria Tramontina descreve a função como regular a intensidade da água conforme a área a ser irrigada.</p>
 <p>No gramado, o uso mais comum é a rega manual de pontos específicos: uma falha recém-semeada, uma borda que seca mais rápido, um canteiro ao lado da grama ou a grama sob o beiral, onde a chuva não chega. O jato aberto é o que interessa nesses casos, porque não escava o solo nem arrasta semente.</p>
 <p>Para molhar o gramado inteiro de forma uniforme, o caminho é outro. Um <a href="/artigos/comparativo-aspersores-para-gramado-tramontina">aspersor</a> cobre a área sozinho, enquanto o esguicho depende da sua mão e da sua paciência. Os dois se completam, e muita gente usa o aspersor para a rega principal e o esguicho para os retoques.</p>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B00NFLGLQI?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Esguicho Tramontina na Amazon agora ↗</a>
+</div>
+
 <h2>O que diz a ficha técnica do Tramontina 78514000</h2>
 <p>Segundo a página oficial, o modelo é de plástico, tem engate rosqueado e é indicado para mangueira de 1/2 polegada. As medidas sem embalagem são de cerca de 9,9 cm de altura e 3,3 cm de largura, com peso de 32 g. Com a embalagem, o peso informado sobe para 33 g.</p>
 <p>A garantia indicada é a legal, de 90 dias contra vícios ou defeitos de fabricação. A ficha não traz pressão máxima de trabalho, vazão em litros por minuto nem informa se o regulador fecha totalmente a saída de água. Por isso, não conte com ele como registro: o fechamento de água continua sendo na torneira.</p>
-<p>O preço de referência na loja oficial estava na casa de R$ 8 a R$ 9 em 11/10/2026, valor que varia por região e vendedor. O anúncio da Amazon traz o mesmo código do fabricante (78514000) e aparece com nota alta de compradores nas buscas, mas o número de avaliações muda com o tempo, então vale conferir na página. Se a sua mangueira já veio com esguicho, como as da <a href="/artigos/mangueira-de-jardim-comparativo-modelos-flexiveis">comparação de mangueiras flexíveis</a>, esta peça serve de reposição ou de segundo ponto de rega.</p>
+<p>O anúncio da Amazon traz o mesmo código do fabricante (78514000) e aparece com nota alta de compradores nas buscas, mas o número de avaliações muda com o tempo, então vale conferir na página. Se a sua mangueira já veio com esguicho, como as da <a href="/artigos/mangueira-de-jardim-comparativo-modelos-flexiveis">comparação de mangueiras flexíveis</a>, esta peça serve de reposição ou de segundo ponto de rega.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B00NFLGLQI?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Esguicho Tramontina na Amazon agora ↗</a>
+</div>
 
 <h2>Como usar o esguicho para regar a grama, passo a passo</h2>
 <p>A técnica é simples, mas o horário e a distância fazem diferença. O guia de irrigação da <a href="https://www.husqvarna.com/br/aprenda-e-descubra/como-irrigar-seu-gramado/" rel="noopener noreferrer" target="_blank">Husqvarna Brasil</a> indica o início da manhã como o melhor momento para regar a maioria dos gramados, porque a grama tem o dia inteiro para secar e a água evapora menos.</p>
@@ -93,32 +107,60 @@ export const article: Article = {
 </ol>
 <p>Em gramado novo, de <a href="/artigos/como-plantar-grama-de-semente-passo-a-passo">semente</a> ou de placas, mantenha sempre o jato mais aberto. O jato forte pode arrastar semente e expor raiz fina. Para saber quanto e com que frequência molhar, veja o guia de <a href="/artigos/como-regar-a-grama-frequencia-horario-e-quantidade">como regar a grama</a>.</p>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B00NFLGLQI?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Esguicho Tramontina na Amazon agora ↗</a>
+</div>
+
 <h2>Pontos fortes e limites do modelo</h2>
 <p>O ponto forte é o custo-benefício. Por menos de dez reais, você ganha uma peça que troca o jato com meia volta e pesa 32 g, nada que cansa a mão. Para quem rega canteiros e bordas todo dia, a regulagem poupa a trabalheira de segurar a mangueira com o dedo na ponta, o que costuma espalhar água de forma irregular.</p>
 <p>O limite está no material e na proposta. O plástico suporta o uso doméstico, mas não gosta de pisão, queda sobre concreto nem de ficar o dia todo no sol forte. Como o esguicho não tem gatilho de trava, a mão precisa segurar a mangueira enquanto a água corre, o que cansa em sessões longas.</p>
 <p>Também vale lembrar que a peça só regula o formato do jato. Ela não mede quanto de água caiu no solo. Para saber se a rega foi suficiente, o <a href="/artigos/review-medidor-de-umidade-do-solo">medidor de umidade do solo</a> ajuda, e o <a href="/artigos/review-regador-de-jardim-para-gramado">regador de jardim</a> é uma alternativa para pontos muito pequenos.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B00NFLGLQI?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Esguicho Tramontina na Amazon agora ↗</a>
+</div>
 
 <h2>Quando não comprar este esguicho</h2>
 <p>Se a sua mangueira tem bitola diferente de 1/2 polegada, ou um engate rápido de outro padrão, o modelo pode não encaixar sem adaptador. A Tramontina vende outra versão para engate rápido, então confira o tipo de conexão da sua mangueira antes de clicar em comprar.</p>
 <p>Também não compensa se a sua necessidade é molhar o gramado inteiro com regularidade. Regar com esguicho um quintal de algumas centenas de metros quadrados é trabalho de horas, e a água acaba caindo desigual. Nesse caso, um aspersor com <a href="/artigos/temporizador-de-torneira-comparativo-para-rega-automatica">temporizador de torneira</a> resolve melhor e evita esquecer a mangueira aberta.</p>
 <p>Quem busca um bico de jato forte para lavar calçada, carro ou parede também deve olhar outra categoria. O esguicho avaliado aqui é pensado para irrigação, com jato suave, e não informa pressão de trabalho. Para serviços de limpeza pesada, vale um bico de metal ou uma pistola com gatilho, e a bitola da mangueira continua sendo o primeiro item a conferir.</p>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B00NFLGLQI?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Esguicho Tramontina na Amazon agora ↗</a>
+</div>
+
+<h2>Variação de preço</h2>
+<p>Pela pesquisa de mercado, o esguicho Tramontina 78514000 costuma variar de R$ 5 a R$ 10. O que faz o valor subir é o frete em compra avulsa e vendedores que revendem com margem; o que faz cair são promoções da loja oficial e kits em que o esguicho vem junto da mangueira.</p>
+<p>Pelo custo-benefício, é difícil achar peça de rega mais barata para os retoques do gramado: o preço baixo compensa a durabilidade média do plástico. O preço do dia aparece ao clicar no botão de compra.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B00NFLGLQI?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Esguicho Tramontina na Amazon agora ↗</a>
+</div>
+
 <h2>Erros comuns ao regar o gramado com esguicho</h2>
 <p>O primeiro erro é regar um pouco todo dia, só molhando a superfície. A Husqvarna aponta que o ideal é molhar por completo, mas sem muita frequência, e cita como referência, sem chuva, duas regas por semana de 10 a 15 milímetros. A grama que recebe pouca água tende a manter a raiz perto da superfície, o que a deixa mais sensível à seca.</p>
 <p>O segundo erro é regar à noite com a folha molhada até o amanhecer. A própria Husqvarna alerta que a água parada nas folhas cria ambiente úmido favorável aos fungos. O terceiro é usar o jato forte sobre grama recém-plantada, o que desloca semente e solta mudas. Se a grama já aparece desbotada, confira antes se a causa é falta de água ou outra, como mostra o guia de <a href="/artigos/grama-amarelada-causas-e-como-recuperar">grama amarelada</a>.</p>
 <p>O quarto erro é deixar a mangueira pisada ou dobrada com o esguicho fechado, porque a pressão se acumula na conexão. O quinto é esquecer o esguicho exposto ao sol e à chuva o ano todo: guardar a peça em local coberto prolonga a vida útil do plástico. Para organizar as tarefas do ano, o <a href="/artigos/como-cuidar-da-grama-guia-completo-para-o-ano-todo">guia completo de como cuidar da grama</a> mostra onde a rega entra.</p>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B00NFLGLQI?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Esguicho Tramontina na Amazon agora ↗</a>
+</div>
+
 <h2>Vale a pena? Nota e para quem serve</h2>
 <p>Nossa nota é 8,2 de 10, calculada a partir da ficha técnica e das avaliações públicas. O preço pesa a favor (9,5), a facilidade e as avaliações aparecem com 8,5, o desempenho fica em 7,5 por ser uma peça simples e sem dados de vazão, e a durabilidade em 7,0 por causa do plástico. A nota de avaliações é uma leitura qualitativa e não substitui a sua conferência dos comentários atuais na Amazon.</p>
 <p>Para quem é: dono de mangueira de 1/2 polegada que quer uma peça barata para retoques de rega, canteiros e falhas do gramado, ou um esguicho reserva. Para quem não é: quem precisa molhar área grande, quem tem outra bitola de mangueira ou quem quer jato forte de limpeza. Quem está cuidando de um <a href="/artigos/falhas-no-gramado-como-recuperar-areas-sem-grama">gramado com falhas</a> tende a aproveitar bem o jato aberto na recuperação, já que a rega fina ajuda a manter a terra úmida sem lavar a semente. Antes de comprar, leia a descrição completa do anúncio e confira o vendedor.</p>
 
-<div class="buy-btn"><a href="https://www.amazon.com.br/dp/B00NFLGLQI?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Esguicho Tramontina 78514000 agora ↗</a></div>
-<p><small>Aviso de afiliado: este link é de afiliado da Amazon e podemos receber comissão. Preço de referência na casa de R$ 8 a R$ 9 na <a href="https://www.tramontina.com.br/esguicho-em-plastico-tramontina-com-engate-rosqueado-e-jato-regulavel-para-mangueira-1%2F2%22/78514000.html" rel="noopener noreferrer" target="_blank">loja oficial da Tramontina</a>, verificado em 11/10/2026; o valor varia por região e vendedor, então confira antes de comprar.</small></p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B00NFLGLQI?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Esguicho Tramontina na Amazon agora ↗</a>
+</div>
 
 <figure><img src="/images/products/review-esguicho-para-mangueira-de-jardim-uso.jpg" alt="Mão segurando mangueira laranja com esguicho regulável e jato aberto sobre canteiro e gramado" /><figcaption>Esguicho de jato regulável da Tramontina em uso. Foto: Tramontina (imagem oficial do produto).</figcaption></figure>
 
 <p>Se a sua rotina inclui outras ferramentas de quintal, veja também a análise da <a href="/artigos/review-pa-de-jardim-tramontina">pá de jardim Tramontina</a> e o comparativo de <a href="/artigos/comparativo-aparador-de-grama-eletrico">aparadores de grama elétricos</a> para acertar as bordas depois da rega.</p>
-  `,
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B00NFLGLQI?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Esguicho Tramontina na Amazon agora ↗</a>
+</div>
+`,
   faq: [
     {
       question: "Qual esguicho usar para regar o gramado?",

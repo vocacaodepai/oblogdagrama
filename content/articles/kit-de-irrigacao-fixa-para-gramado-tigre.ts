@@ -44,6 +44,10 @@ export const article: Article = {
 
 <div class="callout-box"><span class="callout-label">Transparência Amazon</span><p>Como Associado da Amazon, o Blog da Grama pode ganhar comissão se você comprar pelos botões desta página, sem custo extra para você. Esta é uma análise da ficha técnica oficial da Tigre e das informações dos anúncios, sem teste físico nosso. O preço do dia aparece ao clicar no botão de compra.</p></div>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B09TBG6YNZ?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Aspersor Sempre Verde 180° Tigre na Amazon agora ↗</a>
+</div>
+
 <h2>O que é um kit de irrigação fixa e quando ele vale a pena?</h2>
 <p>É um conjunto de aspersores presos a tubos, cada um num ponto definido do gramado, que você liga numa torneira ou num registro. A <a href="https://www.tigre.com.br/produto/aspersores-fixos-sempre-verde" rel="noopener noreferrer" target="_blank">Tigre</a> indica o Sempre Verde para sistemas fixos em gramados, jardins, viveiros e canteiros, e destaca a chuva uniforme com gotas pequenas. Na ficha, o fabricante diz que ele dispensa sistematização do terreno, ou seja, não exige área perfeitamente plana.</p>
 <p>Vale a pena quando você rega com frequência e cansou de arrastar mangueira, ou quando quer ligar a rega a um <a href="/artigos/temporizador-de-torneira-comparativo-para-rega-automatica">temporizador de torneira</a>. Também ajuda em gramado de formato regular, onde dá para desenhar linhas de aspersores. Para área grande e aberta, o <a href="/artigos/comparativo-aspersores-para-gramado-tramontina">comparativo de aspersores móveis Tramontina</a> mostra outra lógica, com menos obra.</p>
@@ -99,6 +103,10 @@ export const article: Article = {
 <div class="callout-box callout-warn"><span class="callout-label">Atenção na obra</span><p>Antes de abrir vala, descubra por onde passam tubulações de água e fiação elétrica enterradas e, se tiver dúvida, chame um instalador. Use luvas e calçado fechado, e mantenha crianças e animais longe da área aberta. Teste o sistema com a água em baixa pressão primeiro, para não estourar conexão.</p></div>
 <p>Para ligar tudo na torneira, uma mangueira boa ajuda, como as do <a href="/artigos/mangueira-de-jardim-comparativo-modelos-flexiveis">comparativo de mangueiras flexíveis</a>. Se o uso for só manual em um canto específico, o <a href="/artigos/review-esguicho-para-mangueira-de-jardim">esguicho para mangueira</a> resolve sem obra.</p>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B09TBCXGJL?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Aspersor Sempre Verde 360° Tigre na Amazon agora ↗</a>
+</div>
+
 <h2>Variação de preço</h2>
 <p>Não achamos uma faixa de mercado confiável para os pacotes de 5 aspersores 180° e 360°: o preço varia entre vendedores, épocas e a quantidade de unidades do anúncio. Compare sempre o valor por aspersor, não o do pacote.</p>
 <p>Na conta total, o aspersor costuma ser a parte menor do gasto: tubo, conexões, registro e filtro entram por cima. O 180° e o 360° tendem a ficar próximos entre si, e o melhor custo-benefício é combinar os dois, cada um na posição certa. O preço do dia aparece ao clicar no botão de compra.</p>
@@ -110,6 +118,10 @@ export const article: Article = {
 <p>A publicação <a href="https://ask.ifas.ufl.edu/publication/AE436" rel="noopener noreferrer" target="_blank">AE436 da UF/IFAS</a>, da Universidade da Flórida, recomenda regar de forma funda e espaçada: de 0,5 a 0,75 polegada por vez (cerca de 13 a 19 mm) quando a grama mostra sinais de estresse, de manhã cedo, e variar a frequência conforme a estação. Os dados são de um clima diferente do seu, então use como referência, não como regra.</p>
 <p>Falta saber quanto o seu sistema entrega. Espalhe 5 a 8 potes retos pelo gramado, ligue a rega por 30 minutos e meça a altura de água em cada um com uma régua. A média, multiplicada por 2, dá a lâmina por hora, e pote quase vazio aponta falha de cobertura.</p>
 <p>Com a medida em mãos, o tempo sai fácil: se o sistema entrega 15 mm por hora, 15 mm pedem cerca de uma hora. Para entender frequência, horário e solo, leia como <a href="/artigos/como-regar-a-grama-frequencia-horario-e-quantidade">regar a grama</a>. E se o gramado amarelar mesmo regado, a causa nem sempre é falta de água: veja <a href="/artigos/grama-amarelada-causas-e-como-recuperar">grama amarelada</a>.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B09TBG6YNZ?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Aspersor Sempre Verde 180° Tigre na Amazon agora ↗</a>
+</div>
 
 <h2>Erros comuns e quando não comprar</h2>
 <ul>

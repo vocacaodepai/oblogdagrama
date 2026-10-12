@@ -2,14 +2,18 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "oculos-de-protecao-para-rocar-e-cortar-grama-qual-escolher",
-  title: "Óculos de proteção para roçar e cortar grama: 3M ou Kalipso?",
-  seoTitle: "Óculos de proteção para roçar grama: 3M ou Kalipso",
+  title: "Óculos para roçar grama: ampla visão é a escolha mais segura",
+  seoTitle: "Óculos para roçar grama: ampla visão é mais seguro",
   excerpt:
     "Óculos de proteção para roçar e cortar grama: compare o 3M SG 2890 (ampla visão) e o Kalipso Panda (sobrepor) pela ficha técnica e veja qual escolher.",
   metaDescription:
     "Óculos de proteção para roçar e cortar grama: compare o 3M SG 2890 (ampla visão) e o Kalipso Panda (sobrepor) pela ficha técnica e veja qual escolher.",
   category: "produtos",
+  productCategory: "protecao",
+  productSubcategory: "oculos",
+  productScore: 8.4,
   date: "2026-10-08",
+  updated: "2026-10-11",
   readTime: 8,
   imageQuery: "safety glasses lawn mowing",
   seed: 603,
@@ -53,36 +57,58 @@ export const article: Article = {
 <p>Os melhores <strong>óculos de proteção para roçar e cortar grama</strong> são os que fecham bem em volta dos olhos, têm lente de policarbonato resistente a impacto e trazem o CA (Certificado de Aprovação) legível. Comparamos dois modelos vendidos na Amazon Brasil: o 3M SG 2890, de ampla visão, e o Kalipso Panda, de sobrepor.</p>
 <p>A análise parte das fichas técnicas dos fabricantes e do certificado de aprovação, sem teste físico nosso. O motivo é simples: a lâmina do cortador e o fio do aparador podem lançar pedrinhas e fragmentos na direção do rosto, e o olho não se recupera de um acidente desses. Se ainda está montando o kit, veja o <a href="/artigos/comparativo-aparador-de-grama-eletrico">comparativo de aparadores de grama elétricos</a> e o <a href="/artigos/comparativo-cortador-de-grama-eletrico-modelos">comparativo de cortadores elétricos</a>.</p>
 
-<div class="callout-box callout-tip"><span class="callout-label">Transparência</span><p>Somos associados da Amazon e ganhamos uma comissão se você comprar pelos botões abaixo, sem custo extra para você. O preço muda toda hora e varia por oferta e vendedor, então confira o valor, a cor da lente e o número do CA na página da Amazon antes de comprar.</p></div>
+<div class="callout-box"><span class="callout-label">Transparência Amazon</span><p>Como Associado da Amazon, o Blog da Grama pode ganhar comissão se você comprar pelos botões abaixo, sem custo extra para você. O preço do dia aparece ao clicar no botão de compra; confira também a cor da lente e o número do CA no anúncio.</p></div>
 
-<div class="callout-box callout-warn"><span class="callout-label">Segurança</span><p>Óculos de proteção são uma parte do conjunto, não o conjunto inteiro. Siga o manual da máquina e use calçado fechado, calça comprida e, quando o fabricante exigir, protetor facial e protetor auricular. Mantenha crianças e animais bem afastados da área de corte e desligue a máquina da tomada, ou retire a bateria, antes de limpar ou regular. O site informa e orienta e não substitui a avaliação de um profissional de segurança do trabalho.</p></div>
+<div class="callout-box callout-warn"><span class="callout-label">Segurança</span><div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B07D5L8DR4?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kalipso Panda incolor na Amazon agora ↗</a>
+</div>
+
+<p>Óculos de proteção são uma parte do conjunto, não o conjunto inteiro. Siga o manual da máquina e use calçado fechado, calça comprida e, quando o fabricante exigir, protetor facial e protetor auricular. Mantenha crianças e animais bem afastados da área de corte e desligue a máquina da tomada, ou retire a bateria, antes de limpar ou regular. O site informa e orienta e não substitui a avaliação de um profissional de segurança do trabalho.</p></div>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0B9HFN5TR?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar 3M SG 2890 na Amazon agora ↗</a>
+</div>
 
 <h2>Por que usar óculos de proteção ao roçar e cortar grama?</h2>
 <p>Quem corta grama já ouviu o estalo de uma pedrinha batendo no protetor da máquina. A lâmina do cortador gira rápido e o fio de nylon do aparador chicoteia perto do chão, onde há pedras, pedaços de galho, tampinhas e terra seca. Tudo isso pode ser projetado para cima e para o lado, na altura do rosto.</p>
 <p>O olho é a parte mais frágil dessa cena. Os dois modelos deste comparativo declaram, nas fichas, proteção contra impactos de partículas volantes e a marcação de alto impacto da norma ANSI/ISEA Z87.1-2015, segundo o <a href="https://www.kalipso.com.br/media/produtos/boletins/boletim-pdf-24092025-101307-995670.pdf" rel="noopener noreferrer" target="_blank">fabricante do Panda</a> e o <a href="https://meuca.com.br/d/43695.pdf" rel="noopener noreferrer" target="_blank">certificado do SG 2890</a>. Isso descreve o que o equipamento foi aprovado para fazer, e não promete que nada vai acontecer.</p>
 <p>Roçadeira, aparador e cortador também jogam capim molhado e poeira, o que irrita o olho mesmo sem acidente. Por isso o hábito vale para a manutenção inteira, do corte de bordas descrito no artigo sobre <a href="/artigos/review-tesoura-de-grama-para-bordas">tesoura de grama para bordas</a> até o corte do gramado todo.</p>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0B9HFN5TR?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar 3M SG 2890 na Amazon agora ↗</a>
+</div>
+
 <h2>Ampla visão ou sobrepor: qual serve para o gramado?</h2>
 <p>O óculos de ampla visão é uma máscara que cobre toda a região em torno dos olhos e se prende na cabeça por um elástico. Ele protege melhor dos lados, de cima e de baixo, e costuma abafar mais o calor. Em dia quente de verão, o risco é a lente embaçar, e por isso ventilação indireta e tratamento antiembaçante pesam na escolha.</p>
 <p>O modelo de sobrepor tem armação de peça única e hastes, como um óculos comum, só que maior. É mais leve e mais fácil de colocar e tirar, e alguns modelos acomodam óculos de grau por baixo. Em troca, deixa mais frestas laterais, e por isso o próprio fabricante do Panda recomenda proteção adicional em risco de alto impacto.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B07D5L8DR4?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kalipso Panda incolor na Amazon agora ↗</a>
+</div>
+
 <p>Quanto à lente, a incolor serve para qualquer horário e para sombra de árvore. A fumê (cinza) ajuda no sol forte, e a ficha do Panda informa que só a lente cinza tem proteção para luz intensa (L3). Quem corta grama à tarde, no sol de verão, pode preferir a cinza, desde que o anúncio indique a cor certa.</p>
 <p>Em qualquer caso, confira o número do CA no anúncio e na embalagem. O CA é o certificado que o Ministério do Trabalho emite para o EPI, e a consulta pública mostra se ele está dentro da validade.</p>
 
 <h2>3M SG 2890: o de ampla visão com elástico</h2>
 <figure><img src="/images/products/oculos-de-protecao-para-rocar-e-cortar-grama-qual-escolher-3m-sg-2890.jpg" alt="Óculos de ampla visão 3M da série 2890 com lente transparente e elástico cinza com logo 3M" width="1090" height="584"><figcaption>3M da série 2890. Imagem oficial do produto, 3M.</figcaption></figure>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0B9HFN5TR?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar 3M SG 2890 na Amazon agora ↗</a>
+</div>
 <p>Segundo o <a href="https://meuca.com.br/d/43695.pdf" rel="noopener noreferrer" target="_blank">certificado de aprovação CA 43.695</a>, o SG 2890 é um óculos de segurança tipo ampla visão, com visor de policarbonato incolor, armação de PVC cinza e tirante elástico de poliéster. Há versão com ventilação indireta, com dezesseis fendas, e versão sem ventilação. O modelo cobre toda a região em torno dos olhos, e o tamanho é único.</p>
 <p>O CA aprova o uso contra impactos de partículas volantes e raios ultravioleta (U6), com alto impacto e a marcação "+" da ANSI/ISEA Z87.1-2015. O mesmo documento diz que o EPI não é aprovado contra infravermelho, luz intensa e soldagem. A ficha da <a href="https://multimedia.3m.com/mws/media/1748213O/3m-2890-series-safety-goggles-technical-datasheet-english.pdf" rel="noopener noreferrer" target="_blank">série 2890 da 3M</a>, que é internacional, cita ventilação indireta para reduzir o embaçamento, peso de 99 g e uso sobre óculos de grau.</p>
 <p>O título do anúncio da Amazon fala em tratamento antiembaçante Scotchgard. O CA não detalha revestimento, então confirme na página do anúncio e na embalagem se a versão que você escolheu tem o tratamento. Atenção também à cor: o link abaixo é do modelo incolor ventilado.</p>
-<div class="buy-btn"><a href="https://www.amazon.com.br/dp/B0B9HFN5TR?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar 3M SG 2890 agora ↗</a></div>
-<p><small>Link de afiliado da Amazon: podemos receber comissão pela compra, sem custo extra para você.</small></p>
 
 <h2>Kalipso Panda incolor: o de sobrepor</h2>
 <figure><img src="/images/products/oculos-de-protecao-para-rocar-e-cortar-grama-qual-escolher-kalipso-panda.jpg" alt="Óculos de proteção Kalipso Panda de sobrepor, na versão de lente cinza" width="600" height="600"><figcaption>Kalipso Panda, versão de lente cinza (o anúncio comparado aqui é da lente incolor). Imagem oficial do produto, Kalipso.</figcaption></figure>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B07D5L8DR4?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kalipso Panda incolor na Amazon agora ↗</a>
+</div>
 <p>A <a href="https://www.kalipso.com.br/media/produtos/boletins/boletim-pdf-24092025-101307-995670.pdf" rel="noopener noreferrer" target="_blank">ficha técnica da Kalipso</a> informa CA 10344, armação, apoio nasal e visor numa única peça de policarbonato, hastes tipo espátula e seis fendas de ventilação. A ficha cita tratamento antirrisco, alto impacto, proteção UV (U6) nas lentes incolor, amarela e verde, e norma ANSI/ISEA Z87.1-2015. A garantia legal informada é de 90 dias. A lente incolor desse anúncio tem a referência 01.07.1.3.</p>
 <p>Sobre o uso com óculos de grau, um <a href="https://cbsmed.com.br/wp-content/uploads/2022/11/003273.pdf" rel="noopener noreferrer" target="_blank">boletim técnico anterior do fabricante</a> diz que o Panda pode ser usado sobre óculos graduado, mas pede conferir o tamanho da armação, porque pode atrapalhar o conforto. A ficha mais recente não repete essa frase, então teste com o seu óculos antes de depender dele. Esse mesmo boletim afirma que, em risco de alto impacto, o modelo exige proteção adicional, como protetor facial, e que não serve contra respingos de líquidos.</p>
 <p>Os dados do CA devem ser conferidos: a cópia pública do certificado que encontramos mostra uma validade antiga, de 2024, embora a ficha da Kalipso de agosto de 2025 siga informando o número. Consulte a situação atual no portal de consulta de CA do Ministério do Trabalho antes de comprar.</p>
-<div class="buy-btn"><a href="https://www.amazon.com.br/dp/B07D5L8DR4?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kalipso Panda incolor agora ↗</a></div>
-<p><small>Link de afiliado da Amazon: podemos receber comissão pela compra, sem custo extra para você.</small></p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0B9HFN5TR?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar 3M SG 2890 na Amazon agora ↗</a>
+</div>
 
 <h2>Comparativo lado a lado</h2>
 <p>Os dados abaixo vêm das fichas e do certificado de cada fabricante. Onde o documento não informa, deixamos claro em vez de supor. Use a tabela para decidir o formato de uso, e não para eleger um vencedor só pelos números, porque os dois modelos têm propostas diferentes.</p>
@@ -103,6 +129,13 @@ export const article: Article = {
 </tbody>
 </table>
 
+<h2>Variação de preço</h2>
+<p>Não encontramos uma faixa de mercado confiável em reais para o 3M SG 2890 nem para o Kalipso Panda incolor, então não vamos citar números. O preço varia entre vendedores, cores de lente e versões (ventilada ou não, com ou sem tratamento antiembaçante).</p>
+<p>Em geral, óculos de proteção custam pouco perto do resto do equipamento, e a diferença entre os dois modelos não deve ser o critério principal: o que pesa é o tipo de proteção, o CA em dia e o conforto. Para roçada e terreno com pedra, o custo-benefício tende a ficar com a ampla visão. O preço do dia aparece ao clicar no botão de compra.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0B9HFN5TR?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar 3M SG 2890 na Amazon agora ↗</a>
+</div>
+
 <h2>Erros comuns na compra e no uso</h2>
 <ul>
 <li><strong>Comprar sem olhar o CA:</strong> óculos sem número de CA no anúncio ou na embalagem podem não ser EPI. Confira no portal do Ministério do Trabalho.</li>
@@ -117,6 +150,14 @@ export const article: Article = {
 <h2>Qual comprar</h2>
 <p>Escolha o <strong>3M SG 2890</strong> se você roça ou apara bastante, principalmente em terreno com pedra e capim alto. A ampla visão com elástico fecha em volta dos olhos, e a versão ventilada ajuda a reduzir o embaçamento no calor. Confirme no anúncio se a versão tem o tratamento antiembaçante.</p>
 <p>Escolha o <strong>Kalipso Panda incolor</strong> se você quer um óculos leve para o corte semanal em gramado limpo, ou se precisa de um modelo que acomode óculos de grau. Lembre que o fabricante pede proteção adicional em risco de alto impacto, e que o CA precisa ser conferido. Para roçadeira com lâmina ou fio grosso, prefira a ampla visão e siga o manual da máquina.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0B9HFN5TR?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar 3M SG 2890 na Amazon agora ↗</a>
+</div>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B07D5L8DR4?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kalipso Panda incolor na Amazon agora ↗</a>
+</div>
+
 <p>Em qualquer caso, o óculos faz parte da rotina de segurança, e a rotina de corte certa também protege o gramado. Veja a <a href="/artigos/altura-de-corte-da-grama-quanto-cortar-sem-estressar">altura de corte da grama</a> e o <a href="/artigos/como-cuidar-da-grama-guia-completo-para-o-ano-todo">guia completo para cuidar da grama o ano todo</a>.</p>
 `,
   faq: [

@@ -49,6 +49,9 @@ export const article: Article = {
 <h2>Qual bota de borracha é boa para jardinagem e gramado?</h2>
 <p>Para o gramado, o que pesa é o cano longo, a vedação e o solado. O cano de 30 cm ou mais protege a canela do orvalho e da lama, a peça injetada inteira não deixa a água entrar pela costura, e o solado com frisos segura o pé em grama molhada e barranco. Quem rega de manhã cedo, quando a grama ainda está encharcada, sente essa diferença no primeiro dia.</p>
 <p>O segundo ponto é o material. PVC é o plástico clássico das galochas, mais barato e fácil de lavar. Poliuretano (PU) costuma ser mais leve e flexível, e a Bracol informa que o PU da linha Polytech dura até 5 vezes mais que o PVC, dependendo do ambiente e das condições de uso e conservação.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0DP1M2C8Z?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Bota Bracol Acqua Lev na Amazon agora ↗</a>
+</div>
 <p>O terceiro é o tamanho. Bota larga demais bolha o calcanhar e bota justa demais machuca quando você agacha para plantar. A <a href="https://www.bracol.pro/acqualev-bpl-80000029-85bpl600" rel="noopener noreferrer" target="_blank">ficha da Acqua Lev</a> informa 270 mm de comprimento interno e numeração de 35 a 46, enquanto a Polytech vai de 37 a 44, então confira o seu número antes de fechar o pedido.</p>
 
 <h2>Comparativo: Bracol Acqua Lev e Polytech lado a lado</h2>
@@ -66,9 +69,6 @@ export const article: Article = {
 </tbody>
 </table>
 <p>As siglas vêm da própria Bracol: SRA indica resistência ao escorregamento em piso de cerâmica com detergente, SRC soma o teste em piso de aço com glicerina, e FO indica solado resistente a óleo combustível. Para quem cuida de gramado, o ponto útil é que as duas têm solado antiderrapante testado, mas só a Polytech passou pelo teste mais exigente (SRC). Nenhuma das duas tem biqueira de proteção nas versões analisadas.</p>
-<div class="buy-btn">
-  <a href="https://www.amazon.com.br/dp/B0DP1M2C8Z?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Bota Bracol Acqua Lev na Amazon agora ↗</a>
-</div>
 
 <h2>Bracol Acqua Lev 85BPL600: PVC branca para o dia a dia</h2>
 <figure><img src="/images/products/comparativo-botas-de-borracha-para-jardinagem-bracol-acqua-lev-85bpl600.jpg" alt="Bota de PVC branca cano longo Bracol Acqua Lev 85BPL600" width="900" height="900" /><figcaption>Bracol Acqua Lev 85BPL600 (ref. 80000029). Foto: Bracol (imagem oficial do produto).</figcaption></figure>
@@ -88,11 +88,11 @@ export const article: Article = {
 <p>O solado é mais alto, com 5,3 mm na planta e 6,2 mm no salto, e tem resistência a escorregamento SRC e a óleo combustível. Em gramado inclinado, terreno com barro e <a href="/artigos/plantar-grama-em-talude-como-evitar-erosao">taludes</a>, esse desenho dá mais tração. A cor verde esconde bem a terra e combina com quem trabalha no quintal todo fim de semana.</p>
 <p>A Bracol não informa o peso na ficha desta versão, então não dá para comparar com a Acqua Lev nesse item. Por ser sem forro, o pé pode suar mais em dia quente: use meia de algodão grossa. Como na outra bota, cada numeração tem página própria na Amazon.</p>
 
-<div class="callout-box callout-warn"><span class="callout-label">Atenção</span><p>Bota de borracha não protege contra corte nem contra respingo de produto químico concentrado. Ao usar aparador, roçadeira ou pulverizador, calce a bota junto com luvas, óculos e calça comprida, leia o rótulo, mantenha crianças e animais afastados e desligue da tomada ou retire a bateria antes de limpar ou regular. Em dúvida, veja os cuidados no <a href="/artigos/oculos-de-protecao-para-rocar-e-cortar-grama-qual-escolher">guia de óculos de proteção</a>.</p></div>
-
 <div class="buy-btn">
   <a href="https://www.amazon.com.br/dp/B0DP1M2C8Z?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Bota Bracol Acqua Lev na Amazon agora ↗</a>
 </div>
+
+<div class="callout-box callout-warn"><span class="callout-label">Atenção</span><p>Bota de borracha não protege contra corte nem contra respingo de produto químico concentrado. Ao usar aparador, roçadeira ou pulverizador, calce a bota junto com luvas, óculos e calça comprida, leia o rótulo, mantenha crianças e animais afastados e desligue da tomada ou retire a bateria antes de limpar ou regular. Em dúvida, veja os cuidados no <a href="/artigos/oculos-de-protecao-para-rocar-e-cortar-grama-qual-escolher">guia de óculos de proteção</a>.</p></div>
 
 <h2>Erros comuns e quando não comprar</h2>
 <ul>
@@ -102,6 +102,9 @@ export const article: Article = {
 <li>Guardar com terra dentro: lave por fora, vire para secar e tire o excesso de umidade do interior.</li>
 <li>Calçar sem meia: o atrito do cano com a perna e o suor machucam em dia de trabalho longo.</li>
 </ul>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0CYN62XQL?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Bota Bracol Polytech na Amazon agora ↗</a>
+</div>
 <p>Não compre nenhuma das duas se você precisa de proteção contra impacto ou perfuração, como ao carregar pedra e ferro: nesse caso procure bota de segurança com biqueira e confira o CA. Também pule a compra se só vai regar de vez em quando, porque um <a href="/artigos/mangueira-de-jardim-comparativo-modelos-flexiveis">bom conjunto de mangueira</a> e um calçado fechado comum resolvem. Quem mexe com <a href="/artigos/comparativo-pulverizador-de-jardim-manual-e-costal">pulverizador</a> deve ler o rótulo do produto e seguir o EPI indicado nele.</p>
 
 <h2>Variação de preço</h2>

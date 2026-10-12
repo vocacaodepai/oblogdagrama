@@ -2,14 +2,18 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "mangueira-de-jardim-comparativo-modelos-flexiveis",
-  title: "Mangueira de jardim flexível: comparativo de 3 modelos",
-  seoTitle: "Mangueira de jardim flexível: 3 modelos comparados",
+  title: "Mangueira de jardim para gramado: qual escolher por tamanho de quintal",
+  seoTitle: "Mangueira de jardim: qual escolher para cada quintal",
   excerpt:
     "Mangueira de jardim para gramado: compare os modelos Flex de 4 e 3 camadas e a Multi da Tramontina por comprimento, pressão máxima e tipo de engate.",
   metaDescription:
     "Mangueira de jardim para gramado: compare os modelos Flex de 4 e 3 camadas e a Multi da Tramontina por comprimento, pressão máxima e tipo de engate.",
   category: "produtos",
+  productCategory: "rega-solo",
+  productSubcategory: "mangueira",
+  productScore: 8.0,
   date: "2026-10-07",
+  updated: "2026-10-11",
   readTime: 8,
   imageQuery: "garden hose lawn watering",
   seed: 401,
@@ -37,12 +41,20 @@ export const article: Article = {
 <p>A melhor <strong>mangueira de jardim</strong> para regar gramado é a que chega ao ponto mais distante do terreno com poucos metros de sobra e traz o engate que combina com o seu aspersor. Entre os três modelos Tramontina deste comparativo, a Flex de 30 m e 4 camadas atende quintais grandes, a Flex de 20 m com suporte serve a quem quer guardar a mangueira na parede, e a Multi de 20 m facilita a troca de acessórios.</p>
 <p>As três são de PVC com fio de poliéster trançado e custam pouco perto do estrago que uma mangueira ruim faz: vazamento no engate, dobra que corta a água e jato fraco no fim do gramado. Abaixo estão a ficha de cada uma, uma tabela lado a lado e o jeito de ligar tudo ao aspersor. Se a dúvida for quanto e quando regar, comece pelo guia de <a href="/artigos/como-regar-a-grama-frequencia-horario-e-quantidade">como regar a grama</a>.</p>
 
-<div class="callout-box callout-tip"><span class="callout-label">Transparência</span><p>O Blog da Grama é associado da Amazon e recebe uma comissão se você comprar pelos botões desta página, sem custo extra para você. Esta é uma análise da ficha técnica oficial e das avaliações de compradores, sem teste físico nosso. Preço e disponibilidade mudam: confira a página da Amazon antes de comprar.</p></div>
+<div class="callout-box"><span class="callout-label">Transparência Amazon</span><p>Como Associado da Amazon, o Blog da Grama pode ganhar comissão se você comprar pelos botões desta página, sem custo extra para você. Esta é uma análise da ficha técnica oficial e das avaliações de compradores, sem teste físico nosso. O preço do dia aparece ao clicar no botão de compra.</p></div>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076KKX6L9?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mangueira Flex Tramontina 20 m com suporte na Amazon agora ↗</a>
+</div>
 
 <h2>Qual mangueira de jardim escolher para o gramado?</h2>
 <p>Comece medindo o caminho, não o terreno. Com uma trena ou passos largos, conte a distância da torneira até o ponto mais afastado que você precisa molhar, contornando canteiros e árvores. Some 3 a 5 metros de folga para as curvas e escolha o comprimento comercial logo acima disso.</p>
 <p>Comprimento demais tem custo. Mangueira longa pesa, enrosca nos canteiros e perde pressão ao longo do caminho, o que encurta o jato do aspersor e deixa a ponta do gramado seca. Mangueira curta demais obriga você a esticar a peça até o limite, e isso força o engate e a dobra perto da torneira.</p>
 <p>O segundo filtro é o engate. O rosqueado é mais barato e firme, mas pede mais tempo para trocar de acessório. O engate rápido deixa você passar da pistola para o aspersor em segundos, e a Tramontina informa que o esguicho da Multi aceita mangueiras de 1/2", 5/8" e 3/4". Quem usa aspersor de engate rápido, como os do <a href="/artigos/comparativo-aspersores-para-gramado-tramontina">comparativo de aspersores Tramontina</a>, ganha praticidade com esse padrão.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M938Y1?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mangueira Multi Tramontina na Amazon agora ↗</a>
+</div>
 
 <h2>Comparativo: as três mangueiras Tramontina lado a lado</h2>
 <table>
@@ -57,32 +69,50 @@ export const article: Article = {
 
 <h2>Flex 79167300: 4 camadas e 30 metros para quintal grande</h2>
 <figure><img src="/images/products/mangueira-de-jardim-comparativo-modelos-flexiveis-tramontina-flex-4-camadas-30m.jpg" alt="Mangueira Flex Tramontina 79167300 verde com faixa preta, 4 camadas, 30 metros" width="900" height="900" /><figcaption>Mangueira Flex Tramontina 79167300. Foto: Tramontina (imagem oficial do produto).</figcaption></figure>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0BHJFX1ZQ?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mangueira Flex Tramontina 30 m na Amazon agora ↗</a>
+</div>
 <p>É a mais longa e a mais reforçada da comparação. A Tramontina descreve quatro camadas: PVC por dentro, fio de poliéster trançado no meio e duas camadas de PVC por fora. A ficha informa 30 metros, uso com pressão de até 10 bar e água de até 50 °C, e a embalagem traz esguicho regulável e adaptador com engate rosqueado.</p>
 <p>A camada extra por fora tende a ajudar contra o atrito com chão, cerca e quina de calçada, que é o desgaste mais comum em quem arrasta a mangueira pelo gramado. A página do fabricante não informa o diâmetro interno, então confirme essa medida no anúncio antes de comprar se for ligar um aspersor que exige vazão alta.</p>
 <p>Serve a terrenos fundos e a quem rega do portão ao fim do quintal. Em jardim pequeno, 30 m é exagero, pesa na hora de enrolar e pede um enrolador. O próprio fabricante sugere guardar em enrolador e evitar deixar a mangueira exposta ao sol depois do uso.</p>
-<div class="buy-btn"><a href="https://www.amazon.com.br/dp/B0BHJFX1ZQ?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mangueira Flex Tramontina 30 m agora ↗</a></div>
-<p><small>Link de afiliado da Amazon: o blog pode receber comissão pela compra.</small></p>
 
 <h2>Flex 79322200: 20 metros com suporte para guardar na parede</h2>
 <figure><img src="/images/products/mangueira-de-jardim-comparativo-modelos-flexiveis-tramontina-flex-3-camadas-20m.jpg" alt="Mangueira Flex Tramontina 79322200 verde, 3 camadas, 20 metros, com suporte" width="900" height="900" /><figcaption>Mangueira Flex Tramontina 79322200 com suporte. Foto: Tramontina (imagem oficial do produto).</figcaption></figure>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076KKX6L9?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mangueira Flex Tramontina 20 m com suporte na Amazon agora ↗</a>
+</div>
 <p>Aqui você leva a mangueira de 20 metros, o esguicho regulável, o adaptador rosqueado e um suporte fixo para pendurar a peça. O fabricante informa três camadas, pressão de trabalho de até 10 bar e engate para mangueiras de 1/2". A Tramontina lista a peça para uso doméstico ou profissional na jardinagem.</p>
 <p>O suporte resolve um problema que quase ninguém considera na hora da compra: onde guardar. Mangueira largada no chão fica ao sol, o que a Tramontina recomenda evitar para aumentar a durabilidade, e vira nó na próxima rega. Pendurada em formato de rolo, ela sai da parede já em curvas largas.</p>
 <p>É a opção redonda para quintal de casa de vila ou jardim médio de até uns 15 m a partir da torneira. Se a sua rega costuma levar aspersor de engate rápido, você vai precisar de um adaptador à parte, porque esta vem com engate rosqueado.</p>
-<div class="buy-btn"><a href="https://www.amazon.com.br/dp/B076KKX6L9?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mangueira Flex Tramontina 20 m com suporte agora ↗</a></div>
-<p><small>Link de afiliado da Amazon: o blog pode receber comissão pela compra.</small></p>
 
 <h2>Multi 79212201: engates rápidos e 12 bar de pressão máxima</h2>
 <figure><img src="/images/products/mangueira-de-jardim-comparativo-modelos-flexiveis-tramontina-multi-3-camadas-20m.jpg" alt="Mangueira Multi Tramontina 79212201 laranja, 3 camadas, 20 metros, com engates rápidos" width="900" height="900" /><figcaption>Mangueira Multi Tramontina 79212201. Foto: Tramontina (imagem oficial do produto).</figcaption></figure>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M938Y1?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mangueira Multi Tramontina na Amazon agora ↗</a>
+</div>
 <p>A Multi é a que mais conversa com aspersor e pistola de troca rápida. A caixa traz esguicho de engate rápido, dois engates rápidos e um adaptador fêmea com rosca de 3/4" e redução de 1/2". O fabricante informa pressão máxima de 12 bar, a maior da comparação, e 20 metros de comprimento.</p>
 <p>Na prática, o conjunto serve a quem alterna ferramentas: pistola para lavar calçada, aspersor para o gramado e esguicho para o canteiro. A Tramontina informa que o esguicho trabalha com mangueiras de 1/2", 5/8" e 3/4", o que dá folga se você já tem outra peça em casa.</p>
 <p>O cuidado é com a rosca da torneira: a redução vem no adaptador, e vale conferir se o encaixe fecha sem vazar antes de abrir toda a pressão. A cor laranja ajuda a enxergar a mangueira na grama alta, o que evita pisar nela e deixá-la no caminho na hora de usar o <a href="/artigos/comparativo-aparador-de-grama-eletrico">aparador elétrico</a>.</p>
-<div class="buy-btn"><a href="https://www.amazon.com.br/dp/B076M938Y1?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mangueira Multi Tramontina agora ↗</a></div>
-<p><small>Link de afiliado da Amazon: o blog pode receber comissão pela compra.</small></p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0BHJFX1ZQ?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mangueira Flex Tramontina 30 m na Amazon agora ↗</a>
+</div>
+
+<h2>Variação de preço</h2>
+<p>Não encontramos uma faixa de mercado confiável para as três mangueiras (o código exato muda de loja para loja), então não vamos cravar números. O preço varia entre vendedores e épocas, e cresce com o comprimento e com o número de camadas.</p>
+<p>Pelo tamanho e pelo acabamento, a Flex de 20 m com suporte e a Multi de 20 m costumam sair mais em conta que a Flex de 30 m e 4 camadas. O melhor custo-benefício depende do quintal: pagar por 30 m não faz sentido se 20 m chegam ao fundo com folga. O preço do dia aparece ao clicar no botão de compra.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076KKX6L9?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mangueira Flex Tramontina 20 m com suporte na Amazon agora ↗</a>
+</div>
 
 <h2>Como regar o gramado com a mangueira certa</h2>
 <p>A publicação AE436 da UF/IFAS, universidade da Flórida, recomenda aplicar de 0,5 a 0,75 polegada de água por rega (cerca de 13 a 19 mm), de manhã cedo, entre 4h e 7h, e regar quando a grama mostrar sinais de estresse, ajustando a frequência conforme a estação. Isso favorece uma rega funda e espaçada, e a mangueira entra na conta pelo tempo que ela leva para entregar essa lâmina.</p>
 <p>Em gramado pequeno, um aspersor simples na ponta da mangueira costuma bastar. Em área maior, mova o aspersor de posição ao longo da rega em vez de esticar a mangueira até o limite. Se quiser automatizar a rotina, veja o <a href="/artigos/temporizador-de-torneira-comparativo-para-rega-automatica">comparativo de temporizadores de torneira</a>, que liga e desliga a água sem você precisar lembrar.</p>
 <p>Para saber quantos minutos regar, faça o teste dos potes: espalhe 5 a 8 potes retos pelo gramado, ligue o aspersor por 30 minutos e meça a água com uma régua. Se o gramado é novo, o passo a passo de <a href="/artigos/como-plantar-grama-em-placas-passo-a-passo">plantio de grama em placas</a> mostra como conduzir as primeiras semanas. Já uma grama que amarelou nem sempre sofre de sede: antes de aumentar a rega, leia sobre <a href="/artigos/grama-amarelada-causas-e-como-recuperar">grama amarelada</a>.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076KKX6L9?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mangueira Flex Tramontina 20 m com suporte na Amazon agora ↗</a>
+</div>
 
 <h2>Erros comuns e quando não comprar</h2>
 <ul>
@@ -98,6 +128,18 @@ export const article: Article = {
 <p><strong>Quintal grande ou terreno comprido:</strong> Flex 79167300, de 30 m e 4 camadas, que é a mais reforçada contra o atrito do chão. Confirme o diâmetro no anúncio antes de ligar aspersores de vazão alta.</p>
 <p><strong>Jardim médio, com lugar para guardar a mangueira na parede:</strong> Flex 79322200, de 20 m, que já traz suporte fixo. É a opção mais organizada para quem não quer enrolar toda vez. Lembre que ela traz engate rosqueado, então um aspersor de engate rápido pede um adaptador.</p>
 <p><strong>Rega com aspersor, pistola e outras ferramentas, com troca constante:</strong> Multi 79212201, pelos engates rápidos e pela pressão máxima de 12 bar. Combine com o <a href="/artigos/como-cuidar-da-grama-guia-completo-para-o-ano-todo">guia de cuidados do ano todo</a> para planejar a rotina. Em <a href="/artigos/jardim-pequeno-com-gramado-ideias-para-aproveitar-o-espaco">jardim pequeno com gramado</a>, a peça de 20 m já sobra.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0BHJFX1ZQ?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mangueira Flex Tramontina 30 m na Amazon agora ↗</a>
+</div>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076KKX6L9?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mangueira Flex Tramontina 20 m com suporte na Amazon agora ↗</a>
+</div>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M938Y1?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Mangueira Multi Tramontina na Amazon agora ↗</a>
+</div>
+
 <p>Mangueira boa não compensa grama errada para o local: se a dúvida é a espécie, veja <a href="/artigos/tipos-de-grama-qual-escolher-para-o-seu-jardim">qual grama escolher</a>, e para adubar um gramado que já recebe água de forma regular, confira o <a href="/artigos/adubo-para-gramado-comparativo-de-produtos">comparativo de adubos para gramado</a>.</p>
 `,
   faq: [

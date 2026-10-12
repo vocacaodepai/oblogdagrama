@@ -2,14 +2,18 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "comparativo-cortador-de-grama-eletrico-modelos",
-  title: "Cortador de grama elétrico: Tramontina CE35P ou Trapp WM-350?",
-  seoTitle: "Cortador de grama elétrico: CE35P ou WM-350?",
+  title: "Tramontina CE35P ou Trapp WM-350: qual cortador elétrico comprar?",
+  seoTitle: "CE35P ou Trapp WM-350: qual cortador elétrico?",
   excerpt:
     "Compare o cortador de grama elétrico Tramontina CE35P e o Trapp WM-350 pela ficha técnica oficial: potência, corte, coletor, altura e voltagem 127 V ou 220 V.",
   metaDescription:
     "Compare o cortador de grama elétrico Tramontina CE35P e o Trapp WM-350 pela ficha técnica oficial: potência, corte, coletor, altura e voltagem 127 V ou 220 V.",
   category: "produtos",
+  productCategory: "corte-poda",
+  productSubcategory: "cortador",
+  productScore: 8.1,
   date: "2026-10-06",
+  updated: "2026-10-11",
   readTime: 7,
   imageQuery: "electric lawn mower garden",
   seed: 203,
@@ -43,14 +47,29 @@ export const article: Article = {
 <p>Para escolher um <strong>cortador de grama elétrico</strong> de uso doméstico, compare largura de corte, faixa de altura, tamanho do coletor e voltagem. Neste comparativo, o Tramontina CE35P e o Trapp WM-350 têm 1.300 W e coletor de 18 litros, mas diferem no corte (350 mm contra 330 mm) e na altura regulável.</p>
 <p>A análise parte da ficha técnica oficial de cada fabricante e das avaliações de compradores. Não testamos os aparelhos no nosso quintal. Se você ainda não decidiu entre elétrico, a bateria ou a gasolina, comece pelo guia <a href="/artigos/cortador-de-grama-como-escolher-eletrico-gasolina-ou-manual">cortador de grama: como escolher entre elétrico, gasolina ou manual</a> e volte aqui para ver modelos específicos.</p>
 
-<div class="callout-box callout-tip"><span class="callout-label">Transparência</span><p>Somos associados da Amazon e podemos receber uma comissão se você comprar pelos botões deste artigo, sem custo extra para você. O preço muda toda hora e varia por vendedor e por voltagem: confira o valor, a tensão e o prazo na página da Amazon antes de fechar a compra.</p></div>
+<div class="callout-box callout-tip"><span class="callout-label">Transparência</span><p>Somos associados da Amazon e podemos receber uma comissão se você comprar pelos botões deste artigo, sem custo extra para você. O preço varia por vendedor e por voltagem, e o valor do dia aparece ao clicar no botão de compra: confira também a tensão e o prazo antes de fechar.</p></div>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0776VRM73?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina CE35P na Amazon agora ↗</a>
+</div>
 
 <div class="callout-box callout-warn"><span class="callout-label">Segurança</span><p>Leia o manual e o rótulo do aparelho antes do primeiro uso. Use óculos de proteção e calçado fechado, e mantenha crianças e animais longe da área. Desligue o cortador e tire o plugue da tomada antes de limpar, desentupir, esvaziar o coletor ou regular a altura. Mantenha o cabo longe da lâmina e nunca corte grama molhada.</p></div>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0776VRM73?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina CE35P na Amazon agora ↗</a>
+</div>
+
 <h2>Qual cortador de grama elétrico serve para o meu quintal?</h2>
 <p>Os dois modelos são de cortador elétrico com fio, ou seja, precisam de tomada e de uma extensão compatível. Servem melhor para quintais pequenos e médios, planos e com ponto de energia por perto. Se o gramado é grande, tem muitos cantos longe da tomada ou fica em terreno de subida, o guia de <a href="/artigos/cortador-de-grama-como-escolher-eletrico-gasolina-ou-manual">como escolher o cortador de grama</a> mostra alternativas a bateria ou a gasolina.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0787BHBQ8?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Trapp WM-350 na Amazon agora ↗</a>
+</div>
 <p>Antes de comparar, meça o jardim e anote três coisas: a metragem em m², a distância até a tomada e o tipo de grama. Cada espécie tem uma altura de corte recomendada, e jardim com sombra costuma pedir corte mais alto. Veja o perfil da sua espécie em <a href="/artigos/tipos-de-grama-qual-escolher-para-o-seu-jardim">tipos de grama: qual escolher para o seu jardim</a>.</p>
 <p>Em um jardim pequeno de casa de condomínio ou lote urbano, a largura de corte de 33 ou 35 cm é suficiente. Ela manobra bem em torno de canteiros e passa por portões estreitos. Para ideias de como organizar esse espaço, vale ler <a href="/artigos/jardim-pequeno-com-gramado-ideias-para-aproveitar-o-espaco">jardim pequeno com gramado: ideias para aproveitar o espaço</a>.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0787BHBQ8?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Trapp WM-350 na Amazon agora ↗</a>
+</div>
 
 <h2>Tramontina CE35P: o que diz a ficha técnica</h2>
 <p>A página oficial da Tramontina descreve o CE35P como um cortador de grama elétrico com chassi de plástico de alta resistência e coletor rígido. A ficha traz motor de 1.300 W, 60 Hz, diâmetro de corte de 350 mm, três alturas de corte (23 mm, 38 mm e 53 mm) e cesto coletor de 18 litros. A área de corte indicada pelo fabricante é de 1.300 m².</p>
@@ -59,7 +78,10 @@ export const article: Article = {
 
 <figure><img src="/images/products/comparativo-cortador-de-grama-eletrico-modelos-tramontina-ce35p.jpg" alt="Cortador de grama elétrico Tramontina CE35P laranja e preto, visto de frente e de lado" width="1200" height="1200"><figcaption>Tramontina CE35P, 1.300 W, corte de 350 mm. Imagem oficial do fabricante.</figcaption></figure>
 
-<div class="buy-btn"><a href="https://www.amazon.com.br/dp/B0776VRM73?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina CE35P 220 V agora ↗</a></div>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0776VRM73?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina CE35P na Amazon agora ↗</a>
+</div>
+
 
 <h2>Trapp WM-350: o que diz a ficha técnica</h2>
 <p>O WM-350 é o cortador elétrico da Trapp indicado para jardins residenciais de cerca de 400 m². A página oficial informa corte de 33 cm, coletor de 18 litros, base de termoplástico com isolamento contra choques e lâmina de aço especial de 2,55 mm. A altura tem três posições, de 3,6 a 6,5 cm, ajustadas por eixo nas quatro rodas.</p>
@@ -68,7 +90,10 @@ export const article: Article = {
 
 <figure><img src="/images/products/comparativo-cortador-de-grama-eletrico-modelos-trapp-wm-350.png" alt="Cortador de grama elétrico Trapp WM-350 verde e preto com cabo dobrável" width="720" height="480"><figcaption>Trapp WM-350, corte de 33 cm. Imagem oficial do fabricante.</figcaption></figure>
 
-<div class="buy-btn"><a href="https://www.amazon.com.br/dp/B0787BHBQ8?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Trapp WM-350 1300 W 220 V agora ↗</a></div>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0787BHBQ8?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Trapp WM-350 na Amazon agora ↗</a>
+</div>
+
 
 <h2>Tabela comparativa: Tramontina CE35P x Trapp WM-350</h2>
 <p>A tabela reúne os dados que os próprios fabricantes publicam. Eles usam critérios diferentes para falar de área indicada, então trate essa linha como referência de porte, não como promessa de desempenho. Na prática, o que mais pesa no dia a dia é a largura de corte, a faixa de altura e a facilidade de guardar a máquina.</p>
@@ -86,11 +111,18 @@ export const article: Article = {
 <tr><td>Versão do botão de compra</td><td>CE35P 220 V</td><td>WM-350 1.300 W 220 V</td></tr>
 </tbody>
 </table>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0776VRM73?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina CE35P na Amazon agora ↗</a>
+</div>
 
 <h2>Voltagem: 127 V ou 220 V?</h2>
 <p>Esse é o erro de compra mais comum em cortador elétrico. Os dois modelos aqui são monovoltagem: a ficha do Tramontina informa 127 V ou 220 V sem seletor, e a Trapp lista versões separadas. Ligar uma máquina em tensão diferente da indicada na etiqueta pode danificar o motor e anula a segurança que o fabricante projetou.</p>
 <p>Veja a tensão da sua tomada no quadro de luz, na etiqueta de um eletrodoméstico ou com o eletricista. Confira a tensão do ponto exato onde você vai ligar, que pode ser diferente da tomada de dentro de casa. Depois, escolha o anúncio com a mesma tensão no título.</p>
 <p>A tensão também decide a extensão. Use cabo com a bitola indicada no manual e desenrole tudo antes de ligar, para não esquentar. Os links deste artigo apontam para as versões de 220 V que encontramos na Amazon. Se a sua tomada é de 127 V, procure a versão correspondente: o Tramontina CE35P 127 V existe na página oficial da marca, e a Trapp também fabrica o WM-350 nessa tensão.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0776VRM73?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina CE35P na Amazon agora ↗</a>
+</div>
 
 <h2>Erros comuns na compra e no uso</h2>
 <ul>
@@ -103,9 +135,22 @@ export const article: Article = {
 <li><strong>Esquecer a manutenção da lâmina:</strong> lâmina cega rasga a folha em vez de cortar e deixa a ponta esbranquiçada. Peça afiação ou troca na assistência autorizada, sempre com o aparelho desligado e fora da tomada.</li>
 </ul>
 
+<h2>Variação de preço</h2>
+<p>Pela pesquisa em lojas e comparadores, a faixa de mercado do Tramontina CE35P costuma variar de R$ 510 a R$ 750, com alguns vendedores pedindo mais. O Trapp WM-350 de 1.300 W costuma variar de R$ 760 a R$ 1.090. O preço muda com a voltagem, o vendedor e a época.</p>
+<p>O CE35P costuma sair mais em conta e, pela ficha, entrega o corte mais largo e a indicação de área maior, então tem o melhor custo-benefício dos dois. O WM-350 compensa para quem valoriza a faixa de altura mais alta e o cabo dobrável. O preço do dia aparece ao clicar no botão de compra.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0787BHBQ8?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Trapp WM-350 na Amazon agora ↗</a>
+</div>
+
 <h2>Qual comprar</h2>
 <p>Escolha o <strong>Tramontina CE35P</strong> se você quer a maior largura de corte (350 mm), alturas bem baixas para gramados já formados e a indicação de área mais folgada do fabricante. Ele combina com quem tem quintal médio e quer reduzir o número de passadas.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0776VRM73?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina CE35P na Amazon agora ↗</a>
+</div>
 <p>Escolha o <strong>Trapp WM-350</strong> se o seu jardim é de uso residencial de até uns 400 m² e você prefere uma faixa de altura mais alta, de 3,6 a 6,5 cm, útil para quem mantém a grama um pouco mais longa. A base de termoplástico e o cabo dobrável também ajudam a guardar a máquina em espaço apertado.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B0787BHBQ8?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Trapp WM-350 na Amazon agora ↗</a>
+</div>
 <p>Nos dois casos, o que decide é a voltagem certa, o ponto de tomada e a rotina de manutenção: lâmina afiada, limpeza com a máquina desligada e a grama na altura da sua espécie. Para completar o conjunto, veja o comparativo de <a href="/artigos/comparativo-aparador-de-grama-eletrico">aparadores de grama elétricos</a> para as bordas e o <a href="/artigos/review-soprador-de-folhas-eletrico">review do soprador de folhas elétrico</a> para a limpeza final. Se a prioridade é o calendário do gramado, o <a href="/artigos/como-cuidar-da-grama-guia-completo-para-o-ano-todo">guia completo para cuidar da grama o ano todo</a> organiza o ano.</p>
 `,
   faq: [
