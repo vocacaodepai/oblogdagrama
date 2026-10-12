@@ -9,6 +9,8 @@ export const article: Article = {
   metaDescription:
     "Cortador de grama: veja como escolher entre elétrico, a bateria, gasolina, manual, robô e tratorito pelo tamanho da área, com tabela e checklist de compra.",
   category: "produtos",
+  productCategory: "corte-poda",
+  productSubcategory: "cortador",
   date: "2026-10-01",
   readTime: 9,
   imageQuery: "lawn mower cutting grass",
