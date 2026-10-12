@@ -97,7 +97,14 @@ export const article: Article = {
 <p>A pazinha estreita é a mais útil para quem repara falha: ela corta um quadrado de grama, abre espaço e acomoda a muda. A larga pega a terra para nivelar um buraco, como no passo a passo de <a href="/artigos/falhas-no-gramado-como-recuperar-areas-sem-grama">recuperar áreas sem grama</a>. Como o cabo é curto, o trabalho é feito de joelhos ou agachado, em áreas pequenas.</p>
 <p>O ancinho de 3 dentes raspa musgo solto, folhas presas e ervas pequenas entre as placas, sem a escala de um rastelo de leque. Para a capina, veja como <a href="/artigos/ervas-daninhas-no-gramado-como-identificar-e-controlar">identificar ervas daninhas no gramado</a> antes de arrancar tudo. O garfo do 78100801 afofa a terra de um canteiro na borda, algo que casa com <a href="/artigos/bordas-e-canteiros-do-gramado-como-separar">bordas e canteiros do gramado</a>.</p>
 <div class="callout-box callout-warn"><span class="callout-label">Segurança</span><p>Ferramenta de mão tem ponta e borda: use luvas e calçado fechado, e guarde longe de crianças e animais. Veja a <a href="/artigos/review-luvas-de-protecao-para-jardinagem">análise de luvas de proteção para jardinagem</a>. Antes de cavar, confirme que não há tubulação, cabo ou mangueira enterrada no ponto.</p></div>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B076M7K6SM?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Tramontina 78102801 na Amazon agora ↗</a>
+</div>
 <p>Se o gramado é novo e vai ser instalado em <a href="/artigos/como-plantar-grama-em-placas-passo-a-passo">placas</a>, a ferramenta de mão acerta os cantos e as emendas depois que a pá de bico já fez o grosso. Para essa pá, confira também a <a href="/artigos/review-pa-de-jardim-tramontina">análise da pá de jardim Tramontina</a>.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B07RZLBZ6B?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Tramontina 78108100 na Amazon agora ↗</a>
+</div>
 
 <h2>Erros comuns e quando não comprar</h2>
 <ul>

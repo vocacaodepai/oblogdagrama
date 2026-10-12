@@ -2,13 +2,17 @@ import type { Article } from "@/lib/types";
 
 export const article: Article = {
   slug: "temporizador-de-torneira-comparativo-para-rega-automatica",
-  title: "Temporizador de torneira: comparativo para regar o gramado",
-  seoTitle: "Temporizador de torneira para gramado: comparativo",
+  title: "Os 3 melhores temporizadores de torneira para gramado em 2026",
+  seoTitle: "Melhores temporizadores de torneira para gramado 2026",
   excerpt:
-    "Temporizador de torneira para regar o gramado: compare Gardena Flex, Gardena mecânico e Rain Bird por pilha, programação, pressão mínima e rosca.",
+    "Qual temporizador de torneira escolher para o gramado? Compare Gardena Flex, Gardena mecânico e Rain Bird por pilha, programação, pressão mínima e rosca.",
   metaDescription:
-    "Temporizador de torneira para regar o gramado: compare Gardena Flex, Gardena mecânico e Rain Bird por pilha, programação, pressão mínima e rosca.",
+    "Qual temporizador de torneira escolher para o gramado? Compare Gardena Flex, Gardena mecânico e Rain Bird por pilha, programação, pressão mínima e rosca.",
   category: "produtos",
+  productCategory: "rega-solo",
+  productSubcategory: "temporizador",
+  productScore: 8.2,
+  updated: "2026-10-11",
   date: "2026-10-07",
   readTime: 8,
   imageQuery: "garden hose water timer",
@@ -37,12 +41,20 @@ export const article: Article = {
 <p>O melhor <strong>temporizador de torneira</strong> para regar o gramado depende de quanto você quer programar: o Gardena mecânico 31169 desliga a água sozinho depois de 5 a 120 minutos, o Gardena Flex 1890 repete a rega a cada algumas horas e o Rain Bird 1ZEHTMR programa dias da semana e dois horários por dia.</p>
 <p>Os três ficam entre a torneira e a mangueira e dispensam obra, mas diferem em pilha, rosca e pressão mínima. Aqui você vê a ficha de cada um, uma tabela lado a lado e como transformar o aparelho numa rotina de rega que combina com o seu gramado. Se ainda não sabe quanto água a grama pede, comece pelo guia de <a href="/artigos/como-regar-a-grama-frequencia-horario-e-quantidade">como regar a grama</a>.</p>
 
-<div class="callout-box callout-tip"><span class="callout-label">Transparência</span><p>O Blog da Grama é associado da Amazon e recebe uma comissão se você comprar pelos botões desta página, sem custo extra para você. Esta é uma análise da ficha técnica oficial e das avaliações de compradores, sem teste físico nosso. Preço e disponibilidade mudam: confira a página da Amazon antes de comprar.</p></div>
+<div class="callout-box"><span class="callout-label">Transparência Amazon</span><p>Como Associado da Amazon, o Blog da Grama pode ganhar uma comissão se você comprar pelos botões desta página, sem custo extra para você. Esta é uma análise da ficha técnica oficial e das avaliações de compradores, sem teste físico nosso. O preço do dia aparece ao clicar no botão de compra.</p></div>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B006JZ514U?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Rain Bird 1ZEHTMR na Amazon agora ↗</a>
+</div>
 
 <h2>Qual temporizador de torneira escolher para o gramado?</h2>
 <p>Comece pelo que você precisa automatizar. Se o problema é esquecer a mangueira aberta, um temporizador mecânico resolve. Se você quer que a água ligue sozinha de madrugada, precisa de um digital com programação.</p>
 <p>O segundo filtro é a rosca. Os modelos Gardena informam compatibilidade com torneiras de 26,5 mm (G 3/4) e 33,3 mm (G 1), e o Rain Bird usa rosca de mangueira padrão americano, segundo a descrição do fabricante. Leve a torneira em conta antes de comprar e, se for preciso, procure um adaptador de rosca em loja de materiais hidráulicos.</p>
 <p>O terceiro é a pressão. Quem tem caixa d&#39;água baixa ou torneira no fundo do quintal pode ficar abaixo do mínimo do aparelho, e aí a válvula não abre direito. Também vale pensar no que fica na ponta da mangueira: um aspersor de impulso pede mais água que um gotejador, como mostra o <a href="/artigos/comparativo-aspersores-para-gramado-tramontina">comparativo de aspersores para gramado</a>.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B07JLVB5JP?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Gardena Flex 1890 na Amazon agora ↗</a>
+</div>
 
 <h2>Comparativo: os três temporizadores lado a lado</h2>
 <table>
@@ -57,33 +69,44 @@ export const article: Article = {
 
 <h2>Gardena Flex 1890: o digital que repete a rega por intervalo</h2>
 <figure><img src="/images/products/temporizador-de-torneira-comparativo-para-rega-automatica-gardena-flex-1890.jpg" alt="Temporizador de torneira Gardena Flex 1890 com visor digital" width="900" height="900" /><figcaption>Gardena Flex 1890. Foto: Gardena (imagem oficial do produto).</figcaption></figure>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B07JLVB5JP?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Gardena Flex 1890 na Amazon agora ↗</a>
+</div>
 <p>O Flex tem visor LCD, botão giratório e um botão de confirmação, e a unidade de controle é destacável e resistente ao tempo, segundo a Gardena. A pilha é uma alcalina de 9 V, que não vem na caixa. Se a carga ficar baixa demais para fechar a água com segurança, a tecnologia Safe Water Stop impede que a rega comece, o que evita vazamento.</p>
 <p>A programação é por intervalo, não por dia da semana: de 4 em 4, 6, 8, 12, 24, 48 ou 72 horas, com até 6 regas por dia e duração de 1 segundo a 99 minutos. Para o gramado, o intervalo de 48 ou 72 horas se aproxima de duas a três regas por semana, mas o dia vai andando na semana. Existe o botão de rega imediata (Water Now) e a opção de ligar um sensor de umidade do solo, vendido à parte.</p>
 <p>A Gardena posiciona o produto para varanda e terraço, em especial com gotejamento. Para gramado, dá para usar com um aspersor pequeno, e a faixa de pressão de 0,5 a 12 bar ajuda quem tem pouca pressão.</p>
-<div class="buy-btn"><a href="https://www.amazon.com.br/dp/B07JLVB5JP?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Gardena Flex 1890 agora ↗</a></div>
-<p><small>Link de afiliado da Amazon: o blog pode receber comissão pela compra.</small></p>
 
 <h2>Gardena mecânico 31169: sem pilha, sem agenda, sem esquecer a água aberta</h2>
 <figure><img src="/images/products/temporizador-de-torneira-comparativo-para-rega-automatica-gardena-mecanico-31169.jpg" alt="Temporizador mecânico Gardena para torneira com dial de 5 a 120 minutos" width="900" height="900" /><figcaption>Gardena mecânico 31169. Foto: Gardena (imagem oficial do produto).</figcaption></figure>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B002VED4Q0?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Gardena Mecânico 31169 na Amazon agora ↗</a>
+</div>
 <p>Este é o mais simples: você gira o dial até o tempo desejado, de 5 a 120 minutos, e a água fecha sozinha quando o ponteiro chega ao zero. Não usa pilha nem energia, a Gardena informa que ele aceita as roscas G 3/4 e G 1, e a faixa de pressão é de 0,5 a 12 bar. Há ainda a posição de fluxo permanente, para usar a torneira sem tirar o aparelho.</p>
 <p>A limitação é clara: ele não liga sozinho. Alguém precisa girar o dial toda vez, então ele serve para quem rega no fim da tarde ou de manhã cedo e costuma esquecer a mangueira correndo. Por isso ele não resolve a rega de madrugada nem a viagem de fim de semana.</p>
 <p>A foto oficial inclui um engate de mangueira de estilo americano, e a página americana da Gardena usa o código 31169, igual ao do anúncio brasileiro. Confira no anúncio o que vem na caixa e se a rosca encaixa na sua torneira.</p>
-<div class="buy-btn"><a href="https://www.amazon.com.br/dp/B002VED4Q0?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Gardena Mecânico 31169 agora ↗</a></div>
-<p><small>Link de afiliado da Amazon: o blog pode receber comissão pela compra.</small></p>
 
 <h2>Rain Bird 1ZEHTMR: o mais completo para programar o gramado</h2>
 <figure><img src="/images/products/temporizador-de-torneira-comparativo-para-rega-automatica-rain-bird-1zehtmr.jpg" alt="Embalagem do temporizador digital Rain Bird 1ZEHTMR para ponta de mangueira" width="900" height="900" /><figcaption>Rain Bird 1ZEHTMR. Foto: Rain Bird (imagem oficial do produto).</figcaption></figure>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B006JZ514U?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Rain Bird 1ZEHTMR na Amazon agora ↗</a>
+</div>
 <p>O Rain Bird tem programação de 7 dias, com até 2 horários de início por dia e rega de até 6 horas por ciclo. Isso permite, por exemplo, terça, quinta e sábado às 5h, que é a rotina mais comum para gramado. Ele traz botões de rega imediata e de adiamento, que pausa a programação por até 96 horas depois de uma chuva.</p>
 <p>Funciona com duas pilhas AA, que não vêm na caixa. A faixa de pressão é de 1,0 a 6,2 bar (15 a 90 psi), e a vazão de 5 a 12 GPM (cerca de 19 a 45 litros por minuto) comporta até cinco aspersores de impulso, segundo a fabricante. A pressão mínima é maior que a da Gardena, então vale medir a sua antes.</p>
 <p>O ponto de atenção é a rosca: o fabricante descreve entrada fêmea e saída macho de rosca de mangueira americana, então pode ser preciso um adaptador para a sua torneira. Confira no anúncio da Amazon o que vem na caixa e a garantia, já que o fabricante é americano.</p>
-<div class="buy-btn"><a href="https://www.amazon.com.br/dp/B006JZ514U?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Rain Bird 1ZEHTMR agora ↗</a></div>
-<p><small>Link de afiliado da Amazon: o blog pode receber comissão pela compra.</small></p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B006JZ514U?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Rain Bird 1ZEHTMR na Amazon agora ↗</a>
+</div>
 
 <h2>Como programar horário e frequência de rega do gramado</h2>
 <p>A UF/IFAS recomenda irrigar cedo, entre 4h e 7h da manhã, para reduzir a perda por evaporação. É o que o temporizador faz de melhor: ligar a água às 5h, antes de você acordar. Se for regar à mão, o guia de <a href="/artigos/como-regar-a-grama-frequencia-horario-e-quantidade">como regar a grama</a> explica as alternativas.</p>
 <p>Sobre frequência, a mesma publicação orienta variar a frequência conforme a estação e a chuva, e não a quantidade de água por rega. Em clima quente e sem chuva, algo perto de duas regas por semana costuma bastar para gramado já formado, e no inverno a necessidade cai muito. Revise a programação a cada estação.</p>
 <p>O tempo de cada rega vem do teste dos potes: espalhe potes retos no gramado, ligue a água por 15 minutos e meça. Gramado novo, plantado de <a href="/artigos/como-plantar-grama-de-semente-passo-a-passo">semente</a> ou em <a href="/artigos/como-plantar-grama-em-placas-passo-a-passo">placas</a>, pede regas mais curtas e mais frequentes por algumas semanas, e dá para programar isso nos modelos digitais.</p>
 <p>Em períodos de seca, algumas cidades têm rodízio ou restrição de horário para uso de água. As regras variam de lugar para lugar e não citamos nenhuma aqui: consulte a companhia que abastece a sua casa antes de fixar o horário. A mesma publicação da UF/IFAS cita ainda que sensor de chuva reduz o uso anual de água em cerca de 18%, e o adiamento de 96 horas do Rain Bird ou o sensor opcional do Gardena Flex cumprem papel parecido.</p>
+
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B002VED4Q0?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Gardena Mecânico 31169 na Amazon agora ↗</a>
+</div>
 
 <h2>Erros comuns e quando não comprar</h2>
 <ul>
@@ -95,11 +118,27 @@ export const article: Article = {
 </ul>
 <p>Não vale comprar temporizador de torneira para gramado grande com vários setores, porque cada aparelho atende uma saída só e uma torneira só. Nesse caso, converse com um instalador sobre válvulas e programador. Antes de qualquer equipamento, cuide do <a href="/artigos/preparo-do-solo-para-gramado-nivelamento-e-correcao">solo e do nivelamento</a>, pois a água empoça nas depressões, e confira a mangueira no <a href="/artigos/mangueira-de-jardim-comparativo-modelos-flexiveis">comparativo de mangueiras flexíveis</a>.</p>
 
+<h2>Variação de preço</h2>
+<p>Pela faixa de mercado que encontramos em lojas brasileiras, o Rain Bird 1ZEHTMR costuma variar de R$ 320 a R$ 435, o que o coloca como o mais caro dos três. Para os dois Gardena, não achamos uma fonte brasileira confiável para citar um valor: o preço varia entre vendedores e épocas, e o melhor é ver o valor atual no botão de compra.</p>
+<p>Pelo que cada aparelho entrega, o Gardena mecânico 31169, que não tem eletrônica nem pilha, tende a ser o mais em conta. O Gardena Flex 1890 costuma ter o melhor custo-benefício para quem quer rega automática, porque funciona com pouca pressão e programa até 6 regas por dia. O Rain Bird só compensa o valor mais alto se você usa a programação por dia da semana e tem pressão de pelo menos 1 bar. O preço do dia aparece ao clicar nos botões de compra.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B07JLVB5JP?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Gardena Flex 1890 na Amazon agora ↗</a>
+</div>
+
 <h2>Qual comprar: a escolha por rotina de rega</h2>
 <p><strong>Você já rega à mão e só quer que a água feche sozinha:</strong> Gardena mecânico 31169, sem pilha e com pressão mínima baixa.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B002VED4Q0?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Gardena Mecânico 31169 na Amazon agora ↗</a>
+</div>
 <p><strong>Você quer rega automática com pouca pressão e regas por intervalo:</strong> Gardena Flex 1890, com até 6 regas por dia e sensor opcional de umidade.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B07JLVB5JP?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Gardena Flex 1890 na Amazon agora ↗</a>
+</div>
 <p><strong>Você quer terça, quinta e sábado às 5h, com vários aspersores e adiamento por chuva:</strong> Rain Bird 1ZEHTMR, desde que a sua torneira tenha pelo menos 1 bar e a rosca encaixe.</p>
-<p>Se a dúvida persiste, escolha pela pressão e pela rosca, que são os dois dados que mais bloqueiam a compra. Para fechar o plano do quintal, veja o <a href="/artigos/como-cuidar-da-grama-guia-completo-para-o-ano-todo">guia completo de cuidados da grama</a>, o <a href="/artigos/adubo-para-gramado-comparativo-de-produtos">comparativo de adubos para gramado</a> e a escolha da <a href="/artigos/tipos-de-grama-qual-escolher-para-o-seu-jardim">grama certa para o seu jardim</a>. Se a grama amarelar mesmo com rega automática, confira <a href="/artigos/grama-amarelada-causas-e-como-recuperar">as causas da grama amarelada</a>.</p>
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B006JZ514U?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Rain Bird 1ZEHTMR na Amazon agora ↗</a>
+</div>
+<p>Nossa nota editorial é 8,2 de 10 e vale para o Gardena Flex 1890, o que melhor equilibra pouca pressão, programação e recursos para a maioria dos quintais. Se a dúvida persiste, escolha pela pressão e pela rosca, que são os dois dados que mais bloqueiam a compra. Para fechar o plano do quintal, veja o <a href="/artigos/como-cuidar-da-grama-guia-completo-para-o-ano-todo">guia completo de cuidados da grama</a>, o <a href="/artigos/adubo-para-gramado-comparativo-de-produtos">comparativo de adubos para gramado</a> e a escolha da <a href="/artigos/tipos-de-grama-qual-escolher-para-o-seu-jardim">grama certa para o seu jardim</a>. Se a grama amarelar mesmo com rega automática, confira <a href="/artigos/grama-amarelada-causas-e-como-recuperar">as causas da grama amarelada</a>.</p>
 `,
   faq: [
     {
