@@ -65,7 +65,7 @@ Nunca use imagem gerada por IA. Fotos de capa ficam em `public/images/covers/<sl
 Padrão replicado do Portal da AI (AI Indica), adaptado para grama. Vale para todo artigo de
 `category: "produtos"` com produto específico e link de compra (comparativo ou review). O
 `npm run check:content` barra o que fugir disso nos artigos publicados ou atualizados a partir de
-12/10/2026. Guia "como escolher" sem produto específico e sem link da Amazon não leva nota nem botões.
+11/10/2026. Guia "como escolher" sem produto específico e sem link da Amazon não leva nota nem botões.
 
 **Dois formatos**
 - **Comparativo** (`kind: "guia"`): 2 ou 3 produtos reais da mesma categoria, lado a lado, com tabela,

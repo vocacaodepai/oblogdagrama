@@ -23,7 +23,7 @@ const NEWS_STRICT_FROM_DATE = "2026-10-01";
 const MIN_INTERNAL_LINKS = 5;
 // Artigos de produto (categoria "produtos") com data ou atualização a partir daqui seguem o padrão
 // de produto: nota, taxonomia, botões de compra espalhados, seção de preço, aviso de afiliado.
-const PRODUCT_STRICT_FROM_DATE = "2026-10-12";
+const PRODUCT_STRICT_FROM_DATE = "2026-10-11";
 const AFFILIATE_TAG = "oblogdagrama-20";
 const MIN_BUY_BUTTONS = 5;
 const MIN_WORDS_STRICT = 900;
