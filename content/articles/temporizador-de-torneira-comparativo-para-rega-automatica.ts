@@ -94,6 +94,10 @@ export const article: Article = {
 <p>Funciona com duas pilhas AA, que não vêm na caixa. A faixa de pressão é de 1,0 a 6,2 bar (15 a 90 psi), e a vazão de 5 a 12 GPM (cerca de 19 a 45 litros por minuto) comporta até cinco aspersores de impulso, segundo a fabricante. A pressão mínima é maior que a da Gardena, então vale medir a sua antes.</p>
 <p>O ponto de atenção é a rosca: o fabricante descreve entrada fêmea e saída macho de rosca de mangueira americana, então pode ser preciso um adaptador para a sua torneira. Confira no anúncio da Amazon o que vem na caixa e a garantia, já que o fabricante é americano.</p>
 
+<div class="buy-btn">
+  <a href="https://www.amazon.com.br/dp/B006JZ514U?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Rain Bird 1ZEHTMR na Amazon agora ↗</a>
+</div>
+
 <h2>Como programar horário e frequência de rega do gramado</h2>
 <p>A UF/IFAS recomenda irrigar cedo, entre 4h e 7h da manhã, para reduzir a perda por evaporação. É o que o temporizador faz de melhor: ligar a água às 5h, antes de você acordar. Se for regar à mão, o guia de <a href="/artigos/como-regar-a-grama-frequencia-horario-e-quantidade">como regar a grama</a> explica as alternativas.</p>
 <p>Sobre frequência, a mesma publicação orienta variar a frequência conforme a estação e a chuva, e não a quantidade de água por rega. Em clima quente e sem chuva, algo perto de duas regas por semana costuma bastar para gramado já formado, e no inverno a necessidade cai muito. Revise a programação a cada estação.</p>
