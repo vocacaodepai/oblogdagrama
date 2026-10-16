@@ -1,6 +1,8 @@
-# Rotina: 5 produtos por dia (categoria produtos)
+# Rotina: 20 produtos por dia (categoria produtos)
 
-Horário: 06:23 (Brasília), uma vez por dia. 5 artigos por rodada, sempre `category: "produtos"`.
+Horário: 06:23 (Brasília), uma vez por dia. 20 artigos por rodada (10 comparativos + 10 reviews), sempre
+`category: "produtos"`. Trabalhe em 4 lotes de 5 redatores em paralelo (subagentes): valide, escreva e
+confira cada lote antes de abrir o seguinte; no fim, um único PR com tudo.
 Nome do clone: `grama-produtos`. Siga `docs/rotinas/comum.md` além do que está aqui.
 Leia no `CLAUDE.md` a seção "Padrão de artigo de produto" inteira (botões, aviso de afiliado, preço,
 nota, taxonomia, título) e as seções "Imagens de produto" e "Botão de compra". O `check:content` barra
@@ -8,9 +10,13 @@ artigo de produto fora desse padrão.
 
 ## Pautas (produto real vendido na Amazon Brasil)
 
-- 3 comparativos (`kind: "guia"`): 2 ou 3 produtos reais da MESMA categoria.
-- 2 reviews de produto único (`kind: "review"`), de categorias diferentes dos comparativos da rodada.
-- Categorias de produto (varie a cada rodada, nunca repita a da rodada anterior): cortador de grama
+- 10 comparativos (`kind: "guia"`): 2 ou 3 produtos reais da MESMA categoria.
+- 10 reviews de produto único (`kind: "review"`), de categorias diferentes dos comparativos do mesmo lote.
+- Dentro do dia, cada lote usa subcategorias diferentes; uma subcategoria só se repete com modelos
+  diferentes dos já publicados (confira com `grep -h "^  title:" content/articles/*.ts` e pelos ASINs).
+  Nunca repita produto já coberto no site. Se faltar produto novo na pauta, vá para a próxima
+  subcategoria da lista; nunca vire blog genérico de jardinagem (todo produto precisa servir ao gramado).
+- Categorias de produto (varie de lote para lote e de dia para dia): cortador de grama
   elétrico, a bateria, a gasolina e manual; aparador e roçadeira; soprador e aspirador de folhas;
   mangueira, aspersor e kit de irrigação; temporizador de torneira; adubo para gramado; semente de
   grama; rastelo e escarificador; carrinho de mão; luvas e óculos de proteção; robô cortador; grama sintética.
@@ -46,7 +52,7 @@ artigo de produto fora desse padrão.
   título, resumo, meta description ou botão.
 - Aviso de afiliado: comparativo leva o callout "Transparência Amazon" uma vez no corpo; review único não
   (a página já mostra).
-- Título variado entre os 5 artigos da rodada e entre rodadas.
+- Título variado entre os 20 artigos da rodada e entre rodadas.
 - Nunca alegue teste físico pessoal: é análise a partir da ficha técnica oficial e das avaliações
   de compradores.
 - Corpo: 1.200 a 1.800 palavras, 5 a 8 h2, 8 a 12 links internos. Tabela comparativa e seção
@@ -54,5 +60,5 @@ artigo de produto fora desse padrão.
 
 ## Informe final
 
-Quais 5 produtos entraram (3 comparativos + 2 reviews), se lint/build/check-content passaram e o
+Quantos produtos entraram (meta: 10 comparativos + 10 reviews) e quais trocaram de pauta, se lint/build/check-content passaram e o
 link https://www.oblogdagrama.com.br
