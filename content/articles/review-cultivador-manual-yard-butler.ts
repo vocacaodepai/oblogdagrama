@@ -163,7 +163,8 @@ export const article: Article = {
 <p><small>Aviso de afiliado: este link é de afiliado da Amazon e podemos receber comissão. Ficha técnica na <a href="https://yardbutler.com/products/terra-tiller" rel="noopener noreferrer" target="_blank">página oficial da Yard Butler</a>. A faixa de preço é de mercado e varia por região e vendedor.</small></p>
 
 <figure><img src="/images/products/review-cultivador-manual-yard-butler-produto.jpg" alt="Cultivador manual Yard Butler Terra Tiller com três dentes de aço, lâmina de enxada e empunhadura preta" /><figcaption>Yard Butler Terra Tiller: cultivador de três dentes com lâmina chanfrada. Foto: Yard Butler (imagem oficial do produto).</figcaption></figure>
-  `,
+  <p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    `,
   faq: [
     {
       question: "Para que serve um cultivador manual no gramado?",

@@ -145,7 +145,8 @@ export const article: Article = {
 <p><small>Aviso de afiliado: este link é de afiliado da Amazon e podemos receber comissão sem custo extra para você. Ficha técnica na <a href="https://www.bosch-professional.com/br/pt/products/grt-18v-33-06008D0000" rel="noopener noreferrer" target="_blank">página oficial da Bosch Professional</a>. A faixa de preço é de mercado e varia por região e vendedor, então confira o valor atual no botão.</small></p>
 
 <p>Se a dúvida é sobre o resto do equipamento, compare com o <a href="/artigos/comparativo-cortador-de-grama-eletrico-modelos">comparativo de cortadores de grama elétricos</a> e, para juntar as folhas e aparas depois do corte, veja o <a href="/artigos/review-soprador-de-folhas-eletrico">soprador de folhas elétrico</a>.</p>
-  `,
+  <p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    `,
   faq: [
     {
       question: "O Bosch GRT 18V-33 vem com bateria e carregador?",

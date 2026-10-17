@@ -108,7 +108,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B076KQ4L14?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Aspersor de Impulso Tramontina na Amazon agora ↗</a>
 </div>
 
-<h2>Como saber quanto o aspersor molha de verdade</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Como saber quanto o aspersor molha de verdade</h2>
 <p>A fonte que usamos aqui, a publicação AE436 da UF/IFAS, recomenda regar de forma funda e espaçada, com 0,5 a 0,75 polegada por vez (cerca de 13 a 19 mm), de manhã cedo, e variar a frequência conforme a estação e a chuva, não a quantidade. Falta saber quanto o seu aspersor entrega nesse tempo.</p>
 <div class="callout-box callout-tip"><span class="callout-label">Teste dos potes</span><p>Espalhe 5 a 8 potes retos (pote de sorvete ou lata baixa) pelo gramado, ligue o aspersor por 30 minutos e meça a altura de água em cada um com uma régua. A média, em milímetros, dividida por 30 e multiplicada por 60 dá a lâmina por hora. Pote vazio mostra falha de cobertura.</p></div>
 <p>Como referência de cálculo, dividir a vazão declarada pela área máxima dá cerca de 3,8 mm por hora no oscilante (1440 L/h sobre 380 m²) e cerca de 1,2 mm por hora no setorial (800 L/h sobre 688 m²). Esses números são só uma estimativa teórica a partir da ficha, e na prática a água se concentra mais perto do aspersor. O teste dos potes mostra o valor real.</p>

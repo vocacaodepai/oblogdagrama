@@ -163,7 +163,8 @@ export const article: Article = {
 <p>Os dados da ficha vêm da <a href="https://www.tramontina.com.br/pa-meia-lua-tramontina-426%2F00-em-aco-com-cabo-de-madeira-74-cm-com-empunhadura-metalica-ergonomica/77426304.html" rel="noopener noreferrer" target="_blank">página oficial da Tramontina</a>, e a referência sobre a borda feita à mão é o texto da <a href="https://extension.illinois.edu/blogs/ilriverhort/2015-05-24-bed-edges" rel="noopener noreferrer" target="_blank">Extensão da Universidade de Illinois</a>.</p>
 
 <figure><img src="/images/products/review-corta-bordas-manual-para-gramado-produto.jpg" alt="Pá meia-lua Tramontina com cabo de madeira, empunhadura metálica e lâmina preta" /><figcaption>Pá Meia-Lua Tramontina 426/00 com cabo de madeira de 74 cm. Foto: Tramontina (imagem oficial do produto).</figcaption></figure>
-  `,
+  <p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    `,
   faq: [
     {
       question: "Qual a melhor ferramenta manual para cortar a borda do gramado?",

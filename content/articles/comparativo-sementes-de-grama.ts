@@ -126,7 +126,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B0C4Q9PFCN?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Isla São Carlos 100 g na Amazon agora ↗</a>
 </div>
 
-<h2>Erros comuns e quando não comprar</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Erros comuns e quando não comprar</h2>
 <p>O erro mais comum é escolher a semente pela embalagem bonita e não pela luz do terreno. Carpete na sombra tende a ralear, e São Carlos em sol forte e seco sofre, e nenhuma das duas corrige um solo duro e compactado. O segundo erro é semear sem preparar o solo e sem regar nos primeiros dias.</p>
 <p>O terceiro é comprar pouco: o pacote de 100 g da Carpete cobre só 5 m², e muita gente leva um achando que vai fechar o quintal. O quarto é esperar tapete pronto em uma semana. A germinação leva de 7 a 28 dias, e o <a href="/artigos/quanto-tempo-a-grama-leva-para-pegar-depois-de-plantar">tempo para a grama pegar</a> é maior ainda.</p>
 <p>Não compre semente se o gramado é grande, tem declive forte ou drenagem ruim, porque placas ou um projeto com paisagista podem sair mais certos. Também não compre se você não consegue regar com frequência por semanas. Na dúvida sobre a espécie, volte ao guia de tipos de grama antes de gastar com semente.</p>

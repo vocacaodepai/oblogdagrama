@@ -128,7 +128,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B076KVCCL9?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Carretel Tramontina 1,8 mm 8 m na Amazon agora ↗</a>
 </div>
 
-<h2>Qual comprar</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Qual comprar</h2>
 <p>Escolha o <strong>fio Tramontina de 1,8 mm com 20 m</strong> se você tem um aparador compatível da linha AP e não se importa em enrolar o fio. É o que mais rende e o que costuma custar menos por metro, e é o que indicamos para a maioria dos casos.</p>
 <div class="buy-btn">
   <a href="https://www.amazon.com.br/dp/B076M9GCC3?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Fio Tramontina 1,8 mm 20 m na Amazon agora ↗</a>

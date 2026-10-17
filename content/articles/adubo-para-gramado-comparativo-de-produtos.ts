@@ -123,7 +123,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B09SBP3MSW?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Dimy Grass 1 kg na Amazon agora ↗</a>
 </div>
 
-<h2>Qual comprar: a escolha por situação</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Qual comprar: a escolha por situação</h2>
 <p><strong>Gramado formado e você quer um produto específico, com liberação lenta de nitrogênio:</strong> Dimy Grass, caixa de 1 kg. Confira o estoque na Amazon e o rótulo da caixa que chegar.</p>
 <div class="buy-btn">
   <a href="https://www.amazon.com.br/dp/B09SBP3MSW?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Dimy Grass 1 kg na Amazon agora ↗</a>

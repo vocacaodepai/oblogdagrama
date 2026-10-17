@@ -163,7 +163,8 @@ export const article: Article = {
 <figure><img src="/images/products/review-luvas-de-protecao-para-jardinagem-produto.jpg" alt="Par de luvas de malha de algodão colorida Tramontina" /><figcaption>Luvas para Jardinagem Tramontina em algodão colorida. Foto: Tramontina (imagem oficial do produto).</figcaption></figure>
 
 <p>Segundo a Grama Legal, associação de produtores, <a href="https://gramalegal.com/consumidor/boas-praticas-para-manutencao-de-gramados-no-verao" rel="noopener noreferrer" target="_blank">remover as aparas após o corte</a> ajuda a evitar o acúmulo de palha que favorece doenças. É um serviço de mão e rastelo, e a luva só deixa a tarefa mais confortável.</p>
-  `,
+  <p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    `,
   faq: [
     {
       question: "Qual a melhor luva para jardinagem no gramado?",

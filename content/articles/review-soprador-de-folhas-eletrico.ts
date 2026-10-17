@@ -158,7 +158,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B0BGJRPBWY?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Philco PSA1000 na Amazon agora ↗</a>
 </div>
 
-<h2>Vale a pena? O veredito</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Vale a pena? O veredito</h2>
 <p>Para a maioria dos quintais pequenos e médios, o PSA1000 é uma opção de custo baixo para varrer folha seca do gramado e da calçada. A nota geral é 7,4: ponto forte em preço e facilidade, ponto fraco na durabilidade esperada e na dependência da tomada. A nota de avaliações reais é prudente porque não conseguimos consultar a página da Amazon nesta análise.</p>
 <p>Antes de comprar, abra a página do produto e leia a nota e os comentários recentes de quem comprou, confira se a voltagem bate com a sua tomada e veja o prazo de entrega. Depois de limpar, olhe a grama: se aparecerem falhas ou amarelado, o guia de <a href="/artigos/como-adubar-a-grama-quando-e-qual-adubo-usar">adubação da grama</a> e o de <a href="/artigos/tipos-de-grama-qual-escolher-para-o-seu-jardim">tipos de grama</a> ajudam a entender a causa. Se aparecer sinal suspeito de praga ou doença, leve uma amostra a um agrônomo ou a uma loja agropecuária.</p>
 

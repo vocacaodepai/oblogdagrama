@@ -163,7 +163,8 @@ export const article: Article = {
 <figure><img src="/images/products/review-pa-de-jardim-tramontina-produto.jpg" alt="Pá de bico Tramontina com lâmina de aço preta e cabo de madeira com empunhadura plástica" /><figcaption>Pá de bico Tramontina 459/30 com cabo de madeira de 71 cm. Foto: Tramontina (imagem oficial do produto).</figcaption></figure>
 
 <p>Para o plantio em si, veja também <a href="/artigos/como-plantar-grama-por-mudas-passo-a-passo">como plantar grama por mudas</a>, em que a pá abre as covas, e o <a href="/artigos/quando-plantar-grama-calendario-por-regiao">calendário de plantio por região</a>, para escolher a época certa no hemisfério sul. Se for retirar a grama, vale conversar antes com um agrônomo ou paisagista para confirmar o preparo do solo na sua área.</p>
-  `,
+  <p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    `,
   faq: [
     {
       question: "Qual pá usar para tirar grama do jardim?",

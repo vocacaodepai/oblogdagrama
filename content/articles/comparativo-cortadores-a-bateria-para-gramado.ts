@@ -120,7 +120,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B07L1JJVZP?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Einhell GE-CM 36/37 Li-Solo na Amazon agora ↗</a>
 </div>
 
-<h2>Erros comuns na compra e no uso</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Erros comuns na compra e no uso</h2>
 <ul>
 <li><strong>Comparar só o preço da máquina:</strong> some duas baterias e o carregador, principalmente nos anúncios Solo.</li>
 <li><strong>Confundir versões parecidas:</strong> a Einhell tem vários modelos de 33 cm. Confirme tensão, número de baterias e nome exato no anúncio.</li>

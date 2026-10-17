@@ -128,7 +128,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B0FGKXWBTK?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Forth Bokashi 1,5 kg na Amazon agora ↗</a>
 </div>
 
-<h2>Erros comuns e quando não comprar</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Erros comuns e quando não comprar</h2>
 <ul>
 <li>Achar que orgânico dispensa a análise de solo: ela continua sendo o ponto de partida.</li>
 <li>Usar o produto como único adubo de um gramado exigente, por causa do nitrogênio baixo.</li>

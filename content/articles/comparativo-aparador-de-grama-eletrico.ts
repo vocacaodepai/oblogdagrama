@@ -108,7 +108,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B0776X8VRQ?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina AP1500T na Amazon agora ↗</a>
 </div>
 
-<h2>Como aparar bordas sem machucar a grama</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Como aparar bordas sem machucar a grama</h2>
 <p>O aparador faz o acabamento depois do cortador. Corte o gramado na altura correta e só então passe o aparador nas bordas, mantendo o fio na mesma altura da grama já cortada. Cortar rente demais nas bordas cria faixas amareladas, um problema descrito em <a href="/artigos/grama-amarelada-causas-e-como-recuperar">grama amarelada: causas e como recuperar</a>.</p>
 <p>Incline o cabeçote para fora do gramado ao aparar a beirada, para o fio não raspar a terra nem levantar pedrinhas. Evite encostar o fio no tronco de árvores e arbustos, para não ferir a casca. Em ervas daninhas junto ao muro, o aparador ajuda, mas não resolve sozinho: veja <a href="/artigos/ervas-daninhas-no-gramado-como-identificar-e-controlar">ervas daninhas no gramado</a>. Se a borda é de um tipo de grama que se espalha rápido, aparar com frequência evita que ela invada o canteiro, e o guia de <a href="/artigos/tipos-de-grama-qual-escolher-para-o-seu-jardim">tipos de grama</a> mostra como cada espécie se comporta.</p>
 <p>Aproveite a limpeza das bordas para rever a rotina geral do gramado. O <a href="/artigos/como-cuidar-da-grama-guia-completo-para-o-ano-todo">guia completo para cuidar da grama o ano todo</a> mostra quando cortar, regar e adubar em cada estação.</p>

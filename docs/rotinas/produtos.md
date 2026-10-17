@@ -48,6 +48,10 @@ artigo de produto fora desse padrão.
 - Botões `buy-btn`: mínimo 5 por artigo, texto "Comprar <produto> na Amazon agora ↗", link
   `https://www.amazon.com.br/dp/<ASIN real>?tag=oblogdagrama-20` com `rel="sponsored noopener noreferrer"`.
   Confirme que o produto existe de verdade na Amazon Brasil. Posições dos botões no `CLAUDE.md`.
+- Faixa de preço e nota de compradores: pesquise na internet inteira (lojas, comparadores, site do
+  fabricante, avaliações de várias lojas), não só na Amazon. A seção "Variação de preço" com valores em reais
+  termina com: "Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na
+  Amazon, e muda por vendedor, região e promoção." O botão é sempre "Comprar <produto> na Amazon agora ↗".
 - Preço: h2 "Variação de preço" com faixa de mercado arredondada por produto, sem datas e sem preço no
   título, resumo, meta description ou botão.
 - Aviso de afiliado: comparativo leva o callout "Transparência Amazon" uma vez no corpo; review único não

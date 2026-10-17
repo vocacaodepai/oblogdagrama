@@ -171,7 +171,8 @@ export const article: Article = {
 </div>
 
 <figure><img src="/images/products/review-regador-de-jardim-para-gramado-uso.jpg" alt="Pessoa regando uma muda sobre gramado com o regador Tramontina, ao lado de um carrinho de mão azul" /><figcaption>Regador Tramontina em uso, em foto de divulgação. Foto: Tramontina (imagem oficial do produto).</figcaption></figure>
-  `,
+  <p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    `,
   faq: [
     {
       question: "Posso regar o gramado inteiro com regador?",

@@ -123,7 +123,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B07RZLBZ6B?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Tramontina 78108100 na Amazon agora ↗</a>
 </div>
 
-<h2>Qual comprar: a escolha por tipo de serviço</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Qual comprar: a escolha por tipo de serviço</h2>
 <p><strong>Plantio de mudas de grama e reparo de falhas:</strong> Tramontina 78102801, por ter pazinha estreita e larga mais o ancinho e cabos de madeira. É a opção mais completa para o gramado.</p>
 <div class="buy-btn">
   <a href="https://www.amazon.com.br/dp/B076M7K6SM?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Kit Tramontina 78102801 na Amazon agora ↗</a>

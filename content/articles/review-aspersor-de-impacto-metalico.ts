@@ -153,7 +153,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B076KMD7TQ?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Aspersor de Impulso Metálico Tramontina na Amazon agora ↗</a>
 </div>
 
-<h2>Vale a pena? Nota e para quem serve</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Vale a pena? Nota e para quem serve</h2>
 <p>Nossa nota é 7,8 de 10, calculada a partir da ficha técnica e das avaliações públicas. O desempenho vai a 8,5 pelo alcance declarado, a durabilidade e as avaliações a 8,0, a facilidade a 7,5 por exigir pressão e ajuste de posição, e o preço a 7,0 por ficar acima dos modelos de plástico. A nota de avaliações é uma leitura qualitativa e não substitui a conferência dos comentários atuais.</p>
 <p>Para quem é: dono de gramado médio ou grande, com pressão de água de 3 bar ou mais, que quer um aspersor firme e de longo alcance. Para quem não é: quem tem jardim pequeno, torneira fraca ou quer rega automática sem acessório extra. Se a grama está <a href="/artigos/grama-amarelada-causas-e-como-recuperar">amarelada</a>, confira antes se o problema é falta d'água ou outra causa. E se o calor aperta, o guia de <a href="/artigos/cuidados-com-o-gramado-no-verao-calor-e-chuva">cuidados no verão</a> ajuda a ajustar a rega.</p>
 
