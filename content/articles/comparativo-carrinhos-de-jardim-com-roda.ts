@@ -120,7 +120,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B077BG5VLC?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina 110 L de plástico na Amazon agora ↗</a>
 </div>
 
-<h2>Qual comprar: a escolha por uso no gramado</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Qual comprar: a escolha por uso no gramado</h2>
 <p><strong>Terra de correção, areia de nivelamento, adubo ensacado e placas de grama:</strong> Tramontina 77713431, de 80 L, com caçamba de aço e braço metálico. É o carrinho mais firme da dupla para carga pesada, mas pede pintura em dia e pneu calibrado.</p>
 <div class="buy-btn">
   <a href="https://www.amazon.com.br/dp/B07KDJQVG1?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina 80 L de aço na Amazon agora ↗</a>

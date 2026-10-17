@@ -124,7 +124,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B0778ZM1RH?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina 55 L plástico na Amazon agora ↗</a>
 </div>
 
-<h2>Qual comprar: a escolha por tipo de uso</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Qual comprar: a escolha por tipo de uso</h2>
 <p><strong>Quintal pequeno, terra e manutenção leve:</strong> Tramontina 77704432, de 50 L, caçamba rasa de aço e pneu com câmara. É o mais fácil de manobrar e guardar, mas a chapa fina pede cuidado com pancadas.</p>
 <div class="buy-btn">
   <a href="https://www.amazon.com.br/dp/B079XX33G5?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina 50 L na Amazon agora ↗</a>

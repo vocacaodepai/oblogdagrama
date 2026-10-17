@@ -156,7 +156,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B07DKVJXVM?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Luva Nitrílica Volk com Forro na Amazon agora ↗</a>
 </div>
 <p><small>Aviso de afiliado: este link é de afiliado da Amazon e podemos receber comissão. A faixa de preço é de mercado e varia por região e vendedor, então confira o valor atual no botão.</small></p>
-  `,
+  <p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    `,
   faq: [
     {
       question: "Luva nitrílica serve para jardinagem?",

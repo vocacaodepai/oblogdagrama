@@ -129,7 +129,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B07JLVB5JP?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Gardena Flex 1890 na Amazon agora ↗</a>
 </div>
 
-<h2>Qual comprar: a escolha por rotina de rega</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Qual comprar: a escolha por rotina de rega</h2>
 <p><strong>Você já rega à mão e só quer que a água feche sozinha:</strong> Gardena mecânico 31169, sem pilha e com pressão mínima baixa.</p>
 <div class="buy-btn">
   <a href="https://www.amazon.com.br/dp/B002VED4Q0?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Gardena Mecânico 31169 na Amazon agora ↗</a>

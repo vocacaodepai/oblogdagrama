@@ -142,7 +142,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B0787BHBQ8?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Trapp WM-350 na Amazon agora ↗</a>
 </div>
 
-<h2>Qual comprar</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Qual comprar</h2>
 <p>Escolha o <strong>Tramontina CE35P</strong> se você quer a maior largura de corte (350 mm), alturas bem baixas para gramados já formados e a indicação de área mais folgada do fabricante. Ele combina com quem tem quintal médio e quer reduzir o número de passadas.</p>
 <div class="buy-btn">
   <a href="https://www.amazon.com.br/dp/B0776VRM73?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina CE35P na Amazon agora ↗</a>

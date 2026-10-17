@@ -119,7 +119,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B076KMB6LJ?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina Curvo Leve na Amazon agora ↗</a>
 </div>
 
-<h2>Erros comuns e quando não comprar</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Erros comuns e quando não comprar</h2>
 <p>O primeiro erro é nivelar com a terra encharcada: ela gruda nos dentes, vira massa e compacta quando seca. Espere o solo ficar úmido, sem barro. O segundo é arrastar areia em camada grossa sobre a grama, que abafa as folhas, e o terceiro é usar o ancinho no lugar da análise de solo, como se o nivelamento corrigisse acidez ou fertilidade.</p>
 <p>Outro deslize é comprar o modelo errado: o Estampado não foi pensado para quebrar torrões duros, e o Curvo Leve pode se deformar contra pedra grande. Também não compre ancinho de aço para recolher folhas de cima do gramado em área pequena: o <a href="/artigos/review-soprador-de-folhas-eletrico">soprador de folhas elétrico</a> ou o rastelo plástico fazem isso com menos risco para a grama.</p>
 <p>Se o terreno é grande, tem declive forte ou drenagem ruim, chame um paisagista ou agrônomo, porque nivelar em declive muda o escoamento de água. Para acertar a borda entre gramado e canteiro depois de nivelar, veja o <a href="/artigos/review-corta-bordas-manual-para-gramado">corta-bordas manual</a>. Para terreno compactado, avalie também a <a href="/artigos/aeracao-do-gramado-quando-e-como-arejar-a-grama">aeração do gramado</a> e as ferramentas do <a href="/artigos/comparativo-kit-de-ferramentas-de-jardinagem">kit de jardinagem</a>.</p>

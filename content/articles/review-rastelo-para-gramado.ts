@@ -159,7 +159,8 @@ export const article: Article = {
 <figure><img src="/images/products/review-rastelo-para-gramado-produto.jpg" alt="Cabeça do rastelo Tramontina de 22 dentes em plástico laranja com cabo de madeira" /><figcaption>Rastelo Tramontina de 22 dentes e cabo de madeira. Foto: Tramontina (imagem oficial do produto).</figcaption></figure>
 
 <p>Se a sua dúvida é sobre limpeza em escala maior, compare com o <a href="/artigos/comparativo-aparador-de-grama-eletrico">comparativo de aparadores elétricos</a> e com o <a href="/artigos/comparativo-cortador-de-grama-eletrico-modelos">comparativo de cortadores elétricos</a>. E se a grama tem manchas ou falhas, o guia sobre <a href="/artigos/ervas-daninhas-no-gramado-como-identificar-e-controlar">ervas daninhas no gramado</a> ajuda a separar problema de limpeza de problema de manejo.</p>
-  `,
+  <p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    `,
   faq: [
     {
       question: "Para que serve um rastelo de leque no gramado?",

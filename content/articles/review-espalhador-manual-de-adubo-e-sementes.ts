@@ -168,7 +168,8 @@ export const article: Article = {
 <p><small>Aviso de afiliado: este link é de afiliado da Amazon e podemos receber comissão. Os dados técnicos vêm da <a href="https://jacto.com/brasil/products/distribuidores-de-granulos/jacto-gm-3" rel="noopener noreferrer" target="_blank">página oficial da Jacto</a>. A faixa de preço é de mercado e varia por região e vendedor, então confira o valor atual no botão.</small></p>
 
 <figure><img src="/images/products/review-espalhador-manual-de-adubo-e-sementes-produto.jpg" alt="Espalhador manual de grânulos Jacto GM-3 azul com base laranja e manivela preta, visto de lado" /><figcaption>Espalhador manual Jacto GM-3, de 3 litros. Foto: Jacto (imagem oficial do produto).</figcaption></figure>
-  `,
+  <p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    `,
   faq: [
     {
       question: "Espalhador manual serve para semente de grama?",

@@ -157,7 +157,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B08D53Z7B9?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Bota Marluvas All Work na Amazon agora ↗</a>
 </div>
 
-<h2>Vale a pena? Nota e para quem serve</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Vale a pena? Nota e para quem serve</h2>
 <p>Nossa nota é 7,5 de 10, a partir da ficha técnica e das avaliações públicas. O preço leva 9,0 e a facilidade de uso 8,0, pela peça única e fácil de lavar. Desempenho e durabilidade ficam em 7,5: o PVC é impermeável e o solado SRC ajuda, mas não há forro, palmilha nem biqueira.</p>
 <p>Em avaliações reais a nota é 5,5, e o motivo é falta de dados: o modelo tem poucas avaliações públicas, então não dá para cravar o desgaste em uso longo. Para quem é: dono de gramado que rega, lava o quintal e mexe em terra úmida e quer pagar pouco. Para quem não é: quem precisa de biqueira, de conforto para dias inteiros ou de proteção para roçadeira.</p>
 <p>Para fechar o kit de proteção, volte ao <a href="/artigos/comparativo-botas-de-borracha-para-jardinagem">comparativo de botas</a> se quiser um material mais durável, e veja as <a href="/artigos/review-luvas-de-protecao-para-jardinagem">luvas</a> e o <a href="/artigos/comparativo-aparador-de-grama-eletrico">aparador elétrico</a> antes de cortar as bordas.</p>

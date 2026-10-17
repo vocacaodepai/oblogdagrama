@@ -105,7 +105,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B00NFLGWIK?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Conjunto 4 Peças Tramontina na Amazon agora ↗</a>
 </div>
 
-<h2>Erros comuns e quando não comprar</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Erros comuns e quando não comprar</h2>
 <ul>
 <li>Misturar medidas: engate de 1/2 polegada em mangueira de outra bitola vaza ou solta. Confira a bitola impressa na mangueira antes de comprar.</li>
 <li>Forçar o encaixe rápido de um fabricante em outro: padrões parecidos nem sempre fecham bem, e o vazamento rouba pressão do aspersor.</li>

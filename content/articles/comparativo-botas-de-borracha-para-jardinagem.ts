@@ -114,7 +114,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B0DP1M2C8Z?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Bota Bracol Acqua Lev na Amazon agora ↗</a>
 </div>
 
-<h2>Qual comprar: a escolha pelo tipo de trabalho</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Qual comprar: a escolha pelo tipo de trabalho</h2>
 <p><strong>Rega, lavagem de quintal e tarefas leves, com orçamento mais enxuto:</strong> Acqua Lev 85BPL600. É de PVC, tem forro, numeração larga (35 a 46) e cano de 320 mm, o que atende bem a quem tem pé pequeno ou muito grande.</p>
 <div class="buy-btn">
   <a href="https://www.amazon.com.br/dp/B0DP1M2C8Z?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Bota Bracol Acqua Lev na Amazon agora ↗</a>

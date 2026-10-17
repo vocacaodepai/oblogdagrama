@@ -110,6 +110,11 @@ perto do início do texto (Associado da Amazon, comissão sem custo extra, o pre
   Buscapé, site do fabricante). Comparativo: uma faixa por produto e qual costuma sair mais em conta e
   qual tem melhor custo-benefício. Review: a faixa, o que faz o preço subir ou cair e o custo-benefício.
   A seção fecha dizendo que o preço do dia aparece ao clicar no botão de compra.
+- A faixa de preço e a nota de compradores vêm da pesquisa na internet inteira (lojas, comparadores,
+  site do fabricante, avaliações de várias lojas), nunca só da Amazon. Toda seção de preço com valores em
+  reais leva a observação: "Observação: esta faixa de preço foi consultada em lojas e sites da internet,
+  não só na Amazon, e muda por vendedor, região e promoção." O botão de compra continua sempre
+  "Comprar <produto> na Amazon agora ↗".
 - Sem data de verificação ("verificado em dd/mm"). Chame de "faixa de mercado", nunca "da Amazon". Se
   nenhuma fonte der o valor, escreva a seção sem números.
 - Nunca preço com centavos. Nunca preço ou faixa no `title`, `seoTitle`, `excerpt`, `metaDescription`

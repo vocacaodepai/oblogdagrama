@@ -105,7 +105,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B076MBZKLT?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Esguicho Tramontina 78515000 na Amazon agora ↗</a>
 </div>
 
-<h2>Erros comuns e quando não comprar</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Erros comuns e quando não comprar</h2>
 <ul>
 <li>Regar o gramado inteiro com esguicho: o trabalho leva horas e a água cai desigual. Para a rega principal, use aspersor e deixe a ferramenta de mão para os retoques.</li>
 <li>Usar o jato mais fechado em grama nova: ele pode arrastar semente e expor raiz fina. Prefira o jato aberto, com o bico um pouco acima da grama.</li>

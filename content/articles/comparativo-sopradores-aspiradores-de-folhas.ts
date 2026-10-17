@@ -132,7 +132,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B08H739RQV?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Makita UB100DZ na Amazon agora ↗</a>
 </div>
 
-<h2>Como limpar as folhas do gramado sem machucar a grama</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Como limpar as folhas do gramado sem machucar a grama</h2>
 <p>Imagine um quintal de 150 m² em maio, depois de uma semana de vento, com folhas de pitangueira espalhadas pelo gramado e pela calçada. Comece soprando as folhas da calçada para dentro do gramado, e depois junte tudo em um canto aberto. Com o Trapp, troque para aspirar e deixe o saco picar o volume. Com o Makita, sopre em montes pequenos e recolha com <a href="/artigos/review-rastelo-para-gramado">um rastelo</a>.</p>
 <p>Trabalhe com a grama seca, porque folha molhada gruda e entope o bocal. Evite apontar o bico rente ao chão, que levanta terra e pedrinhas. Se a camada ficar grossa e úmida por semanas, aumenta a chance de fungos, assunto de <a href="/artigos/fungos-no-gramado-suspeita-e-como-prevenir">fungos no gramado: suspeita e como prevenir</a>. Nesse caso, leve uma amostra a um agrônomo ou loja agropecuária em vez de tentar adivinhar.</p>
 <p>Folha picada serve de cobertura leve e vai para a composteira ou para o pé das plantas. Para a rotina do ano inteiro, o <a href="/artigos/como-cuidar-da-grama-guia-completo-para-o-ano-todo">guia completo para cuidar da grama</a> mostra quando cortar, regar e adubar. Quem tem grama sintética também usa soprador, e a <a href="/artigos/grama-sintetica-limpeza-e-manutencao-no-dia-a-dia">limpeza de grama sintética</a> traz os cuidados certos.</p>

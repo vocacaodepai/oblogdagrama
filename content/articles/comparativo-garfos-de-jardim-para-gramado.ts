@@ -133,7 +133,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B07CSDS4GD?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Tramontina Forcado 71 cm na Amazon agora ↗</a>
 </div>
 
-<h2>Erros comuns e quando não comprar</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Erros comuns e quando não comprar</h2>
 <p>O primeiro erro é revirar o gramado inteiro com o garfo, como se fosse canteiro. Isso arranca e fere as raízes da grama viva, e o resultado é um gramado furado, não solto. Use o garfo em faixas compactadas e pontos específicos, e só vire a terra por completo onde vai replantar.</p>
 <p>O segundo erro é trabalhar com o solo encharcado, que forma massa e piora a compactação, e o terceiro é esperar que o garfo corrija um problema de adubação ou de drenagem. Antes de adubar, confira o <a href="/artigos/como-adubar-a-grama-quando-e-qual-adubo-usar">calendário de adubação</a> e os <a href="/artigos/adubo-para-gramado-comparativo-de-produtos">adubos comparados</a>, porque o garfo só mistura o que você colocar.</p>
 <p>Não compre forcado se o seu serviço é só nivelar e espalhar terra ou areia: o <a href="/artigos/comparativo-ancinho-de-aco-para-nivelar-gramado">ancinho de aço</a> faz isso com menos esforço. Para abrir cova e cortar raiz grossa, a <a href="/artigos/review-pa-de-jardim-tramontina">pá de jardim</a> é melhor. Se o solo é argiloso ou arenoso demais, veja <a href="/artigos/como-plantar-grama-em-solo-argiloso-ou-arenoso">como plantar nesses solos</a>, e chame um agrônomo ou paisagista se a compactação cobre o terreno todo.</p>

@@ -136,7 +136,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B00NFLGLQI?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Esguicho Tramontina na Amazon agora ↗</a>
 </div>
 
-<h2>Erros comuns ao regar o gramado com esguicho</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Erros comuns ao regar o gramado com esguicho</h2>
 <p>O primeiro erro é regar um pouco todo dia, só molhando a superfície. A Husqvarna aponta que o ideal é molhar por completo, mas sem muita frequência, e cita como referência, sem chuva, duas regas por semana de 10 a 15 milímetros. A grama que recebe pouca água tende a manter a raiz perto da superfície, o que a deixa mais sensível à seca.</p>
 <p>O segundo erro é regar à noite com a folha molhada até o amanhecer. A própria Husqvarna alerta que a água parada nas folhas cria ambiente úmido favorável aos fungos. O terceiro é usar o jato forte sobre grama recém-plantada, o que desloca semente e solta mudas. Se a grama já aparece desbotada, confira antes se a causa é falta de água ou outra, como mostra o guia de <a href="/artigos/grama-amarelada-causas-e-como-recuperar">grama amarelada</a>.</p>
 <p>O quarto erro é deixar a mangueira pisada ou dobrada com o esguicho fechado, porque a pressão se acumula na conexão. O quinto é esquecer o esguicho exposto ao sol e à chuva o ano todo: guardar a peça em local coberto prolonga a vida útil do plástico. Para organizar as tarefas do ano, o <a href="/artigos/como-cuidar-da-grama-guia-completo-para-o-ano-todo">guia completo de como cuidar da grama</a> mostra onde a rega entra.</p>

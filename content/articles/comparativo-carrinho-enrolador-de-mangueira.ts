@@ -101,7 +101,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B076M938Z3?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Enrolador Tramontina 78594000 na Amazon agora ↗</a>
 </div>
 
-<h2>Erros comuns e quando não comprar</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Erros comuns e quando não comprar</h2>
 <ul>
 <li>Escolher só pelo número de metros: a capacidade é referência para mangueira de 1/2 polegada, e mangueira mais grossa ocupa mais espaço no carretel.</li>
 <li>Enrolar a mangueira com água dentro: drene antes, para não carregar peso extra e não forçar o suporte na parede.</li>

@@ -138,7 +138,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B07B3TZVWW?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Trapp Master 1000 na Amazon agora ↗</a>
 </div>
 
-<h2>Qual comprar</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Qual comprar</h2>
 <p>Escolha a <strong>Trapp Master 1000</strong> se o terreno fica perto de tomada, se você roça poucas vezes por ano ou quer evitar combustível, óleo e barulho alto. Calcule também o preço de uma extensão boa e confirme a tensão.</p>
 <div class="buy-btn">
   <a href="https://www.amazon.com.br/dp/B07B3TZVWW?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Trapp Master 1000 na Amazon agora ↗</a>

@@ -116,7 +116,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B0DPGT819D?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Importway IWAS005 na Amazon agora ↗</a>
 </div>
 
-<h2>Qual comprar: Jacto GM-3 ou Importway IWAS005?</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Qual comprar: Jacto GM-3 ou Importway IWAS005?</h2>
 <p>Para a maioria dos gramados residenciais, a nossa indicação é o Jacto GM-3, com nota editorial 7,6. Ele custa pouco, é simples de usar e atende quem semeia falhas e aduba algumas vezes por ano. Aceite o limite: 3 litros por carga e garantia curta.</p>
 <div class="buy-btn">
   <a href="https://www.amazon.com.br/dp/B09ML2ZCZQ?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Jacto GM-3 na Amazon agora ↗</a>

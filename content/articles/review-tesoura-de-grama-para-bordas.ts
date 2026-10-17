@@ -168,7 +168,8 @@ export const article: Article = {
 
 
 <figure><img src="/images/products/review-tesoura-de-grama-para-bordas-produto.jpg" alt="Tesoura para grama Tramontina com cabos laranja e preto e lâminas de aço" /><figcaption>Tesoura para Grama Tramontina em aço com cabo plástico. Foto: Tramontina (imagem oficial do produto).</figcaption></figure>
-  `,
+  <p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    `,
   faq: [
     {
       question: "Para que serve a tesoura de grama?",

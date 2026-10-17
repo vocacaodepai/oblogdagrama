@@ -172,7 +172,8 @@ export const article: Article = {
 
 
 <figure><img src="/images/products/review-sementes-isla-sao-carlos-produto.jpg" alt="Envelope de sementes de Grama São Carlos Folha Larga da Isla, linha Super, 8 g" /><figcaption>Envelope Linha Super da Grama São Carlos Folha Larga. Foto: Isla Sementes (imagem oficial do produto).</figcaption></figure>
-  `,
+  <p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    `,
   faq: [
     {
       question: "Quanto rende um pacote de semente de grama São Carlos da Isla?",

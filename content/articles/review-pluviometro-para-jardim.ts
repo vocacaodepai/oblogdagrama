@@ -181,7 +181,8 @@ export const article: Article = {
 <div class="buy-btn">
   <a href="https://www.amazon.com.br/dp/B076T3RVDJ?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Pluviômetro Incoterm 4755 na Amazon agora ↗</a>
 </div>
-  `,
+  <p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    `,
   faq: [
     {
       question: "Para que serve um pluviômetro no jardim?",

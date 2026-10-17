@@ -139,7 +139,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B0786T3QT3?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Regador Tramontina 2 L na Amazon agora ↗</a>
 </div>
 
-<h2>Erros comuns e quando não comprar</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Erros comuns e quando não comprar</h2>
 <p>O primeiro erro é molhar um pouco todo dia. Em gramado formado, a água fica na superfície e evapora, enquanto a orientação é regar menos vezes e mais fundo. O segundo é regar no sol forte: a Husqvarna Brasil indica o início da manhã como melhor horário, porque a água não evapora de uma vez.</p>
 <p>O terceiro é concentrar o jato num ponto só, o que forma poça e arrasta semente. Em gramado de semente, passe o regador em vaivém e mantenha o chuveiro voltado para a área, como no passo a passo de <a href="/artigos/como-plantar-grama-de-semente-passo-a-passo">plantio por semente</a>.</p>
 <p>Não compre regador se o seu objetivo é regar o gramado inteiro, nem se a falha tem outra causa. Antes de molhar mais, veja o guia de <a href="/artigos/falhas-no-gramado-como-recuperar-areas-sem-grama">falhas no gramado</a>, porque solo compactado e sombra também deixam a grama rala. Se você vai mexer na terra, use <a href="/artigos/review-luvas-nitrilicas-de-jardinagem">luvas</a>, e se o gramado é grande, chame um paisagista para projetar uma rega automática.</p>

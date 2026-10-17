@@ -164,7 +164,8 @@ export const article: Article = {
 <figure><img src="/images/products/review-enxada-de-jardim-produto.jpg" alt="Enxada estreita Tramontina com lâmina de aço escura e cabo de madeira clara de 130 cm" /><figcaption>Enxada Estreita 2.0 Tramontina com cabo de madeira de 130 cm. Foto: Tramontina (imagem oficial do produto).</figcaption></figure>
 
 <p>Para o plantio em si, veja <a href="/artigos/como-plantar-grama-por-mudas-passo-a-passo">como plantar grama por mudas</a> e o preparo do canteiro descrito acima. Em caso de dúvida sobre correção de solo ou sobre a planta que está invadindo a grama, converse com um agrônomo ou paisagista antes de agir.</p>
-  `,
+  <p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    `,
   faq: [
     {
       question: "Enxada serve para tirar mato do gramado?",

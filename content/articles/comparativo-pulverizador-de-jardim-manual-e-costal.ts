@@ -133,7 +133,8 @@ export const article: Article = {
   <a href="https://www.amazon.com.br/dp/B093Q2XT25?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Pulverizador Lateral Tramontina 5 L na Amazon agora ↗</a>
 </div>
 
-<h2>Qual comprar: a escolha por tamanho de gramado</h2>
+<p>Observação: esta faixa de preço foi consultada em lojas e sites da internet, não só na Amazon, e muda por vendedor, região e promoção.</p>
+    <h2>Qual comprar: a escolha por tamanho de gramado</h2>
 <p><strong>Retoques, falhas pequenas e jardim compacto:</strong> manual 78610206 (2 L). Leve, simples e fácil de guardar, mas o tanque pequeno exige reabastecer.</p>
 <div class="buy-btn">
   <a href="https://www.amazon.com.br/dp/B09WHH78XQ?tag=oblogdagrama-20" rel="sponsored noopener noreferrer" target="_blank">Comprar Pulverizador Manual Tramontina 2 L na Amazon agora ↗</a>
