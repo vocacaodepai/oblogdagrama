@@ -2,14 +2,16 @@
 // Para publicar, crie content/news/<slug>.ts e rode `npm run check:content`.
 import type { NewsItem } from "@/lib/types";
 
-import { item as i0 } from "./geada-de-outubro-no-sul-gramado-queimado-o-que-fazer";
-import { item as i1 } from "./geada-hoje-e-chuva-forte-a-partir-de-quarta-gramado";
-import { item as i2 } from "./geada-no-sul-e-chuva-forte-no-sudeste-gramado";
-import { item as i3 } from "./temporais-no-sul-e-sudeste-o-que-fazer-com-o-gramado";
+import { item as i0 } from "./ciclone-e-chuva-de-ate-100-mm-no-parana-gramado";
+import { item as i1 } from "./geada-de-outubro-no-sul-gramado-queimado-o-que-fazer";
+import { item as i2 } from "./geada-hoje-e-chuva-forte-a-partir-de-quarta-gramado";
+import { item as i3 } from "./geada-no-sul-e-chuva-forte-no-sudeste-gramado";
+import { item as i4 } from "./temporais-no-sul-e-sudeste-o-que-fazer-com-o-gramado";
 
 export const news: NewsItem[] = [
   i0,
   i1,
   i2,
   i3,
+  i4,
 ];
