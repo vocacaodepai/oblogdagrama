@@ -2,8 +2,7 @@ import type { Category } from "@/lib/articles";
 
 /** Parágrafo de abertura de cada categoria, com a palavra-chave principal. */
 export const categoryIntros: Record<Category, string> = {
-  produtos:
-    "Escolher bem o equipamento e os insumos evita gasto repetido e gramado maltratado. Aqui estão os guias de compra de cortador, aparador, adubo, sementes e irrigação, com o que conferir antes de pagar.",
+  produtos: "",
   tipos:
     "A grama certa depende de sol, sombra, pisoteio, pets e do tempo que você tem para cuidar. Os guias de tipos de grama comparam esmeralda, São Carlos, batatais, bermuda, amendoim e outras, com vantagens e limites de cada uma.",
   plantio:

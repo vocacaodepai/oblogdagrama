@@ -17,7 +17,7 @@ export const categories = [
     slug: "produtos",
     label: "Melhores Produtos",
     description:
-      "Guias de compra para quem cuida de gramado: cortador, aparador, adubo, semente, irrigação e ferramentas, com o que olhar antes de comprar.",
+      "Guias de compra e análises de cortador, aparador, adubo, semente e irrigação para o seu gramado.",
   },
   {
     slug: "tipos",

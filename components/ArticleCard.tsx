@@ -66,8 +66,8 @@ export function ArticleCard({
             label={label}
           />
         </div>
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink via-ink/60 to-ink/5" />
-        <div className="pointer-events-none absolute inset-x-0 bottom-0 p-5 sm:p-8">
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#1d5a33]/85 via-[#2f7a45]/30 to-transparent" />
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 p-5 [text-shadow:0_1px_8px_rgb(0_0_0/0.45)] sm:p-8">
           <div className="flex items-center gap-2">
             <span className="label-mono rounded-md bg-white/10 px-2 py-1 text-white backdrop-blur-sm">
               {label}
