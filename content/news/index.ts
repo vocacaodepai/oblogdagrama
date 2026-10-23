@@ -2,14 +2,15 @@
 // Para publicar, crie content/news/<slug>.ts e rode `npm run check:content`.
 import type { NewsItem } from "@/lib/types";
 
-import { item as i0 } from "./paysandu-curuzu-troca-gramado-bermuda-celebration-morenao";
-import { item as i1 } from "./maracana-recupera-gramado-apos-vasco-boca-flamengo";
-import { item as i2 } from "./chuva-prolongada-ate-300-mm-sul-e-sudeste-gramado";
-import { item as i3 } from "./ciclone-e-chuva-de-ate-100-mm-no-parana-gramado";
-import { item as i4 } from "./geada-de-outubro-no-sul-gramado-queimado-o-que-fazer";
-import { item as i5 } from "./geada-hoje-e-chuva-forte-a-partir-de-quarta-gramado";
-import { item as i6 } from "./geada-no-sul-e-chuva-forte-no-sudeste-gramado";
-import { item as i7 } from "./temporais-no-sul-e-sudeste-o-que-fazer-com-o-gramado";
+import { item as i0 } from "./hercilio-luz-troca-gramado-natural-por-sintetico-em-tubarao";
+import { item as i1 } from "./paysandu-curuzu-troca-gramado-bermuda-celebration-morenao";
+import { item as i2 } from "./maracana-recupera-gramado-apos-vasco-boca-flamengo";
+import { item as i3 } from "./chuva-prolongada-ate-300-mm-sul-e-sudeste-gramado";
+import { item as i4 } from "./ciclone-e-chuva-de-ate-100-mm-no-parana-gramado";
+import { item as i5 } from "./geada-de-outubro-no-sul-gramado-queimado-o-que-fazer";
+import { item as i6 } from "./geada-hoje-e-chuva-forte-a-partir-de-quarta-gramado";
+import { item as i7 } from "./geada-no-sul-e-chuva-forte-no-sudeste-gramado";
+import { item as i8 } from "./temporais-no-sul-e-sudeste-o-que-fazer-com-o-gramado";
 
 export const news: NewsItem[] = [
   i0,
@@ -20,4 +21,5 @@ export const news: NewsItem[] = [
   i5,
   i6,
   i7,
+  i8,
 ];
