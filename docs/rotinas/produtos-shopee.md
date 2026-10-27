@@ -20,6 +20,12 @@ falhar por credencial ou API, pare e informe; nunca invente link, nem use link d
 - Busca: `node scripts/shopee-offers.mjs search "<consulta>" --limit 15 --sort sales`. Prefira anúncio
   com centenas de vendas e nota ≥ 4,6. Confirme com `item <itemId>`.
 
+## Capas (sem zoom nem corte)
+
+Igual à Amazon: review com `node scripts/build-product-cover.mjs <foto> <slug>-capa.jpg`; comparativo com
+`node scripts/build-comparativo-cover.mjs <slug>-capa.jpg "<foto>::<Nome>" ...`. `coverImage` aponta para a
+`-capa.jpg`, com `width`/`height` reais e sem `fit: "cover"`. Abra a imagem e confira.
+
 ## Escrever
 
 - `npm run content:new -- artigo <slug> produtos` cria o esqueleto; acrescente `store: "shopee"`,

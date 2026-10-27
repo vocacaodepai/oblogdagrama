@@ -150,9 +150,14 @@ botões, título variado), com estas trocas. O artigo leva `store: "shopee"` e N
   compradores, sem teste físico nosso). Review único: a página já mostra.
 - **Preço:** faixa arredondada a partir de `priceMin`/`priceMax` da API e de outras lojas; mesma observação
   de faixa consultada em lojas e sites da internet. Nada de preço exato, centavos ou data.
-- **Foto:** a do anúncio, via `node scripts/shopee-offers.mjs image <itemId> <slug>` para
-  `public/images/products/<slug>.jpg`; `credit` = "Imagem do anúncio na Shopee (<loja>)", `creditUrl` =
-  `productLink`. Confira que mostra o produto certo; sem foto adequada, use a capa de fallback.
+- **Foto e capa (igual à da Amazon, sem zoom nem corte):** baixe a foto do anúncio com
+  `node scripts/shopee-offers.mjs image <itemId> <slug>` (vai para `public/images/products/<slug>.jpg`).
+  Review: `node scripts/build-product-cover.mjs <slug>.jpg <slug>-capa.jpg` (capa 16:9 com o fundo na cor da
+  própria foto) e `coverImage.url` = a `-capa.jpg`. Comparativo: `node scripts/build-comparativo-cover.mjs
+  <slug>-capa.jpg "<foto1>::<Nome 1>" "<foto2>::<Nome 2>" ["<foto3>::<Nome 3>"]` (um card branco por produto,
+  nome do modelo embaixo). Em ambos, `coverImage` leva `width`/`height` reais da capa, SEM `fit: "cover"`;
+  `credit` = "Imagem do anúncio na Shopee (<loja>)", `creditUrl` = `productLink`. Abra a capa e confira que o
+  produto aparece inteiro; as fotos individuais seguem em `<figure>` no corpo.
 - Rotina: `docs/rotinas/produtos-shopee.md`.
 
 ## Imagens de produto (categoria Produtos)
