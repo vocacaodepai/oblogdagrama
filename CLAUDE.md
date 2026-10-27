@@ -181,7 +181,7 @@ vivem em `docs/rotinas/` e valem como parte deste arquivo. Rotinas nunca alteram
 
 ## Deploy
 
-Vercel (a configurar). Domínio previsto: `www.oblogdagrama.com.br`. O workflow do GitHub
+Vercel. Domínio de produção: `www.blogdagrama.com.br` (sem o "o" no começo; `oblogdagrama.com.br` não existe). O workflow do GitHub
 Pages é só preview auxiliar.
 
 @AGENTS.md

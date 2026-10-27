@@ -5,7 +5,7 @@ export const author = {
   bio: "A equipe do Blog da Grama escreve para quem quer plantar, cuidar e recuperar o gramado de casa. Cada texto parte de fontes técnicas (Embrapa, institutos agronômicos, universidades e fabricantes) e é escrito em português simples, com passo a passo e aviso claro de quando chamar um profissional.",
   shortBio:
     "Equipe editorial que escreve sobre grama, plantio e cuidados, com base em fontes técnicas e linguagem simples.",
-  email: "contato@oblogdagrama.com.br",
+  email: "contato@blogdagrama.com.br",
   url: "/autor/equipe-editorial",
   /** Sem foto de pessoa: a equipe usa a marca como avatar. */
   image: "/logo-icon-dark.svg",

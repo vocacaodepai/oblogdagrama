@@ -109,7 +109,7 @@ export function Footer() {
             © {year} {site.name}. Todos os direitos reservados. Conteúdo original em português do
             Brasil.
           </p>
-          <p className="font-mono text-[11px]">Feito no Brasil · oblogdagrama.com.br</p>
+          <p className="font-mono text-[11px]">Feito no Brasil · blogdagrama.com.br</p>
         </div>
       </div>
     </footer>

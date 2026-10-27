@@ -10,7 +10,7 @@ export default async function Image() {
   return renderOgImage({
     title: site.tagline,
     eyebrow: "Artigos, notícias e reviews",
-    footer: "www.oblogdagrama.com.br",
+    footer: "www.blogdagrama.com.br",
     byline: "Inteligência artificial em português",
   });
 }

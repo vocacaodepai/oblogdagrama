@@ -65,4 +65,4 @@ artigo de produto fora desse padrão.
 ## Informe final
 
 Quantos produtos entraram (meta: 10 comparativos + 10 reviews) e quais trocaram de pauta, se lint/build/check-content passaram e o
-link https://www.oblogdagrama.com.br
+link https://www.blogdagrama.com.br

@@ -36,7 +36,7 @@ function LogoMark({ size = 56 }: { size?: number }) {
 export async function renderOgImage({
   title,
   eyebrow,
-  footer = "oblogdagrama.com.br",
+  footer = "blogdagrama.com.br",
   byline,
 }: {
   title: string;

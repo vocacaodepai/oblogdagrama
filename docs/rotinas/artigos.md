@@ -42,4 +42,4 @@ Siga `docs/rotinas/comum.md` além do que está aqui.
 
 Em poucas frases, sem travessão: quantos artigos entraram e em quais categorias, se
 lint/build/check-content passaram, uma linha da checagem de segurança e o link
-https://www.oblogdagrama.com.br
+https://www.blogdagrama.com.br

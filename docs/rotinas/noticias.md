@@ -36,4 +36,4 @@ foi coberto. Notícias nunca são apagadas.
 
 ## Informe
 
-Só quando publicar: 1 ou 2 frases dizendo o que entrou, terminando com https://www.oblogdagrama.com.br
+Só quando publicar: 1 ou 2 frases dizendo o que entrou, terminando com https://www.blogdagrama.com.br

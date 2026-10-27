@@ -17,7 +17,7 @@ export const site = {
   tagline: "Tudo sobre grama: escolher, plantar, cuidar e recuperar o seu gramado",
   description:
     "O Blog da Grama reúne guias práticos sobre tipos de grama, plantio, adubação, rega, corte, pragas, grama sintética e produtos para quem quer um gramado verde e bonito, sem gastar à toa.",
-  url: "https://www.oblogdagrama.com.br",
+  url: "https://www.blogdagrama.com.br",
   locale: "pt_BR",
   /** Ano de fundação, usado no rodapé e no schema Organization. */
   foundingYear: 2026,

@@ -3,8 +3,8 @@
 // apontar quais páginas vale reescrever primeiro. Uso: node scripts/seo-report.mjs
 import { getGoogleAccessToken } from "./lib/google-auth.mjs";
 
-const SITE_URL = "https://www.oblogdagrama.com.br/";
-const SEARCH_CONSOLE_SITE = "https://www.oblogdagrama.com.br/";
+const SITE_URL = "https://www.blogdagrama.com.br/";
+const SEARCH_CONSOLE_SITE = "https://www.blogdagrama.com.br/";
 
 const GSC_CREDENTIALS = process.env.GOOGLE_SEARCH_CONSOLE_CREDENTIALS;
 const GA4_PROPERTY_ID = process.env.GOOGLE_ANALYTICS_PROPERTY_ID;

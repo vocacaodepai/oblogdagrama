@@ -17,7 +17,7 @@ import { resolve } from "node:path";
 
 const ROOT = resolve(new URL("..", import.meta.url).pathname);
 const API = "https://commons.wikimedia.org/w/api.php";
-const UA = "OBlogDaGrama/1.0 (https://github.com/vocacaodepai/oblogdagrama; contato@oblogdagrama.com.br)";
+const UA = "OBlogDaGrama/1.0 (https://github.com/vocacaodepai/oblogdagrama; contato@blogdagrama.com.br)";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const FREE = /^(CC0|CC[ -]?BY(?:[ -]SA)?[ -]\d|Public domain|PD)/i;

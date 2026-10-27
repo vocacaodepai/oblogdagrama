@@ -1,6 +1,6 @@
 # O Blog da Grama
 
-Blog brasileiro sobre grama e gramado (www.oblogdagrama.com.br).
+Blog brasileiro sobre grama e gramado (www.blogdagrama.com.br).
 Foco: tipos de grama, plantio, cuidados e manutenção, pragas e falhas, grama sintética,
 guias de compra de produtos (afiliado) e jardim com gramado. Estrutura técnica replicada do
 Portal da AI e do Saúde na Minha Vida, preparada para o Google AdSense.
@@ -118,9 +118,9 @@ institucionais, política de privacidade com LGPD e cookies, aviso de
 consentimento, robots, sitemap, canonical por página); o que falta é o ID.
 
 1. **Antes de pedir a revisão**: confirme no Search Console que
-   `https://www.oblogdagrama.com.br/sitemap.xml` foi enviado e que a maioria das
-   URLs está indexada. Confirme que `contato@oblogdagrama.com.br` recebe e-mail.
-2. **Crie a conta** no AdSense com o domínio `oblogdagrama.com.br` (o AdSense
+   `https://www.blogdagrama.com.br/sitemap.xml` foi enviado e que a maioria das
+   URLs está indexada. Confirme que `contato@blogdagrama.com.br` recebe e-mail.
+2. **Crie a conta** no AdSense com o domínio `blogdagrama.com.br` (o AdSense
    normaliza o `www`). Anote o ID do publisher, formato `ca-pub-XXXXXXXXXXXXXXXX`.
 3. **Cadastre `NEXT_PUBLIC_ADSENSE_CLIENT`** na Vercel (Production) com esse ID
    e faça um redeploy. Com isso o site passa a: emitir a meta
@@ -134,7 +134,7 @@ consentimento, robots, sitemap, canonical por página); o que falta é o ID.
    google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
    ```
 
-   Faça o deploy e abra `https://www.oblogdagrama.com.br/ads.txt` no navegador:
+   Faça o deploy e abra `https://www.blogdagrama.com.br/ads.txt` no navegador:
    tem que responder como texto puro (o `next.config.ts` já força o
    Content-Type). O arquivo não existe no repositório de propósito: ele é
    criado quando o ID existir.
@@ -159,8 +159,8 @@ in-article em notícias curtas, sidebar de anúncio não sticky.
 ## Deploy
 
 O deploy de produção é feito pela Vercel (projeto `oblogdagrama`), automático a cada push na branch de produção
-(`main`). Domínio principal `www.oblogdagrama.com.br`;
-`oblogdagrama.com.br` redireciona para ele. `site.url` em `lib/articles.ts` usa
+(`main`). Domínio principal `www.blogdagrama.com.br`;
+`blogdagrama.com.br` redireciona para ele. `site.url` em `lib/articles.ts` usa
 o `www`, e dele derivam canonical, sitemap, robots, OG e JSON-LD.
 
 `next.config.ts` aplica cabeçalhos de segurança (CSP compatível com AdSense,
