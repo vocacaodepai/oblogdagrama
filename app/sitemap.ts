@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { INSTITUTIONAL_PATHS, INSTITUTIONAL_UPDATED } from "@/components/InstitutionalPage";
 import { ARTICLES_PER_PAGE, NEWS_PER_PAGE, countPages, slicePage } from "@/components/listing/paginate";
-import { categories, getArticlesByCategory, getReviews, site, sortedArticles } from "@/lib/articles";
+import { categories, getArticlesByCategory, getComparativos, site, sortedArticles } from "@/lib/articles";
 import { author } from "@/lib/author";
 import { sortedNews } from "@/lib/news";
 import { absoluteUrl } from "@/lib/seo";
@@ -77,7 +77,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const reviews: Entry[] = [
     {
       url: absoluteUrl("/reviews"),
-      lastModified: newest(getReviews().map(articleModified)) ?? newestArticle,
+      lastModified: newest(getComparativos().map(articleModified)) ?? newestArticle,
       changeFrequency: "weekly",
       priority: 0.7,
     },

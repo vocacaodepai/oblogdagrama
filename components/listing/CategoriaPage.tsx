@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import {
   categories,
   getArticlesByCategory,
+  getMelhoresProdutos,
   getCategory,
   isCategory,
   productCategories,
@@ -27,12 +28,17 @@ function perPageFor(slug: string, total: number): number {
   return slug === "produtos" ? Math.max(total, 1) : ARTICLES_PER_PAGE;
 }
 
+/** "produtos" lista só os Melhores Produtos: os comparativos têm página própria (/reviews). */
+function listFor(slug: string) {
+  return slug === "produtos" ? getMelhoresProdutos() : getArticlesByCategory(slug);
+}
+
 export function categoriaBase(slug: string): string {
   return `/categoria/${slug}`;
 }
 
 export function categoriaTotalPages(slug: string): number {
-  const total = getArticlesByCategory(slug).length;
+  const total = listFor(slug).length;
   return countPages(total, perPageFor(slug, total));
 }
 
@@ -56,7 +62,7 @@ export function CategoriaPage({ slug, page }: { slug: string; page: number }) {
   const category = getCategory(slug);
   if (!category) notFound();
 
-  const all = getArticlesByCategory(slug);
+  const all = listFor(slug);
   const perPage = perPageFor(slug, all.length);
   const totalPages = countPages(all.length, perPage);
   if (page > totalPages) notFound();

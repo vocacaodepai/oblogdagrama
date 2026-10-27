@@ -9,19 +9,19 @@ import { ListingHeader } from "@/components/listing/ListingHeader";
 import { ReviewCriteria } from "@/components/listing/ReviewCriteria";
 import { listingMetadata } from "@/components/listing/metadata";
 import { countLabel } from "@/components/listing/paginate";
-import { getArticlesByCategory, getReviews, site } from "@/lib/articles";
+import { getComparativos, getMelhoresProdutos, site } from "@/lib/articles";
 import { absoluteUrl, breadcrumbJsonLd } from "@/lib/seo";
 
 const PATH = "/reviews";
-const TITLE = "Comparativos e análises de produtos";
+const TITLE = "Comparativos de produtos para o gramado";
 const DESCRIPTION =
-  "Análises independentes de produtos para cuidar do gramado, com nota de 0 a 10 por critérios públicos: desempenho, facilidade, durabilidade, preço e avaliações reais.";
+  "Comparativos de dois ou três produtos lado a lado para cuidar do gramado, com nota de 0 a 10 por critérios públicos: desempenho, facilidade, durabilidade, preço e avaliações reais.";
 
 export const metadata: Metadata = listingMetadata({ title: TITLE, description: DESCRIPTION, path: PATH });
 
 export default function ReviewsPage() {
-  const reviews = getReviews();
-  const meanwhile = reviews.length === 0 ? getArticlesByCategory("produtos").slice(0, 6) : [];
+  const reviews = getComparativos();
+  const meanwhile = reviews.length === 0 ? getMelhoresProdutos().slice(0, 6) : [];
 
   const collection = {
     "@context": "https://schema.org",
@@ -58,8 +58,8 @@ export default function ReviewsPage() {
           label="Produtos"
           title={TITLE}
           description={DESCRIPTION}
-          intro="Analisamos cada produto a partir da ficha técnica oficial e das avaliações reais de quem comprou, olhando primeiro o desempenho e a segurança de uso. A nota resume a análise; o texto explica o porquê. Não alegamos teste físico que não aconteceu."
-          count={countLabel(reviews.length, "análise", "análises")}
+          intro="Cada comparativo põe produtos da mesma categoria lado a lado. Analisamos cada produto a partir da ficha técnica oficial e das avaliações reais de quem comprou, olhando primeiro o desempenho e a segurança de uso. A nota resume a análise; o texto explica o porquê. Não alegamos teste físico que não aconteceu."
+          count={countLabel(reviews.length, "comparativo", "comparativos")}
         />
         <CategoryChips active="reviews" className="mt-8 border-y border-border py-3" />
         <ReviewCriteria />

@@ -1,13 +1,9 @@
 import Link from "next/link";
-import { type Article, categories } from "@/lib/articles";
+import { type Article, articleBadge } from "@/lib/articles";
 import { formatDate, readingTime } from "@/lib/seo";
 import { CoverImage } from "./CoverImage";
 
 type Variant = "default" | "featured" | "horizontal" | "compact";
-
-function categoryLabel(slug: string) {
-  return categories.find((c) => c.slug === slug)?.label ?? slug;
-}
 
 function ReviewBadge({ score }: { score: number }) {
   return (
@@ -42,7 +38,7 @@ export function ArticleCard({
 }) {
   const Heading = headingLevel;
   const href = `/artigos/${article.slug}`;
-  const label = categoryLabel(article.category);
+  const label = articleBadge(article).label;
   const minutes = readingTime(article.content);
   const score = article.review?.score ?? article.productScore;
   const hasScore = typeof score === "number";

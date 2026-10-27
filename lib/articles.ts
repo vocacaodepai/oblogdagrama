@@ -55,6 +55,30 @@ export function getArticlesByCategory(category: string): Article[] {
   return sortedArticles().filter((a) => a.category === category);
 }
 
+/**
+ * Comparativo: artigo de produtos com mais de um produto lado a lado (guia com botões de compra).
+ * Não entra em "Melhores Produtos": tem rótulo e página próprios ("Comparativos", /reviews).
+ */
+export function isComparativo(a: Article): boolean {
+  return a.category === "produtos" && a.kind !== "review" && a.content.includes('class="buy-btn"');
+}
+
+export function getComparativos(): Article[] {
+  return sortedArticles().filter(isComparativo);
+}
+
+/** Artigos de "Melhores Produtos": tudo da categoria produtos, menos os comparativos. */
+export function getMelhoresProdutos(): Article[] {
+  return getArticlesByCategory("produtos").filter((a) => !isComparativo(a));
+}
+
+/** Rótulo e link do selo do artigo: "Comparativos" (/reviews) ou a categoria dele. */
+export function articleBadge(a: Article): { label: string; href: string } {
+  if (isComparativo(a)) return { label: "Comparativos", href: "/reviews" };
+  const c = categories.find((x) => x.slug === a.category);
+  return { label: c?.label ?? a.category, href: `/categoria/${a.category}` };
+}
+
 export function getReviews(): Article[] {
   return sortedArticles().filter((a) => a.kind === "review");
 }

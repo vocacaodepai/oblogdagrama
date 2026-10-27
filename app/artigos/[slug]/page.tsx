@@ -22,7 +22,7 @@ import { ShareBar } from "@/components/article/ShareBar";
 import { TableOfContents } from "@/components/article/TableOfContents";
 import { TocDetails } from "@/components/article/TocDetails";
 import { faqJsonLd, parseOffer } from "@/components/article/schema";
-import { articles, getArticleBySlug, getCategory, getNextArticle, getRelatedArticles, site } from "@/lib/articles";
+import { articleBadge, articles, getArticleBySlug, getNextArticle, getRelatedArticles, site } from "@/lib/articles";
 import { author } from "@/lib/author";
 import { prepareArticleHtml, tocH2 } from "@/lib/html";
 import { absoluteUrl, breadcrumbJsonLd, formatDate, metaDescription, readingTime, alternatesFor } from "@/lib/seo";
@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const path = `/artigos/${article.slug}`;
   const title = article.seoTitle ?? article.title;
   const description = metaDescription(article.metaDescription ?? article.excerpt);
-  const label = getCategory(article.category)?.label ?? article.category;
+  const label = articleBadge(article).label;
 
   return {
     title,
@@ -75,8 +75,9 @@ export default async function ArticlePage({ params }: { params: Params }) {
 
   const path = `/artigos/${article.slug}`;
   const url = absoluteUrl(path);
-  const category = getCategory(article.category);
-  const label = category?.label ?? article.category;
+  const badge = articleBadge(article);
+  const label = badge.label;
+  const badgeHref = badge.href;
   const isReview = article.kind === "review" && !!article.review;
   const authorName = article.author ?? author.name;
   const isHouseAuthor = authorName === author.name;
@@ -119,7 +120,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
 
   const breadcrumbs = breadcrumbJsonLd([
     { name: "Início", path: "/" },
-    { name: label, path: `/categoria/${article.category}` },
+    { name: label, path: badgeHref },
     { name: article.title, path },
   ]);
 
@@ -188,13 +189,13 @@ export default async function ArticlePage({ params }: { params: Params }) {
             <Breadcrumbs
               items={[
                 { name: "Início", href: "/" },
-                { name: label, href: `/categoria/${article.category}` },
+                { name: label, href: badgeHref },
                 { name: article.title },
               ]}
             />
             <div className="mt-6 flex flex-wrap items-center gap-2">
               <Link
-                href={`/categoria/${article.category}`}
+                href={badgeHref}
                 className="label-mono rounded-lg border border-border bg-surface px-2.5 py-1 text-accent transition hover:border-accent"
               >
                 {label}
@@ -352,7 +353,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
             <SectionHeading
               label={label}
               title="Continue lendo"
-              href={`/categoria/${article.category}`}
+              href={badgeHref}
               linkText={`Mais em ${label}`}
             />
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

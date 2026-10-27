@@ -16,7 +16,8 @@ import {
   categories,
   getArticlesByCategory,
   getPopularArticles,
-  getReviews,
+  getComparativos,
+  getMelhoresProdutos,
   site,
   sortedArticles,
 } from "@/lib/articles";
@@ -95,13 +96,12 @@ export default function Home() {
 
   // Tudo o que já apareceu acima da dobra não se repete nos blocos de baixo.
   const shown = new Set<string>(heroSlugs);
-  const reviews = getReviews()
-    .filter((a) => a.category !== "produtos")
+  const reviews = getComparativos()
     .filter((a) => !shown.has(a.slug))
     .slice(0, PER_SECTION);
   for (const r of reviews) shown.add(r.slug);
 
-  const aiIndicaPicks = getArticlesByCategory("produtos")
+  const aiIndicaPicks = getMelhoresProdutos()
     .filter((a) => !shown.has(a.slug))
     .slice(0, PRODUCT_SECTION);
   for (const p of aiIndicaPicks) shown.add(p.slug);

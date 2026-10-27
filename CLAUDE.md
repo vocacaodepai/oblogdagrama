@@ -73,6 +73,11 @@ Padrão replicado do Portal da AI (AI Indica), adaptado para grama. Vale para to
 - **Review de produto único** (`kind: "review"`): um produto, com o bloco `review` completo (`tool`,
   `score`, `criteria`, `pros`, `cons`, `price`, `bestFor`, `url` de afiliado, `affiliate: true`, `ctaLabel`).
 
+**Rótulo e listagem.** Comparativo (`isComparativo` em `lib/articles.ts`: `category: "produtos"`, `kind` diferente de
+`review` e com botões de compra) leva o rótulo "Comparativos" e aparece só em `/reviews` (menu "Comparativos"),
+nunca em "Melhores Produtos". Review de produto único e guia "como escolher" ficam em Melhores Produtos
+(`/categoria/produtos`). Nada a preencher no artigo: o rótulo sai do próprio conteúdo.
+
 **Nota 0-10 em todo artigo de produto.** O card mostra o selo de nota. Review: vem de `review.score`.
 Comparativo: campo `productScore` (0 a 10, uma casa decimal) com a nota editorial do produto que o
 texto recomenda no fim, não a média de estrelas da Amazon. A régua da nota é explicada em

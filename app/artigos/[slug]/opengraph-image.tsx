@@ -1,4 +1,4 @@
-import { articles, getArticleBySlug, getCategory } from "@/lib/articles";
+import { articleBadge, articles, getArticleBySlug } from "@/lib/articles";
 import { author } from "@/lib/author";
 import { OG_SIZE, renderOgImage } from "@/lib/og";
 import { formatDate } from "@/lib/seo";
@@ -16,7 +16,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   const { slug } = await params;
   const article = getArticleBySlug(slug);
   const title = article?.title ?? "O Blog da Grama";
-  const label = article ? (getCategory(article.category)?.label ?? article.category) : undefined;
+  const label = article ? articleBadge(article).label : undefined;
   const eyebrow = article?.kind === "review" ? "Review" : label;
   const byline = article
     ? `Por ${article.author ?? author.name} · ${formatDate(article.date, "short")}`
