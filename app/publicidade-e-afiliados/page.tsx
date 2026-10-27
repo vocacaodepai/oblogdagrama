@@ -7,7 +7,7 @@ import { author } from "@/lib/author";
 const PATH = "/publicidade-e-afiliados";
 const TITLE = "Publicidade e afiliados";
 const DESCRIPTION =
-  "Como o Blog da Grama se sustenta: anúncios do Google AdSense e links de afiliado da Amazon na categoria Melhores Produtos, sempre sinalizados e sem mudar nota nem opinião.";
+  "Como o Blog da Grama se sustenta: anúncios do Google AdSense e links de afiliado da Amazon e da Shopee na categoria Melhores Produtos, sempre sinalizados e sem mudar nota nem opinião.";
 
 function ExternalLink({ href, children }: { href: string; children: React.ReactNode }) {
   return (
@@ -47,6 +47,12 @@ export default function PublicidadeEAfiliadosPage() {
           <Link href="/categoria/produtos">Melhores Produtos</Link>, o link para comprar o produto na Amazon é um
           link de afiliado e pode gerar comissão para o site, sem custo adicional para você. Como
           Associado da Amazon, o {site.name} ganha com compras qualificadas.
+        </li>
+        <li>
+          <strong>Programa de Afiliados da Shopee</strong>: em parte das análises de produto, o botão de compra
+          leva ao anúncio na Shopee por um link de afiliado, e o site pode receber comissão sobre compras
+          qualificadas, sem custo adicional para você. Na Shopee o mesmo produto costuma ter vários
+          vendedores; o preço e as condições são os do anúncio no momento da compra.
         </li>
       </ul>
       <p>Não há conteúdo patrocinado, publieditorial nem &quot;matéria paga&quot;, e não haverá. Como compromisso editorial, também não colocamos anúncio acima do título nem no meio de instruções de segurança, como as de uso de máquinas e produtos químicos.</p>
@@ -89,7 +95,7 @@ export default function PublicidadeEAfiliadosPage() {
         </li>
         <li>
           O preço informado é o preço público do produto no momento da escrita da análise, sem
-          inflar para justificar a comissão. Preço muda com frequência na Amazon; o valor exato
+          inflar para justificar a comissão. Preço muda com frequência na Amazon e na Shopee; o valor exato
           sempre aparece atualizado na própria página do produto.
         </li>
         <li>

@@ -170,6 +170,8 @@ export type Article = {
   content: string; // HTML
   /** Tipo do artigo. Padrão: "guia". */
   kind?: "guia" | "review";
+  /** Loja do link de afiliado dos artigos de produto. Padrão: "amazon". */
+  store?: "amazon" | "shopee";
   /** Voz autoral do blog. Padrão: a redação do site (lib/author.ts). */
   author?: string;
   /** Resumo em 3 pontos exibido logo após a capa. */

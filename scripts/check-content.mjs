@@ -132,6 +132,7 @@ function extractArticles() {
       title: readField(src, "title"),
       excerpt: readField(src, "excerpt"),
       articleKind: readField(src, "kind"),
+      store: readField(src, "store") || "amazon",
       category: readField(src, "category"),
       productCategory: readField(src, "productCategory"),
       productSubcategory: readField(src, "productSubcategory"),
@@ -192,7 +193,9 @@ function extractNews() {
 /** Padrão de artigo de produto (categoria "produtos"): ver CLAUDE.md, seção "Padrão de artigo de produto". */
 function checkProduct(it, where) {
   const html = it.content;
-  const isProductPage = /amazon\.com\.br/.test(html) || it.articleKind === "review";
+  const shopee = it.store === "shopee";
+  const storeName = shopee ? "Shopee" : "Amazon";
+  const isProductPage = /amazon\.com\.br|s\.shopee\.com\.br/.test(html) || it.articleKind === "review";
   if (!isProductPage) return; // guia "como escolher" sem produto específico nem link de compra
 
   if (!PRODUCT_CATEGORIES.has(it.productCategory)) errors.push(`${where}: productCategory ausente ou inválido ("${it.productCategory}")`);
@@ -210,15 +213,18 @@ function checkProduct(it, where) {
   for (const b of buttons) {
     const href = /href="([^"]+)"/.exec(b)?.[1] ?? "";
     const label = b.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
-    if (!new RegExp(`^https://www\\.amazon\\.com\\.br/dp/[A-Z0-9]{10}\\?tag=${AFFILIATE_TAG}$`).test(href)) {
-      errors.push(`${where}: botão com href fora do padrão https://www.amazon.com.br/dp/<ASIN>?tag=${AFFILIATE_TAG} -> ${href}`);
+    const hrefOk = shopee
+      ? /^https:\/\/s\.shopee\.com\.br\/[A-Za-z0-9]+$/.test(href)
+      : new RegExp(`^https://www\\.amazon\\.com\\.br/dp/[A-Z0-9]{10}\\?tag=${AFFILIATE_TAG}$`).test(href);
+    if (!hrefOk) {
+      errors.push(`${where}: botão com href fora do padrão (${shopee ? "https://s.shopee.com.br/<código> da API de afiliados" : `https://www.amazon.com.br/dp/<ASIN>?tag=${AFFILIATE_TAG}`}) -> ${href}`);
     }
     if (!/rel="sponsored noopener noreferrer"/.test(b) || !/target="_blank"/.test(b)) errors.push(`${where}: botão sem rel="sponsored noopener noreferrer" e target="_blank"`);
-    if (!/^Comprar .+ na Amazon agora ↗$/.test(label)) errors.push(`${where}: texto do botão deve ser "Comprar <produto> na Amazon agora ↗" -> "${label}"`);
+    if (!new RegExp(`^Comprar .+ na ${storeName} agora ↗$`).test(label)) errors.push(`${where}: texto do botão deve ser "Comprar <produto> na ${storeName} agora ↗" -> "${label}"`);
     if (/R\$/.test(label)) errors.push(`${where}: preço no texto do botão`);
   }
   if (it.articleKind === "review") {
-    if (!/^Comprar .+ na Amazon agora$/.test(it.reviewCta)) errors.push(`${where}: review.ctaLabel deve ser "Comprar <produto> na Amazon agora" (sem seta) -> "${it.reviewCta}"`);
+    if (!new RegExp(`^Comprar .+ na ${storeName} agora$`).test(it.reviewCta)) errors.push(`${where}: review.ctaLabel deve ser "Comprar <produto> na ${storeName} agora" (sem seta) -> "${it.reviewCta}"`);
     if (/verificad|\d{1,2}\/\d{1,2}\/\d{2,4}|,\d{2}\b/.test(it.reviewPrice) || !/R\$/.test(it.reviewPrice)) {
       errors.push(`${where}: review.price deve ser faixa de mercado ("aprox. R$ X a R$ Y (varia)"), sem data e sem centavos -> "${it.reviewPrice}"`);
     }
@@ -243,7 +249,9 @@ function checkProduct(it, where) {
   // Transparência Amazon: review único mostra pela página; comparativo leva o callout no corpo
   const hasCallout = /callout-label">\s*Transpar[êe]ncia/i.test(html);
   if (it.articleKind === "review" && hasCallout) errors.push(`${where}: review único não leva o callout de transparência no corpo (a página já mostra)`);
-  if (it.articleKind !== "review" && !hasCallout) errors.push(`${where}: comparativo sem o callout "Transparência Amazon" no corpo`);
+  if (it.articleKind !== "review" && !hasCallout) errors.push(`${where}: comparativo sem o callout "Transparência ${storeName}" no corpo`);
+  if (shopee && /amazon\.com\.br/.test(html)) errors.push(`${where}: artigo Shopee não mistura links da Amazon`);
+  if (!shopee && /s\.shopee\.com\.br/.test(html)) errors.push(`${where}: link da Shopee em artigo com store Amazon (use store: "shopee")`);
 }
 
 function check() {

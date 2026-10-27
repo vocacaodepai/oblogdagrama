@@ -160,7 +160,7 @@ export default function PoliticaEditorialPage() {
 
       <h2 id="independencia">11. Independência editorial</h2>
       <p>
-        O site se sustenta com anúncios do Google AdSense e com links de afiliado da Amazon, só na
+        O site se sustenta com anúncios do Google AdSense e com links de afiliado da Amazon e da Shopee, só na
         categoria Melhores Produtos. Anunciante não escolhe pauta, não lê texto antes da publicação e não recebe
         nota ou menção em troca de investimento. Como compromisso editorial, não colocamos anúncio
         acima do título nem no meio de instruções de segurança. As regras completas estão em{" "}
@@ -186,7 +186,7 @@ export default function PoliticaEditorialPage() {
       <h2 id="conflitos">14. Conflitos de interesse</h2>
       <p>
         A redação não tem participação, emprego ou contrato com fabricantes, viveiros, empresas de instalação ou marcas dos
-        produtos analisados. O único vínculo comercial é o programa de afiliados da Amazon, descrito
+        produtos analisados. Os únicos vínculos comerciais são os programas de afiliados da Amazon e da Shopee, descritos
         em publicidade e afiliados. Se isso mudar, o conflito é declarado nesta página e nos textos
         afetados.
       </p>

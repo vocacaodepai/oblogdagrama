@@ -132,6 +132,29 @@ corpo do comparativo, as fotos em `<figure><img><figcaption>` saem com tamanho p
 
 **Home.** O card grande da home preenche a altura da coluna ao lado (herói em altura total), como no Portal.
 
+## Produtos da Shopee (categoria Produtos, `store: "shopee"`)
+
+Mesmo padrão de artigo de produto acima (comparativo e review, nota, taxonomia, preço em faixa, mínimo 5
+botões, título variado), com estas trocas. O artigo leva `store: "shopee"` e NUNCA mistura link da Amazon.
+- **Origem do produto e do link:** só a API de afiliados da Shopee (`node scripts/shopee-offers.mjs search
+  "<consulta>"`). O `offerLink` (`https://s.shopee.com.br/<código>`) é o link do botão; não monte link à mão.
+  Credenciais em `SHOPEE_APP_ID` e `SHOPEE_APP_SECRET` (ambiente ou `.env.local`), nunca no repositório.
+- **Escolha do anúncio:** vendas altas (centenas de vendidos), nota de 4,6 ou mais, vendedor com nome
+  estável. A Shopee tem muita marca genérica: descreva o produto pelo que o anúncio informa (potência,
+  voltagem, itens do kit) e deixe claro que o anúncio muda por vendedor. Nada de afirmar marca, garantia
+  ou desempenho que o anúncio não traz. Equipamento elétrico: bivolt/voltagem e aviso de segurança.
+- **Botão:** `<div class="buy-btn"><a href="<offerLink>" rel="sponsored noopener noreferrer" target="_blank">Comprar <Nome curto> na Shopee agora ↗</a></div>`.
+  Review: `review.url` = offerLink, `affiliate: true`, `ctaLabel: "Comprar <Nome curto> na Shopee agora"`.
+- **Aviso:** comparativo leva o callout "Transparência Shopee" (Afiliado da Shopee, comissão sem custo
+  extra, preço e vendedor do dia aparecem ao clicar, análise a partir do anúncio e das avaliações de
+  compradores, sem teste físico nosso). Review único: a página já mostra.
+- **Preço:** faixa arredondada a partir de `priceMin`/`priceMax` da API e de outras lojas; mesma observação
+  de faixa consultada em lojas e sites da internet. Nada de preço exato, centavos ou data.
+- **Foto:** a do anúncio, via `node scripts/shopee-offers.mjs image <itemId> <slug>` para
+  `public/images/products/<slug>.jpg`; `credit` = "Imagem do anúncio na Shopee (<loja>)", `creditUrl` =
+  `productLink`. Confira que mostra o produto certo; sem foto adequada, use a capa de fallback.
+- Rotina: `docs/rotinas/produtos-shopee.md`.
+
 ## Imagens de produto (categoria Produtos)
 
 Nunca usar gerador de imagem por IA para capa ou foto de produto: a IA erra marca e logo.
@@ -152,7 +175,7 @@ Link só com `/dp/<ASIN>` + `?tag=oblogdagrama-20`, sem parâmetros extras de ra
 
 ## Rotina editorial diária
 
-Três rotinas agendadas publicam conteúdo sozinhas (artigos, produtos e notícias). As instruções
+Quatro rotinas agendadas publicam conteúdo sozinhas (artigos, produtos e notícias). As instruções
 vivem em `docs/rotinas/` e valem como parte deste arquivo. Rotinas nunca alteram `docs/`,
 `CLAUDE.md`, `lib/`, `app/`, `components/` nem `scripts/`: só `content/`, `public/images/covers/` e `public/images/products/`.
 
