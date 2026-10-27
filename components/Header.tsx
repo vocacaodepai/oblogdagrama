@@ -38,7 +38,7 @@ export function Header() {
         <Logo priority className="mr-0 sm:mr-2" />
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Principal">
-          {PRIMARY_NAV.slice(0, 3).map((i) => (
+          {PRIMARY_NAV.slice(0, 4).map((i) => (
             <Link
               key={i.href}
               href={i.href}
