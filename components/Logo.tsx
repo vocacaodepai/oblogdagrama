@@ -41,7 +41,7 @@ export function LogoIcon({
   );
 }
 
-/** Marca horizontal: ícone + "O Blog da Grama" (com "Grama" em gradiente). */
+/** Marca horizontal: ícone + "Blog da Grama" (com "Grama" em gradiente). */
 export function Logo({
   size = 28,
   className = "",
@@ -64,7 +64,7 @@ export function Logo({
       <span
         className={`font-display font-bold tracking-tight ${priority ? "text-[16px] min-[400px]:text-[18px] sm:text-[20px]" : "text-[18px]"}`}
       >
-        O Blog da{" "}
+        Blog da{" "}
         <span className={mono ? "" : "text-gradient"}>Grama</span>
       </span>
     </>
@@ -72,7 +72,7 @@ export function Logo({
   const cls = `inline-flex shrink-0 items-center gap-2 whitespace-nowrap text-foreground ${className}`;
   if (href === null) return <span className={cls}>{inner}</span>;
   return (
-    <Link href={href} className={cls} aria-label="O Blog da Grama, página inicial">
+    <Link href={href} className={cls} aria-label="Blog da Grama, página inicial">
       {inner}
     </Link>
   );
