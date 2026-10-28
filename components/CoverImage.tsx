@@ -97,19 +97,28 @@ export async function CoverImage({
     return <FallbackCover seed={seed} className={className} label={label} />;
   }
 
-  const img = (
+  // Arte de produto (capa de comparativo, foto do fabricante ou do anúncio): aparece inteira, sem corte nem
+  // zoom, sobre uma cópia borrada dela mesma que preenche as sobras com a cor do próprio fundo da arte.
+  const productArt = !!override && override.url.startsWith("/images/products/");
+  const imgProps = {
+    src: photo.url,
+    width: photo.width,
+    height: photo.height,
+    sizes,
+    loading: priority ? ("eager" as const) : ("lazy" as const),
+    fetchPriority: priority ? ("high" as const) : ("auto" as const),
+    decoding: priority ? ("sync" as const) : ("async" as const),
+  };
+  const img = productArt ? (
+    <div className="relative h-full w-full overflow-hidden">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img {...imgProps} alt="" aria-hidden="true" loading="lazy" fetchPriority="low" className="absolute inset-0 h-full w-full scale-125 object-cover blur-2xl" />
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img {...imgProps} alt={alt} className="relative h-full w-full object-contain" />
+    </div>
+  ) : (
     // eslint-disable-next-line @next/next/no-img-element
-    <img
-      src={photo.url}
-      alt={alt}
-      width={photo.width}
-      height={photo.height}
-      sizes={sizes}
-      loading={priority ? "eager" : "lazy"}
-      fetchPriority={priority ? "high" : "auto"}
-      decoding={priority ? "sync" : "async"}
-      className="h-full w-full object-cover"
-    />
+    <img {...imgProps} alt={alt} className="h-full w-full object-cover" />
   );
   const creditText = override ? `Foto: ${override.credit}` : `Foto: ${(photo as { photographer: string; source: string }).photographer} / ${(photo as { photographer: string; source: string }).source}`;
   const creditHref = override ? override.creditUrl : (photo as { photographerUrl: string }).photographerUrl;

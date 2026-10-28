@@ -135,7 +135,7 @@ export function getPopularArticles(limit = 5): Article[] {
 /** Contagem de artigos por categoria (para chips e sidebar). */
 export function countByCategory(): Record<Category, number> {
   const out = Object.fromEntries(categories.map((c) => [c.slug, 0])) as Record<Category, number>;
-  for (const a of articles) out[a.category]++;
+  for (const a of articles) if (!isComparativo(a)) out[a.category]++;
   return out;
 }
 
