@@ -1,25 +1,31 @@
-# Rotina: 20 produtos por dia (categoria produtos)
+# Rotina: 3 produtos por dia (categoria produtos)
 
-Horário: 06:23 (Brasília), uma vez por dia. 20 artigos por rodada (10 comparativos + 10 reviews), sempre
-`category: "produtos"`. Trabalhe em 4 lotes de 5 redatores em paralelo (subagentes): valide, escreva e
-confira cada lote antes de abrir o seguinte; no fim, um único PR com tudo.
-Nome do clone: `grama-produtos`. Siga `docs/rotinas/comum.md` além do que está aqui.
+Horário: 06:23 (Brasília), uma vez por dia. 3 artigos por rodada (2 comparativos + 1 review), sempre
+`category: "produtos"`, escritos por 3 redatores em paralelo (subagentes), num único PR. Se saírem menos, repor com
+artigos extras ("Reposição com artigos extras" em `comum.md`). Nome do clone: `grama-produtos`. Siga `docs/rotinas/comum.md` além do que está aqui.
 Leia no `CLAUDE.md` a seção "Padrão de artigo de produto" inteira (botões, aviso de afiliado, preço,
 nota, taxonomia, título) e as seções "Imagens de produto" e "Botão de compra". O `check:content` barra
 artigo de produto fora desse padrão.
 
 ## Pautas (produto real vendido na Amazon Brasil)
 
-- 10 comparativos (`kind: "guia"`): 2 ou 3 produtos reais da MESMA categoria.
-- 10 reviews de produto único (`kind: "review"`), de categorias diferentes dos comparativos do mesmo lote.
-- Dentro do dia, cada lote usa subcategorias diferentes; uma subcategoria só se repete com modelos
+- 2 comparativos (`kind: "guia"`): 2 ou 3 produtos reais da MESMA categoria.
+- 1 review de produto único (`kind: "review"`), de categoria diferente dos comparativos do dia.
+- Dentro do dia, cada artigo usa uma subcategoria diferente; uma subcategoria só se repete com modelos
   diferentes dos já publicados (confira com `grep -h "^  title:" content/articles/*.ts` e pelos ASINs).
   Nunca repita produto já coberto no site. Se faltar produto novo na pauta, vá para a próxima
   subcategoria da lista; nunca vire blog genérico de jardinagem (todo produto precisa servir ao gramado).
 - Categorias de produto (varie de lote para lote e de dia para dia): cortador de grama
   elétrico, a bateria, a gasolina e manual; aparador e roçadeira; soprador e aspirador de folhas;
   mangueira, aspersor e kit de irrigação; temporizador de torneira; adubo para gramado; semente de
-  grama; rastelo e escarificador; carrinho de mão; luvas e óculos de proteção; robô cortador; grama sintética.
+  grama; rastelo e escarificador; carrinho de mão; luvas e óculos de proteção; robô cortador; grama sintética;
+  e, desde 04/11/2026, decoração de jardim (iluminação e balizadores, vasos e jardineiras, estátuas e enfeites, cercas
+  e bordaduras) e móveis para área externa (mesa e cadeiras, banco, espreguiçadeira, rede e balanço, guarda-sol).
+  Esses dois grupos sempre situam o produto num jardim ou quintal com gramado (ver `CLAUDE.md`). A subcategoria
+  vem de `lib/types.ts`; as rotinas não editam `lib/`.
+- Ficha e foto do fabricante podem vir de página de fora do Brasil quando o MESMO modelo é vendido aqui
+  (regra "Ficha do fabricante fora do Brasil" no `CLAUDE.md`): ASIN real na Amazon BR, 2 lojas brasileiras
+  abertas com o produto e o preço em reais só de lojas brasileiras. Sem isso, o produto não entra.
 - Use WebSearch para achar produtos bem avaliados (muitas avaliações, nota alta). Nunca invente
   produto, preço, ASIN ou especificação. Abra a página oficial do fabricante (WebFetch) para
   confirmar o nome exato do modelo, a ficha técnica e a foto oficial.
@@ -56,7 +62,7 @@ artigo de produto fora desse padrão.
   título, resumo, meta description ou botão.
 - Aviso de afiliado: comparativo leva o callout "Transparência Amazon" uma vez no corpo; review único não
   (a página já mostra).
-- Título variado entre os 20 artigos da rodada e entre rodadas.
+- Título variado entre os 3 artigos da rodada e entre rodadas.
 - Nunca alegue teste físico pessoal: é análise a partir da ficha técnica oficial e das avaliações
   de compradores.
 - Corpo: 1.200 a 1.800 palavras, 5 a 8 h2, 8 a 12 links internos. Tabela comparativa e seção
@@ -64,5 +70,6 @@ artigo de produto fora desse padrão.
 
 ## Informe final
 
-Quantos produtos entraram (meta: 10 comparativos + 10 reviews) e quais trocaram de pauta, se lint/build/check-content passaram e o
+Quantos produtos entraram (meta: 2 comparativos + 1 review), quantos artigos extras repuseram a cota (se faltou produto) e quais
+trocaram de pauta, se lint/build/check-content passaram e o
 link https://www.blogdagrama.com.br

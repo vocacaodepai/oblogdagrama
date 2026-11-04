@@ -1,14 +1,15 @@
-# Rotina: 5 artigos por dia
+# Rotina: 2 artigos por dia
 
-Horário: 05:23 (Brasília), uma vez por dia. 5 artigos por rodada. Nome do clone: `grama-artigos`.
+Horário: 05:23 (Brasília), uma vez por dia. 2 artigos por rodada (cota diária total de 10 publicações, ver `comum.md`). Nome do clone: `grama-artigos`.
 Siga `docs/rotinas/comum.md` além do que está aqui.
 
 ## Pautas
 
-- Uma por categoria, alternando o conjunto a cada dia:
-  - dias ímpares: `tipos`, `plantio`, `cuidados`, `problemas`, `sintetica`;
-  - dias pares: `cuidados`, `problemas`, `paisagismo`, `plantio`, `tipos`.
-  Se um tema não render, troque a categoria, mas nunca duas da mesma categoria com o mesmo assunto.
+- Duas pautas, de 2 categorias DIFERENTES entre `tipos`, `plantio`, `cuidados`, `problemas`, `sintetica` e
+  `paisagismo`. Alterne as categorias dia a dia: conte os artigos de cada uma (`grep -l 'category: "<cat>"' content/articles/*.ts | wc -l`)
+  e prefira as que têm menos. Se um tema não render, troque a categoria, mas nunca duas pautas com o mesmo assunto.
+- Artigos extras (reposição): quando a rotina de produtos da Amazon ou a de notícias ficarem abaixo da cota do dia,
+  elas mesmas escrevem os artigos que faltam, seguindo este arquivo (ver "Reposição" em `comum.md`).
 - A categoria `produtos` não entra aqui: tem rotina própria.
 - Intenção de busca real de quem tem ou quer ter um gramado no Brasil: escolher a grama,
   plantar, adubar, regar, cortar, recuperar falhas, controlar ervas daninhas, grama sintética,

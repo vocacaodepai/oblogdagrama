@@ -7,8 +7,14 @@ O blog é sobre GRAMA: tipos, plantio, manutenção, problemas, grama sintética
 jardim com gramado. A monetização é por AdSense e afiliado (produtos). Toda pauta precisa
 voltar para a grama; não vire blog genérico de jardinagem.
 
+Exceção definida pelo dono em 04/11/2026: na categoria Produtos entram também objetos decorativos
+para jardim e móveis para área externa (iluminação e balizadores, vasos e jardineiras, enfeites, mesa e
+cadeiras, bancos, espreguiçadeiras, redes, guarda-sol). O texto sempre situa o produto num jardim ou
+quintal com gramado (como combinar com a grama, o que fica sobre o gramado e o que não, cuidado com a
+grama embaixo do móvel, caminhos e bordas). Os guias informativos continuam só sobre grama e jardim com gramado.
+
 - **Melhores Produtos** (`category: "produtos"`): guia de compra ("como escolher") ou análise de
-  produto (cortador, aparador, adubo, semente, irrigação), com link de afiliado Amazon,
+  produto (cortador, aparador, adubo, semente, irrigação, decoração de jardim, móveis para área externa), com link de afiliado Amazon,
   `kind: "review"` e nota por critério quando houver produto específico.
 - As demais são guias informativos, sem link de compra.
 
@@ -86,7 +92,17 @@ texto recomenda no fim, não a média de estrelas da Amazon. A régua da nota é
 **Taxonomia e filtro.** Todo artigo de produto precisa de `productCategory` e `productSubcategory`
 (`lib/types.ts`: `productCategories` e `productSubcategories`). Eles alimentam o filtro de duas camadas
 em `/categoria/produtos` (que mostra tudo numa página só). Produto de tipo novo: adicione a
-subcategoria (e a categoria, se preciso) em `lib/types.ts` antes de publicar.
+subcategoria (e a categoria, se preciso) em `lib/types.ts` antes de publicar. As rotinas automáticas não
+editam `lib/`: elas escolhem a subcategoria existente mais próxima (há decoração e móveis de jardim desde 04/11/2026).
+
+**Ficha do fabricante fora do Brasil (regra de 04/11/2026).** A ficha técnica e a foto oficial podem vir do
+site do fabricante de qualquer país (página global, americana ou europeia), desde que o MESMO modelo seja
+vendido no Brasil: ASIN real na Amazon Brasil e pelo menos 2 lojas brasileiras abertas com o produto à venda.
+Confira que o código do modelo da ficha bate com o anúncio. O que muda por região (voltagem e plugue,
+bateria e carregador incluídos, acessórios, garantia) não se afirma pela ficha estrangeira: diga que o
+anúncio brasileiro confirma e remeta à página da Amazon. O preço continua só de lojas brasileiras (faixa em
+reais). O texto cita a página do fabricante como fonte e, sendo estrangeira, diz isso ("ficha do fabricante,
+página internacional"). Sem as 2 lojas brasileiras com preço, o produto não entra.
 
 **Botão de compra (`buy-btn`).**
 ```html
@@ -185,9 +201,14 @@ Link só com `/dp/<ASIN>` + `?tag=oblogdagrama-20`, sem parâmetros extras de ra
 
 ## Rotina editorial diária
 
-Quatro rotinas agendadas publicam conteúdo sozinhas (artigos, produtos e notícias). As instruções
-vivem em `docs/rotinas/` e valem como parte deste arquivo. Rotinas nunca alteram `docs/`,
+Rotinas agendadas publicam conteúdo sozinhas (artigos, produtos da Amazon, produtos da Shopee e notícias).
+As instruções vivem em `docs/rotinas/` e valem como parte deste arquivo. Rotinas nunca alteram `docs/`,
 `CLAUDE.md`, `lib/`, `app/`, `components/` nem `scripts/`: só `content/`, `public/images/covers/` e `public/images/products/`.
+
+Cota diária desde 05/11/2026: 10 publicações por dia = 2 artigos + 3 produtos da Amazon (2 comparativos e
+1 review) + 3 produtos da Shopee (2 comparativos e 1 review) + 2 notícias. Se faltar notícia ou produto da
+Amazon, a rotina que ficou abaixo da cota completa com artigos extras (regra "Reposição" em
+`docs/rotinas/comum.md`).
 
 ## Deploy
 

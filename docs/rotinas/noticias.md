@@ -2,7 +2,10 @@
 
 Horários: 07:40, 13:40 e 19:40 (Brasília). Nome do clone: `grama-noticias`.
 Siga `docs/rotinas/comum.md` além do que está aqui. Se não houver notícia nova de verdade,
-termine em silêncio, sem commit e sem mensagem. Publique no máximo 1 notícia por rodada.
+termine em silêncio, sem commit e sem mensagem. Publique no máximo 1 notícia por rodada e no máximo 2 por dia
+(antes de escrever, conte as notícias com a data de hoje em `content/news`; se já são 2, termine em silêncio).
+Na rodada das 19:40, se o dia fechou com menos de 2 notícias, escreva a diferença como artigos extras (guias),
+conforme "Reposição com artigos extras" em `comum.md`, e informe quantos entraram.
 
 ## O que procurar (últimas 24 a 48 horas)
 

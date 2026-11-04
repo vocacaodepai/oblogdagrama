@@ -70,6 +70,8 @@ export const productCategories = [
   { slug: "adubo-sementes", label: "Adubo e sementes" },
   { slug: "ferramentas", label: "Ferramentas manuais" },
   { slug: "protecao", label: "Proteção (EPI)" },
+  { slug: "decoracao-jardim", label: "Decoração de jardim" },
+  { slug: "moveis-jardim", label: "Móveis de jardim" },
 ] as const;
 
 export type ProductCategory = (typeof productCategories)[number]["slug"];
@@ -98,6 +100,15 @@ export const productSubcategories = [
   { slug: "luvas", label: "Luvas", category: "protecao" },
   { slug: "oculos", label: "Óculos de proteção", category: "protecao" },
   { slug: "botas", label: "Botas", category: "protecao" },
+  { slug: "iluminacao-jardim", label: "Iluminação e balizadores", category: "decoracao-jardim" },
+  { slug: "vaso-jardineira", label: "Vasos e jardineiras", category: "decoracao-jardim" },
+  { slug: "enfeite-jardim", label: "Estátuas e enfeites", category: "decoracao-jardim" },
+  { slug: "cerca-bordadura", label: "Cercas e bordaduras", category: "decoracao-jardim" },
+  { slug: "mesa-cadeiras", label: "Mesa e cadeiras", category: "moveis-jardim" },
+  { slug: "banco-jardim", label: "Banco de jardim", category: "moveis-jardim" },
+  { slug: "espreguicadeira", label: "Espreguiçadeira e chaise", category: "moveis-jardim" },
+  { slug: "rede-balanco", label: "Rede e balanço", category: "moveis-jardim" },
+  { slug: "guarda-sol", label: "Guarda-sol e ombrelone", category: "moveis-jardim" },
 ] as const;
 
 export type ProductSubcategory = (typeof productSubcategories)[number]["slug"];

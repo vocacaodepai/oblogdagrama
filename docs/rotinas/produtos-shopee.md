@@ -1,8 +1,7 @@
-# Rotina: 20 produtos da Shopee por dia (categoria produtos)
+# Rotina: 3 produtos da Shopee por dia (categoria produtos)
 
-Mesma cadência e volume da rotina da Amazon (`docs/rotinas/produtos.md`): 20 artigos por rodada
-(10 comparativos + 10 reviews), sempre `category: "produtos"` e `store: "shopee"`, em 4 lotes de 5
-redatores em paralelo, um único PR no fim. Nome do clone: `grama-produtos-shopee`. Siga
+Cota de 3 artigos por rodada (2 comparativos + 1 review), sempre `category: "produtos"` e `store: "shopee"`,
+escritos por 3 redatores em paralelo, num único PR. Nome do clone: `grama-produtos-shopee`. Siga
 `docs/rotinas/comum.md`. Leia no `CLAUDE.md` a seção "Padrão de artigo de produto" e a seção
 "Produtos da Shopee" (as trocas em relação à Amazon). `npm run check:content` barra o que fugir.
 
@@ -11,10 +10,10 @@ falhar por credencial ou API, pare e informe; nunca invente link, nem use link d
 
 ## Pautas
 
-- 10 comparativos (`kind: "guia"`): 2 ou 3 anúncios da MESMA categoria, lado a lado.
-- 10 reviews (`kind: "review"`): um anúncio, de categorias diferentes dos comparativos do lote.
+- 2 comparativos (`kind: "guia"`): 2 ou 3 anúncios da MESMA categoria, lado a lado.
+- 1 review (`kind: "review"`): um anúncio, de categoria diferente dos comparativos do dia.
 - Categorias e regras de variedade iguais às da rotina da Amazon (cortador, aparador e roçadeira,
-  soprador, mangueira e irrigação, adubo, semente, rastelo, carrinho de mão, luvas e óculos, grama sintética...).
+  soprador, mangueira e irrigação, adubo, semente, rastelo, carrinho de mão, luvas e óculos, grama sintética, decoração de jardim e móveis para área externa...).
   Todo produto serve ao gramado. Nunca repita produto já coberto (confira `grep -l "s.shopee.com.br" content/articles/*.ts`
   e os `itemId`/links) nem repita título.
 - Busca: `node scripts/shopee-offers.mjs search "<consulta>" --limit 15 --sort sales`. Prefira anúncio
@@ -38,4 +37,4 @@ Igual à Amazon: review com `node scripts/build-product-cover.mjs <foto> <slug>-
 
 ## Informe final
 
-Quantos entraram (meta 10 + 10), o que trocou de pauta, se lint/build/check-content passaram e o link do PR.
+Quantos entraram (meta 2 comparativos + 1 review), o que trocou de pauta, se lint/build/check-content passaram e o link do PR.
