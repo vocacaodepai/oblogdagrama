@@ -1,7 +1,32 @@
 # Rotinas automáticas do Blog da Grama: regras comuns
 
-Vale para as três rotinas (artigos, produtos, notícias). Cada rotina roda sozinha, sem
+Vale para as rotinas do blog (artigos, produtos da Amazon, produtos da Shopee e notícias). Cada rotina roda sozinha, sem
 perguntar nada, e termina com o conteúdo publicado na `main` (deploy automático na Vercel).
+
+## Cota diária (desde 05/11/2026)
+
+10 publicações por dia, fixadas pelo dono:
+
+| Rotina | Horário (Brasília) | Cota |
+|---|---|---|
+| Artigos | 05:23 | 2 artigos |
+| Produtos da Amazon | 06:23 | 3 (2 comparativos + 1 review) |
+| Produtos da Shopee | 08:52 | 3 (2 comparativos + 1 review) |
+| Notícias | 07:40, 13:40 e 19:40 | 2 por dia, no máximo 1 por rodada |
+
+A cota é de qualidade, não de volume: nunca afrouxe fonte, ficha, foto ou preço para fechar número.
+
+### Reposição com artigos extras
+
+- **Produtos da Amazon:** se saírem menos de 3 (ou faltar o formato: 2 comparativos e 1 review), a própria rotina
+  escreve a diferença como artigos extras (guias, categoria diferente de `produtos`, seguindo `artigos.md`), no mesmo PR.
+  Exemplo: 1 produto aprovado vira 1 produto + 2 artigos extras.
+- **Notícias:** cada rodada publica no máximo 1 notícia e só até 2 no dia (conte as notícias com a data de hoje em
+  `content/news`). Na última rodada do dia (19:40), se o dia fechou com menos de 2 notícias, essa rodada escreve a
+  diferença como artigos extras (guias), num PR próprio. Rodadas de 07:40 e 13:40 sem notícia nova continuam silenciosas.
+- Os artigos extras seguem todas as regras de artigo (tema novo, fontes abertas e conferidas, links internos, capa,
+  segurança) e entram na contagem do informe ("X artigos extras para repor a cota").
+- **Shopee** não repõe com artigos: sem credencial ou sem anúncio viável, a rotina termina com "nada novo hoje".
 
 ## Ambiente e git
 
