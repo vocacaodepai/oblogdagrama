@@ -55,9 +55,27 @@ export const categories = [
     description:
       "Ideias para jardim e quintal com gramado: projeto, caminhos, canteiros, iluminação e como combinar grama com plantas.",
   },
+  {
+    slug: "guias-e-dicas",
+    label: "Guias e Dicas",
+    description:
+      "Dicas úteis para quem cuida do quintal: compra segura, proteção, cuidado com ferramentas, economia, estações do ano e lazer no gramado.",
+  },
 ] as const;
 
 export type Category = (typeof categories)[number]["slug"];
+
+/** Subcategorias de "Guias e Dicas", usadas no filtro de /categoria/guias-e-dicas. */
+export const guideSubcategories = [
+  { slug: "compra-segura", label: "Compra segura" },
+  { slug: "saude-e-seguranca", label: "Saúde e segurança" },
+  { slug: "escolha-e-cuidado", label: "Escolha e cuidado" },
+  { slug: "economia", label: "Economia no quintal" },
+  { slug: "estacoes", label: "Quintal em cada estação" },
+  { slug: "lazer-no-quintal", label: "Lazer no quintal" },
+] as const;
+
+export type GuideSubcategory = (typeof guideSubcategories)[number]["slug"];
 
 /**
  * Taxonomia de produto, usada só pelo filtro de `/categoria/produtos` (não
@@ -150,6 +168,8 @@ export type Article = {
   /** Taxonomia de produto (só artigos de `category: "produtos"`), para o filtro em /categoria/produtos. */
   productCategory?: ProductCategory;
   productSubcategory?: ProductSubcategory;
+  /** Subcategoria (só artigos de `category: "guias-e-dicas"`). */
+  guideSubcategory?: GuideSubcategory;
   /**
    * Nota editorial de 0 a 10 (uma casa decimal) do produto recomendado, usada pra mostrar o selo
    * de nota no card de todo artigo de produto, comparativo ou review único. Em `kind: "review"`,

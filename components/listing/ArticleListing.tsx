@@ -44,10 +44,14 @@ export function ArticleListing({
   basePath: string;
   /** Chip ativo: "todos", slug de categoria ou "reviews". */
   active: string;
-  /** Só em /categoria/produtos: categorias e tipos de produto presentes nos itens. */
+  /**
+   * Filtro no lugar dos chips: em /categoria/produtos (categorias e tipos de produto) e em
+   * /categoria/guias-e-dicas (subcategorias dos guias).
+   */
   productFilter?: {
     categories: { slug: string; label: string }[];
     subcategories: { slug: string; label: string; category: string }[];
+    ariaLabel?: string;
   };
   emptyTitle?: string;
   emptyText?: string;
@@ -70,6 +74,7 @@ export function ArticleListing({
         <ProductCategoryFilter
           categories={productFilter.categories}
           subcategories={productFilter.subcategories}
+          ariaLabel={productFilter.ariaLabel}
           rootId={ARTICLES_GRID_ID}
           className="mt-8 border-y border-border py-3"
         />

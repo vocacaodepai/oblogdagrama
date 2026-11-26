@@ -55,6 +55,7 @@ const CATEGORY_TITLES: Record<Category, string> = {
   problemas: "Resolva falhas, pragas e manchas",
   sintetica: "Grama sintética: vale a pena?",
   paisagismo: "Ideias para jardim e quintal",
+  "guias-e-dicas": "Dicas úteis para o seu quintal",
 };
 
 /** Quantos artigos por bloco de categoria e por seção de reviews. */

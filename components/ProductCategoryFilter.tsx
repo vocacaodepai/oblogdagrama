@@ -25,11 +25,13 @@ export function ProductCategoryFilter({
   subcategories,
   rootId,
   className = "",
+  ariaLabel = "Filtrar por categoria de produto",
 }: {
   categories: { slug: string; label: string }[];
   subcategories: { slug: string; label: string; category: string }[];
   rootId: string;
   className?: string;
+  ariaLabel?: string;
 }) {
   const [activeCategory, setActiveCategory] = useState("todos");
   const [activeSub, setActiveSub] = useState("todos");
@@ -59,7 +61,7 @@ export function ProductCategoryFilter({
 
   return (
     <div className={className}>
-      <nav aria-label="Filtrar por categoria de produto" className="relative">
+      <nav aria-label={ariaLabel} className="relative">
         <ul className="no-scrollbar flex snap-x gap-2 overflow-x-auto pb-1">
           <li className="snap-start">
             <button type="button" onClick={() => selectCategory("todos")} className={chipClass(activeCategory === "todos")}>

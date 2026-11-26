@@ -15,4 +15,6 @@ export const categoryIntros: Record<Category, string> = {
     "A grama sintética resolve áreas de sombra, pisoteio intenso e pouco tempo de manutenção, mas tem custo, calor e limites. Esta categoria explica quando vale a pena, quanto custa, como instalar e como conservar.",
   paisagismo:
     "Gramado combina com caminhos, canteiros, árvores e iluminação. Aqui você encontra ideias e noções de projeto para o quintal e o jardim, do pequeno terraço ao terreno grande.",
+  "guias-e-dicas":
+    "Um blog dentro do blog: guias e dicas práticas para a vida no quintal, como comprar com segurança, proteger o corpo no dia de corte e conservar as ferramentas, com links para as nossas análises quando fizer sentido.",
 };

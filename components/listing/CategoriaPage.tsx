@@ -5,6 +5,7 @@ import {
   getArticlesByCategory,
   getMelhoresProdutos,
   getCategory,
+  guideSubcategories,
   isCategory,
   productCategories,
   productSubcategories,
@@ -20,12 +21,12 @@ import { ARTICLES_PER_PAGE, countPages, slicePage } from "./paginate";
 import { pageHref } from "@/components/Pagination";
 
 /**
- * "produtos" mostra tudo numa página só: o filtro (ProductCategoryFilter) só
+ * "produtos" e "guias-e-dicas" mostram tudo numa página só: o filtro (ProductCategoryFilter) só
  * funciona dentro dos cards que já estão na página, então paginar quebraria
  * o filtro pra quem está numa página diferente do que busca.
  */
 function perPageFor(slug: string, total: number): number {
-  return slug === "produtos" ? Math.max(total, 1) : ARTICLES_PER_PAGE;
+  return slug === "produtos" || slug === "guias-e-dicas" ? Math.max(total, 1) : ARTICLES_PER_PAGE;
 }
 
 /** "produtos" lista só os Melhores Produtos: os comparativos têm página própria (/reviews). */
@@ -75,7 +76,13 @@ export function CategoriaPage({ slug, page }: { slug: string; page: number }) {
           categories: productCategories.filter((c) => all.some((a) => a.productCategory === c.slug)),
           subcategories: productSubcategories.filter((s) => all.some((a) => a.productSubcategory === s.slug)),
         }
-      : undefined;
+      : slug === "guias-e-dicas"
+        ? {
+            categories: guideSubcategories.filter((s) => all.some((a) => a.guideSubcategory === s.slug)),
+            subcategories: [],
+            ariaLabel: "Filtrar por assunto",
+          }
+        : undefined;
   const path = pageHref(base, page);
 
   const collection = {
