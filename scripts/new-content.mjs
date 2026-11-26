@@ -13,7 +13,7 @@ import { resolve } from "node:path";
 
 const ROOT = resolve(new URL("..", import.meta.url).pathname);
 const [kind, slug, category] = process.argv.slice(2);
-const CATEGORIES = ["produtos", "tipos", "plantio", "cuidados", "problemas", "sintetica", "paisagismo"];
+const CATEGORIES = ["produtos", "tipos", "plantio", "cuidados", "problemas", "sintetica", "paisagismo", "guias-e-dicas"];
 
 function die(msg) {
   console.error(`new-content: ${msg}`);

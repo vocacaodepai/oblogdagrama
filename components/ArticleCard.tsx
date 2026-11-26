@@ -149,7 +149,7 @@ export function ArticleCard({
   return (
     <article
       className="group flex flex-col overflow-hidden rounded-xl border border-border bg-surface card-hover"
-      data-product-category={article.productCategory}
+      data-product-category={article.productCategory ?? article.guideSubcategory}
       data-product-subcategory={article.productSubcategory}
       data-review-tool={article.review?.tool}
     >
